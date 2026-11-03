@@ -31,7 +31,10 @@ try:
         SAMPLING_INTERVAL_MINUTES,
         QUALITY_NORMAL,
     )
-    from backend.generators.telemetry_math import derive_machine_degradation_profile
+    from backend.generators.telemetry_math import (
+        derive_machine_degradation_profile,
+        get_machine_canonical,
+    )
     from backend.generators.failure_constants import (
         DEFAULT_FAILURE_SEED,
         TOTAL_FAILURE_COUNT,
@@ -263,7 +266,9 @@ class FailureGenerator:
                 failure_time = WINDOW_START_UTC + timedelta(minutes=end_step * SAMPLING_INTERVAL_MINUTES)
 
                 # Deterministic machine RNG for realistic downtime variation
-                m_hash = hashlib.sha256(f"{self.seed}:type_a:{m.machine_id}:{m.machine_code}".encode()).digest()
+                m_num, legacy_code = get_machine_canonical(m.machine_id, m.machine_code)
+                effective_id = 200 + m_num
+                m_hash = hashlib.sha256(f"{self.seed}:type_a:{effective_id}:{legacy_code}".encode()).digest()
                 m_rng = np.random.default_rng(int.from_bytes(m_hash[:8], "big"))
 
                 downtime_minutes = int(m_rng.integers(spec["min_downtime_minutes"], spec["max_downtime_minutes"] + 1))
@@ -334,7 +339,9 @@ class FailureGenerator:
                     continue
 
                 # Deterministic RNG for this machine's failure schedule
-                m_hash = hashlib.sha256(f"{self.seed}:type_b:{m.machine_id}:{m.machine_code}".encode()).digest()
+                m_num, legacy_code = get_machine_canonical(m.machine_id, m.machine_code)
+                effective_id = 200 + m_num
+                m_hash = hashlib.sha256(f"{self.seed}:type_b:{effective_id}:{legacy_code}".encode()).digest()
                 m_rng = np.random.default_rng(int.from_bytes(m_hash[:8], "big"))
 
                 # Generate event minutes spaced realistically across the 90 days

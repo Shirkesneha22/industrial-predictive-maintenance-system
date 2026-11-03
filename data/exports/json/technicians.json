@@ -1,182 +1,182 @@
 [
   {
-    "technician_id": 41,
-    "technician_code": "TECH-001",
+    "technician_id": "TECH-0001",
+    "technician_code": "TECH-0001",
     "name": "Rajesh Sharma",
     "specialization": "Vibration & Rotor Dynamics",
     "email": "rajesh.sharma@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186474+05:30"
+    "created_at": "2026-11-04T00:34:41.302078+05:30"
   },
   {
-    "technician_id": 42,
-    "technician_code": "TECH-002",
+    "technician_id": "TECH-0002",
+    "technician_code": "TECH-0002",
     "name": "Vikram Patel",
     "specialization": "Hydraulic & Pneumatic Systems",
     "email": "vikram.patel@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186479+05:30"
+    "created_at": "2026-11-04T00:34:41.302082+05:30"
   },
   {
-    "technician_id": 43,
-    "technician_code": "TECH-003",
+    "technician_id": "TECH-0003",
+    "technician_code": "TECH-0003",
     "name": "Priya Sundaram",
     "specialization": "Robotics & Automation Control",
     "email": "priya.sundaram@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186481+05:30"
+    "created_at": "2026-11-04T00:34:41.302084+05:30"
   },
   {
-    "technician_id": 44,
-    "technician_code": "TECH-004",
+    "technician_id": "TECH-0004",
+    "technician_code": "TECH-0004",
     "name": "Suresh Kumar",
     "specialization": "Electrical Drives & Switchgear",
     "email": "suresh.kumar@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186482+05:30"
+    "created_at": "2026-11-04T00:34:41.302085+05:30"
   },
   {
-    "technician_id": 45,
-    "technician_code": "TECH-005",
+    "technician_id": "TECH-0005",
+    "technician_code": "TECH-0005",
     "name": "Ananya Iyer",
     "specialization": "Predictive Analytics & Condition Monitoring",
     "email": "ananya.iyer@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186483+05:30"
+    "created_at": "2026-11-04T00:34:41.302085+05:30"
   },
   {
-    "technician_id": 46,
-    "technician_code": "TECH-006",
+    "technician_id": "TECH-0006",
+    "technician_code": "TECH-0006",
     "name": "Rahul Verma",
     "specialization": "CNC Machine Tools & Spindles",
     "email": "rahul.verma@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186484+05:30"
+    "created_at": "2026-11-04T00:34:41.302086+05:30"
   },
   {
-    "technician_id": 47,
-    "technician_code": "TECH-007",
+    "technician_id": "TECH-0007",
+    "technician_code": "TECH-0007",
     "name": "Sunita Rao",
     "specialization": "Industrial Instrumentation & Calibration",
     "email": "sunita.rao@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186485+05:30"
+    "created_at": "2026-11-04T00:34:41.302087+05:30"
   },
   {
-    "technician_id": 48,
-    "technician_code": "TECH-008",
+    "technician_id": "TECH-0008",
+    "technician_code": "TECH-0008",
     "name": "Amit Deshmukh",
     "specialization": "Mechanical Gearboxes & Transmissions",
     "email": "amit.deshmukh@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186486+05:30"
+    "created_at": "2026-11-04T00:34:41.302088+05:30"
   },
   {
-    "technician_id": 49,
-    "technician_code": "TECH-009",
+    "technician_id": "TECH-0009",
+    "technician_code": "TECH-0009",
     "name": "Kavita Nair",
     "specialization": "Thermal Systems & Heat Exchangers",
     "email": "kavita.nair@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186487+05:30"
+    "created_at": "2026-11-04T00:34:41.302088+05:30"
   },
   {
-    "technician_id": 50,
-    "technician_code": "TECH-010",
+    "technician_id": "TECH-0010",
+    "technician_code": "TECH-0010",
     "name": "Manoj Joshi",
     "specialization": "Lubrication Tribology & Oil Analysis",
     "email": "manoj.joshi@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186488+05:30"
+    "created_at": "2026-11-04T00:34:41.302089+05:30"
   },
   {
-    "technician_id": 51,
-    "technician_code": "TECH-011",
+    "technician_id": "TECH-0011",
+    "technician_code": "TECH-0011",
     "name": "Deepa Menon",
     "specialization": "Acoustic Emission Testing",
     "email": "deepa.menon@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186489+05:30"
+    "created_at": "2026-11-04T00:34:41.302090+05:30"
   },
   {
-    "technician_id": 52,
-    "technician_code": "TECH-012",
+    "technician_id": "TECH-0012",
+    "technician_code": "TECH-0012",
     "name": "Sanjay Kulkarni",
     "specialization": "High-Pressure Hydraulic Pumps",
     "email": "sanjay.kulkarni@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186490+05:30"
+    "created_at": "2026-11-04T00:34:41.302090+05:30"
   },
   {
-    "technician_id": 53,
-    "technician_code": "TECH-013",
+    "technician_id": "TECH-0013",
+    "technician_code": "TECH-0013",
     "name": "Pooja Gupta",
     "specialization": "PLC & SCADA Diagnostics",
     "email": "pooja.gupta@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186491+05:30"
+    "created_at": "2026-11-04T00:34:41.302091+05:30"
   },
   {
-    "technician_id": 54,
-    "technician_code": "TECH-014",
+    "technician_id": "TECH-0014",
+    "technician_code": "TECH-0014",
     "name": "Rakesh Reddy",
     "specialization": "Heavy Press Structural Maintenance",
     "email": "rakesh.reddy@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186491+05:30"
+    "created_at": "2026-11-04T00:34:41.302092+05:30"
   },
   {
-    "technician_id": 55,
-    "technician_code": "TECH-015",
+    "technician_id": "TECH-0015",
+    "technician_code": "TECH-0015",
     "name": "Swati Mukherjee",
     "specialization": "Centrifugal Pumps & Seals",
     "email": "swati.mukherjee@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186492+05:30"
+    "created_at": "2026-11-04T00:34:41.302092+05:30"
   },
   {
-    "technician_id": 56,
-    "technician_code": "TECH-016",
+    "technician_id": "TECH-0016",
+    "technician_code": "TECH-0016",
     "name": "Arvind Nambiar",
     "specialization": "Turbomachinery & Balancing",
     "email": "arvind.nambiar@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186493+05:30"
+    "created_at": "2026-11-04T00:34:41.302093+05:30"
   },
   {
-    "technician_id": 57,
-    "technician_code": "TECH-017",
+    "technician_id": "TECH-0017",
+    "technician_code": "TECH-0017",
     "name": "Sneha Patil",
     "specialization": "Rotary Compressors & Chillers",
     "email": "sneha.patil@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186494+05:30"
+    "created_at": "2026-11-04T00:34:41.302094+05:30"
   },
   {
-    "technician_id": 58,
-    "technician_code": "TECH-018",
+    "technician_id": "TECH-0018",
+    "technician_code": "TECH-0018",
     "name": "Dinesh Mehta",
     "specialization": "Laser Alignment & Geometric Calibration",
     "email": "dinesh.mehta@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186495+05:30"
+    "created_at": "2026-11-04T00:34:41.302095+05:30"
   },
   {
-    "technician_id": 59,
-    "technician_code": "TECH-019",
+    "technician_id": "TECH-0019",
+    "technician_code": "TECH-0019",
     "name": "Meera Pillai",
     "specialization": "Motor Current Signature Analysis (MCSA)",
     "email": "meera.pillai@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186495+05:30"
+    "created_at": "2026-11-04T00:34:41.302095+05:30"
   },
   {
-    "technician_id": 60,
-    "technician_code": "TECH-020",
+    "technician_id": "TECH-0020",
+    "technician_code": "TECH-0020",
     "name": "Alok Bhattacharya",
     "specialization": "Industrial Safety & Preventive Audits",
     "email": "alok.bhattacharya@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-02T16:45:30.186496+05:30"
+    "created_at": "2026-11-04T00:34:41.302096+05:30"
   }
 ]

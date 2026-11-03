@@ -55,14 +55,31 @@ class DataExporter:
             d.mkdir(parents=True, exist_ok=True)
 
     def export_all(self) -> Dict[str, Any]:
-        """Execute full export."""
+        """Execute full export using spec-compliant hierarchical business IDs across all files."""
         print("[INFO] Starting database exports...")
         results = {}
 
-        # 1. Plants
+        # 0. Fetch raw DB entities
+        plants_db = self.session.query(Plant).order_by(Plant.plant_id).all()
+        lines_db = self.session.query(ProductionLine).order_by(ProductionLine.line_id).all()
+        machines_db = self.session.query(Machine).order_by(Machine.machine_id).all()
+        sensors_db = self.session.query(Sensor).order_by(Sensor.sensor_id).all()
+        shifts_db = self.session.query(OperatingShift).order_by(OperatingShift.shift_id).all()
+        parts_db = self.session.query(Part).order_by(Part.part_id).all()
+        techs_db = self.session.query(Technician).order_by(Technician.technician_id).all()
+
+        # Build primary ID maps to string business codes
+        plant_map = {p.plant_id: p.plant_code for p in plants_db}
+        line_map = {l.line_id: l.line_code for l in lines_db}
+        machine_map = {m.machine_id: m.machine_code for m in machines_db}
+        sensor_map = {s.sensor_id: s.sensor_code for s in sensors_db}
+        part_map = {pt.part_id: pt.part_code for pt in parts_db}
+        tech_map = {tc.technician_id: tc.technician_code for tc in techs_db}
+
+        # 1. Plants (PLT-001)
         plants = [
             {
-                "plant_id": p.plant_id,
+                "plant_id": p.plant_code,
                 "plant_code": p.plant_code,
                 "name": p.name,
                 "city": p.city,
@@ -70,29 +87,29 @@ class DataExporter:
                 "is_active": p.is_active,
                 "created_at": p.created_at,
             }
-            for p in self.session.query(Plant).order_by(Plant.plant_id).all()
+            for p in plants_db
         ]
         self._write_csv_and_json("plants", plants)
 
-        # 2. Production Lines
+        # 2. Production Lines (LINE-PLT-001-001)
         lines = [
             {
-                "line_id": l.line_id,
-                "plant_id": l.plant_id,
+                "line_id": l.line_code,
+                "plant_id": plant_map.get(l.plant_id, f"PLT-{l.plant_id:03d}"),
                 "line_code": l.line_code,
                 "name": l.name,
                 "is_active": l.is_active,
                 "created_at": l.created_at,
             }
-            for l in self.session.query(ProductionLine).order_by(ProductionLine.line_id).all()
+            for l in lines_db
         ]
         self._write_csv_and_json("production_lines", lines)
 
-        # 3. Machines
+        # 3. Machines (MCH-LINE-PLT-001-001-001)
         machines = [
             {
-                "machine_id": m.machine_id,
-                "line_id": m.line_id,
+                "machine_id": m.machine_code,
+                "line_id": line_map.get(m.line_id, f"LINE-{m.line_id:03d}"),
                 "machine_code": m.machine_code,
                 "name": m.name,
                 "machine_type": m.machine_type,
@@ -102,15 +119,15 @@ class DataExporter:
                 "is_active": m.is_active,
                 "created_at": m.created_at,
             }
-            for m in self.session.query(Machine).order_by(Machine.machine_id).all()
+            for m in machines_db
         ]
         self._write_csv_and_json("machines", machines)
 
-        # 4. Sensors
+        # 4. Sensors (SNS-MCH-LINE-PLT-001-001-001-TEMP-01)
         sensors = [
             {
-                "sensor_id": s.sensor_id,
-                "machine_id": s.machine_id,
+                "sensor_id": s.sensor_code,
+                "machine_id": machine_map.get(s.machine_id, f"MCH-{s.machine_id:03d}"),
                 "sensor_code": s.sensor_code,
                 "sensor_type": s.sensor_type,
                 "unit": s.unit,
@@ -118,42 +135,44 @@ class DataExporter:
                 "is_active": s.is_active,
                 "created_at": s.created_at,
             }
-            for s in self.session.query(Sensor).order_by(Sensor.sensor_id).all()
+            for s in sensors_db
         ]
         self._write_csv_and_json("sensors", sensors)
 
-        # 5. Operating Shifts
-        shifts = [
-            {
-                "shift_id": sh.shift_id,
-                "plant_id": sh.plant_id,
+        # 5. Operating Shifts (SHF-PLT-001-01)
+        shift_suffix_map = {"Morning Shift": "01", "Afternoon Shift": "02", "Night Shift": "03"}
+        shifts = []
+        for sh in shifts_db:
+            p_code = plant_map.get(sh.plant_id, f"PLT-{sh.plant_id:03d}")
+            s_suf = shift_suffix_map.get(sh.shift_name, f"{sh.shift_id:02d}")
+            shifts.append({
+                "shift_id": f"SHF-{p_code}-{s_suf}",
+                "plant_id": p_code,
                 "shift_name": sh.shift_name,
                 "start_time": str(sh.start_time),
                 "end_time": str(sh.end_time),
                 "created_at": sh.created_at,
-            }
-            for sh in self.session.query(OperatingShift).order_by(OperatingShift.shift_id).all()
-        ]
+            })
         self._write_csv_and_json("operating_shifts", shifts)
 
-        # 6. Parts
+        # 6. Parts (PRT-0001)
         parts = [
             {
-                "part_id": pt.part_id,
+                "part_id": pt.part_code,
                 "part_code": pt.part_code,
                 "name": pt.name,
                 "manufacturer": pt.manufacturer,
                 "description": pt.description,
                 "created_at": pt.created_at,
             }
-            for pt in self.session.query(Part).order_by(Part.part_id).all()
+            for pt in parts_db
         ]
         self._write_csv_and_json("parts", parts)
 
-        # 7. Technicians
+        # 7. Technicians (TECH-0001)
         techs = [
             {
-                "technician_id": tc.technician_id,
+                "technician_id": tc.technician_code,
                 "technician_code": tc.technician_code,
                 "name": tc.name,
                 "specialization": tc.specialization,
@@ -161,24 +180,28 @@ class DataExporter:
                 "is_active": tc.is_active,
                 "created_at": tc.created_at,
             }
-            for tc in self.session.query(Technician).order_by(Technician.technician_id).all()
+            for tc in techs_db
         ]
         self._write_csv_and_json("technicians", techs)
 
-        # 8. Machine Parts Bridge
+        # 8. Machine Parts Bridge (machine_id, part_id string keys)
         bridge_rows = self.session.execute(select(machine_parts)).all()
         bridge = [
-            {"machine_id": r[0], "part_id": r[1]}
+            {
+                "machine_id": machine_map.get(r[0], f"MCH-{r[0]:03d}"),
+                "part_id": part_map.get(r[1], f"PRT-{r[1]:04d}"),
+            }
             for r in bridge_rows
         ]
         self._write_csv_and_json("machine_parts", bridge)
 
-        # 9. Maintenance Work Orders
+        # 9. Maintenance Work Orders (WO-2026-000001)
+        work_orders_db = self.session.query(MaintenanceWorkOrder).order_by(MaintenanceWorkOrder.work_order_id).all()
         work_orders = [
             {
-                "work_order_id": w.work_order_id,
-                "machine_id": w.machine_id,
-                "technician_id": w.technician_id,
+                "work_order_id": f"WO-{w.created_at.year if w.created_at else 2026}-{idx:06d}",
+                "machine_id": machine_map.get(w.machine_id, f"MCH-{w.machine_id:03d}"),
+                "technician_id": tech_map.get(w.technician_id, "") if w.technician_id else "",
                 "work_type": w.work_type,
                 "priority": w.priority,
                 "status": w.status,
@@ -186,15 +209,16 @@ class DataExporter:
                 "created_at": w.created_at,
                 "completed_at": w.completed_at,
             }
-            for w in self.session.query(MaintenanceWorkOrder).order_by(MaintenanceWorkOrder.work_order_id).all()
+            for idx, w in enumerate(work_orders_db, start=1)
         ]
         self._write_csv_and_json("maintenance_work_orders", work_orders)
 
-        # 10. Failure Events
+        # 10. Failure Events (FAIL-2026-000001)
+        failures_db = self.session.query(FailureEvent).order_by(FailureEvent.failure_id).all()
         failures = [
             {
-                "failure_id": f.failure_id,
-                "machine_id": f.machine_id,
+                "failure_id": f"FAIL-{f.failure_time.year if f.failure_time else 2026}-{idx:06d}",
+                "machine_id": machine_map.get(f.machine_id, f"MCH-{f.machine_id:03d}"),
                 "failure_type": f.failure_type,
                 "severity": f.severity,
                 "failure_time": f.failure_time,
@@ -202,27 +226,26 @@ class DataExporter:
                 "description": f.description,
                 "created_at": f.created_at,
             }
-            for f in self.session.query(FailureEvent).order_by(FailureEvent.failure_id).all()
+            for idx, f in enumerate(failures_db, start=1)
         ]
         self._write_csv_and_json("failure_events", failures)
 
-        # 11. Telemetry Sample (first 5,000 events)
+        # 11. Telemetry Sample (TEL-SNS-...-timestamp)
+        telemetry_db = self.session.query(TelemetryEvent).order_by(TelemetryEvent.event_id).limit(5000).all()
         sample_telemetry = [
             {
-                "event_id": t.event_id,
-                "sensor_id": t.sensor_id,
+                "event_id": f"TEL-{sensor_map.get(t.sensor_id, f'SNS-{t.sensor_id:04d}')}-{t.recorded_at.strftime('%Y%m%dT%H%M%SZ')}",
+                "sensor_id": sensor_map.get(t.sensor_id, f"SNS-{t.sensor_id:04d}"),
                 "recorded_at": t.recorded_at,
                 "value": t.value,
                 "quality_status": t.quality_status,
                 "created_at": t.created_at,
             }
-            for t in self.session.query(TelemetryEvent).order_by(TelemetryEvent.event_id).limit(5000).all()
+            for t in telemetry_db
         ]
         self._write_csv_and_json("telemetry_sample", sample_telemetry)
 
         # 12. Isolated Ground-Truth Failures with cohort classification (Type A vs Type B)
-        # Classify Type A (progressive) vs Type B (sudden)
-        m_map = {m["machine_id"]: m["machine_code"] for m in machines}
         gt_failures = []
         for f in failures:
             desc = (f.get("description") or "").lower()
@@ -231,7 +254,7 @@ class DataExporter:
             gt_failures.append({
                 "failure_id": f["failure_id"],
                 "machine_id": f["machine_id"],
-                "machine_code": m_map.get(f["machine_id"], f"MCH-{f['machine_id']}"),
+                "machine_code": f["machine_id"],
                 "failure_cohort": cohort,
                 "failure_type": f["failure_type"],
                 "severity": f["severity"],
@@ -243,7 +266,7 @@ class DataExporter:
         self._write_ground_truth("failures_ground_truth", gt_failures)
 
         # 13. SQL Seed script
-        self._write_sql_seed(plants, lines, machines, sensors, shifts, parts, techs, bridge, work_orders, failures)
+        self._write_sql_seed(plants_db, lines_db, machines_db, sensors_db, shifts_db, parts_db, techs_db, bridge_rows, work_orders_db, failures_db)
 
         results = {
             "plants": len(plants),
@@ -312,27 +335,27 @@ class DataExporter:
             # Plants
             f.write("-- Plants (3)\n")
             for p in plants:
-                f.write(f"INSERT INTO plants (plant_id, plant_code, name, city, state, is_active) VALUES ({p['plant_id']}, '{p['plant_code']}', '{p['name']}', '{p['city']}', '{p['state']}', {p['is_active']}) ON CONFLICT (plant_code) DO NOTHING;\n")
+                f.write(f"INSERT INTO plants (plant_id, plant_code, name, city, state, is_active) VALUES ({p.plant_id}, '{p.plant_code}', '{p.name}', '{p.city}', '{p.state}', {p.is_active}) ON CONFLICT (plant_code) DO NOTHING;\n")
             f.write("\n")
 
             # Lines
             f.write("-- Production Lines (12)\n")
             for l in lines:
-                f.write(f"INSERT INTO production_lines (line_id, plant_id, line_code, name, is_active) VALUES ({l['line_id']}, {l['plant_id']}, '{l['line_code']}', '{l['name']}', {l['is_active']}) ON CONFLICT (line_code) DO NOTHING;\n")
+                f.write(f"INSERT INTO production_lines (line_id, plant_id, line_code, name, is_active) VALUES ({l.line_id}, {l.plant_id}, '{l.line_code}', '{l.name}', {l.is_active}) ON CONFLICT (line_code) DO NOTHING;\n")
             f.write("\n")
 
             # Machines (100)
             f.write("-- Machines (100)\n")
             for m in machines:
-                mfg = f"'{m['manufacturer']}'" if m['manufacturer'] else "NULL"
-                mdl = f"'{m['model_number']}'" if m['model_number'] else "NULL"
-                f.write(f"INSERT INTO machines (machine_id, line_id, machine_code, name, machine_type, manufacturer, model_number, is_active) VALUES ({m['machine_id']}, {m['line_id']}, '{m['machine_code']}', '{m['name']}', '{m['machine_type']}', {mfg}, {mdl}, {m['is_active']}) ON CONFLICT (machine_code) DO NOTHING;\n")
+                mfg = f"'{m.manufacturer}'" if m.manufacturer else "NULL"
+                mdl = f"'{m.model_number}'" if m.model_number else "NULL"
+                f.write(f"INSERT INTO machines (machine_id, line_id, machine_code, name, machine_type, manufacturer, model_number, is_active) VALUES ({m.machine_id}, {m.line_id}, '{m.machine_code}', '{m.name}', '{m.machine_type}', {mfg}, {mdl}, {m.is_active}) ON CONFLICT (machine_code) DO NOTHING;\n")
             f.write("\n")
 
             # Sensors (500)
             f.write("-- Sensors (500)\n")
             for s in sensors:
-                f.write(f"INSERT INTO sensors (sensor_id, machine_id, sensor_code, sensor_type, unit, is_active) VALUES ({s['sensor_id']}, {s['machine_id']}, '{s['sensor_code']}', '{s['sensor_type']}', '{s['unit']}', {s['is_active']}) ON CONFLICT (sensor_code) DO NOTHING;\n")
+                f.write(f"INSERT INTO sensors (sensor_id, machine_id, sensor_code, sensor_type, unit, is_active) VALUES ({s.sensor_id}, {s.machine_id}, '{s.sensor_code}', '{s.sensor_type}', '{s.unit}', {s.is_active}) ON CONFLICT (sensor_code) DO NOTHING;\n")
             f.write("\n")
 
 

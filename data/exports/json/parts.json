@@ -1,402 +1,402 @@
 [
   {
-    "part_id": 101,
-    "part_code": "PART-BRG-001",
+    "part_id": "PRT-0001",
+    "part_code": "PRT-0001",
     "name": "Deep Groove Ball Bearing 6205-2RS",
     "manufacturer": "SKF",
     "description": "Sealed deep groove radial ball bearing for moderate speed shafts",
-    "created_at": "2026-11-02T16:45:30.246826+05:30"
+    "created_at": "2026-11-04T00:34:41.385480+05:30"
   },
   {
-    "part_id": 102,
-    "part_code": "PART-BRG-002",
+    "part_id": "PRT-0002",
+    "part_code": "PRT-0002",
     "name": "Spherical Roller Bearing 22212-E",
     "manufacturer": "SKF",
     "description": "High-load capacity double-row self-aligning spherical roller bearing",
-    "created_at": "2026-11-02T16:45:30.246830+05:30"
+    "created_at": "2026-11-04T00:34:41.385487+05:30"
   },
   {
-    "part_id": 103,
-    "part_code": "PART-BRG-003",
+    "part_id": "PRT-0003",
+    "part_code": "PRT-0003",
     "name": "Tapered Roller Bearing 32010-X",
     "manufacturer": "Timken",
     "description": "Single-row tapered roller bearing supporting heavy radial and axial thrust loads",
-    "created_at": "2026-11-02T16:45:30.246831+05:30"
+    "created_at": "2026-11-04T00:34:41.385488+05:30"
   },
   {
-    "part_id": 104,
-    "part_code": "PART-BRG-004",
+    "part_id": "PRT-0004",
+    "part_code": "PRT-0004",
     "name": "Angular Contact Ball Bearing 7208-B",
     "manufacturer": "NSK",
     "description": "High-precision 40-degree contact angle bearing for machine tool spindles",
-    "created_at": "2026-11-02T16:45:30.246832+05:30"
+    "created_at": "2026-11-04T00:34:41.385489+05:30"
   },
   {
-    "part_id": 105,
-    "part_code": "PART-BRG-005",
+    "part_id": "PRT-0005",
+    "part_code": "PRT-0005",
     "name": "Cylindrical Roller Bearing NU-210-ECP",
     "manufacturer": "FAG",
     "description": "High radial capacity cylindrical roller bearing with glass fiber cage",
-    "created_at": "2026-11-02T16:45:30.246833+05:30"
+    "created_at": "2026-11-04T00:34:41.385490+05:30"
   },
   {
-    "part_id": 106,
-    "part_code": "PART-BRG-006",
+    "part_id": "PRT-0006",
+    "part_code": "PRT-0006",
     "name": "Pillow Block Mounted Bearing UCP-208",
     "manufacturer": "NTN",
     "description": "Cast iron mounted pillow block housing with set-screw locking insert",
-    "created_at": "2026-11-02T16:45:30.246833+05:30"
+    "created_at": "2026-11-04T00:34:41.385491+05:30"
   },
   {
-    "part_id": 107,
-    "part_code": "PART-BRG-007",
+    "part_id": "PRT-0007",
+    "part_code": "PRT-0007",
     "name": "Thrust Ball Bearing 51206",
     "manufacturer": "SKF",
     "description": "Single direction axial thrust ball bearing for vertical drive shafts",
-    "created_at": "2026-11-02T16:45:30.246834+05:30"
+    "created_at": "2026-11-04T00:34:41.385492+05:30"
   },
   {
-    "part_id": 108,
-    "part_code": "PART-BRG-008",
+    "part_id": "PRT-0008",
+    "part_code": "PRT-0008",
     "name": "Needle Roller Bearing HK-2520",
     "manufacturer": "INA",
     "description": "Drawn cup needle roller bearing for compact high-load planetary gears",
-    "created_at": "2026-11-02T16:45:30.246835+05:30"
+    "created_at": "2026-11-04T00:34:41.385493+05:30"
   },
   {
-    "part_id": 109,
-    "part_code": "PART-BRG-009",
+    "part_id": "PRT-0009",
+    "part_code": "PRT-0009",
     "name": "Self-Aligning Ball Bearing 1209-ETN9",
     "manufacturer": "SKF",
     "description": "Double row self-aligning bearing accommodating angular shaft deflection",
-    "created_at": "2026-11-02T16:45:30.246836+05:30"
+    "created_at": "2026-11-04T00:34:41.385494+05:30"
   },
   {
-    "part_id": 110,
-    "part_code": "PART-BRG-010",
+    "part_id": "PRT-0010",
+    "part_code": "PRT-0010",
     "name": "Linear Motion Ball Bushing LBCR-25-D",
     "manufacturer": "THK",
     "description": "High-speed precision linear bushing for CNC guide rails",
-    "created_at": "2026-11-02T16:45:30.246837+05:30"
+    "created_at": "2026-11-04T00:34:41.385495+05:30"
   },
   {
-    "part_id": 111,
-    "part_code": "PART-SEL-011",
+    "part_id": "PRT-0011",
+    "part_code": "PRT-0011",
     "name": "Mechanical Cartridge Seal Type 21",
     "manufacturer": "John Crane",
     "description": "Single cartridge mechanical seal with silicon carbide/carbon faces",
-    "created_at": "2026-11-02T16:45:30.246838+05:30"
+    "created_at": "2026-11-04T00:34:41.385496+05:30"
   },
   {
-    "part_id": 112,
-    "part_code": "PART-SEL-012",
+    "part_id": "PRT-0012",
+    "part_code": "PRT-0012",
     "name": "Viton Rotary Shaft Lip Seal 45x65x10",
     "manufacturer": "Freudenberg",
     "description": "Fluoroelastomer oil seal with stainless garter spring for high-temperature pumps",
-    "created_at": "2026-11-02T16:45:30.246839+05:30"
+    "created_at": "2026-11-04T00:34:41.385497+05:30"
   },
   {
-    "part_id": 113,
-    "part_code": "PART-SEL-013",
+    "part_id": "PRT-0013",
+    "part_code": "PRT-0013",
     "name": "PTFE Hydraulic Rod Seal Stepseal 2K",
     "manufacturer": "Trelleborg",
     "description": "Low-friction polyurethane/PTFE step seal for hydraulic cylinder rods",
-    "created_at": "2026-11-02T16:45:30.246839+05:30"
+    "created_at": "2026-11-04T00:34:41.385498+05:30"
   },
   {
-    "part_id": 114,
-    "part_code": "PART-SEL-014",
+    "part_id": "PRT-0014",
+    "part_code": "PRT-0014",
     "name": "Spiral Wound Flange Gasket 3-inch 300#",
     "manufacturer": "Garlock",
     "description": "316L SS spiral wound gasket with flexible graphite filler for thermal piping",
-    "created_at": "2026-11-02T16:45:30.246841+05:30"
+    "created_at": "2026-11-04T00:34:41.385500+05:30"
   },
   {
-    "part_id": 115,
-    "part_code": "PART-SEL-015",
+    "part_id": "PRT-0015",
+    "part_code": "PRT-0015",
     "name": "Nitrile O-Ring Kit Metric 70 Shore",
     "manufacturer": "Parker Hannifin",
     "description": "Assorted NBR O-rings for industrial hydraulic manifold blocks",
-    "created_at": "2026-11-02T16:45:30.246841+05:30"
+    "created_at": "2026-11-04T00:34:41.385501+05:30"
   },
   {
-    "part_id": 116,
-    "part_code": "PART-SEL-016",
+    "part_id": "PRT-0016",
+    "part_code": "PRT-0016",
     "name": "Labyrinth Non-Contact Bearing Isolator",
     "manufacturer": "Inpro/Seal",
     "description": "Bronze non-wearing bearing isolator protecting against coolant ingress",
-    "created_at": "2026-11-02T16:45:30.246842+05:30"
+    "created_at": "2026-11-04T00:34:41.385502+05:30"
   },
   {
-    "part_id": 117,
-    "part_code": "PART-SEL-017",
+    "part_id": "PRT-0017",
+    "part_code": "PRT-0017",
     "name": "High-Pressure Piston Seal Glyd Ring",
     "manufacturer": "Hallite",
     "description": "Double-acting bronze-filled PTFE piston ring for heavy hydraulic presses",
-    "created_at": "2026-11-02T16:45:30.246843+05:30"
+    "created_at": "2026-11-04T00:34:41.385503+05:30"
   },
   {
-    "part_id": 118,
-    "part_code": "PART-SEL-018",
+    "part_id": "PRT-0018",
+    "part_code": "PRT-0018",
     "name": "Split Case Pump Casing Gasket 0.8mm",
     "manufacturer": "Kirloskar",
     "description": "Precision die-cut aramid fiber gasket for split case centrifugal pump halves",
-    "created_at": "2026-11-02T16:45:30.246844+05:30"
+    "created_at": "2026-11-04T00:34:41.385504+05:30"
   },
   {
-    "part_id": 119,
-    "part_code": "PART-VLV-019",
+    "part_id": "PRT-0019",
+    "part_code": "PRT-0019",
     "name": "4/3 Solenoid Directional Control Valve 24V",
     "manufacturer": "Bosch Rexroth",
     "description": "Electrically operated spool valve D03/NG6 interface for hydraulic circuits",
-    "created_at": "2026-11-02T16:45:30.246844+05:30"
+    "created_at": "2026-11-04T00:34:41.385504+05:30"
   },
   {
-    "part_id": 120,
-    "part_code": "PART-VLV-020",
+    "part_id": "PRT-0020",
+    "part_code": "PRT-0020",
     "name": "Proportional Pressure Relief Valve 350 bar",
     "manufacturer": "Parker Hannifin",
     "description": "Direct-operated proportional relief valve for continuous pressure regulation",
-    "created_at": "2026-11-02T16:45:30.246845+05:30"
+    "created_at": "2026-11-04T00:34:41.385505+05:30"
   },
   {
-    "part_id": 121,
-    "part_code": "PART-VLV-021",
+    "part_id": "PRT-0021",
+    "part_code": "PRT-0021",
     "name": "Pneumatic 5/2 Solenoid Valve G1/4",
     "manufacturer": "Festo",
     "description": "High-cycle pneumatic directional valve with pilot assist for robotic actuators",
-    "created_at": "2026-11-02T16:45:30.246846+05:30"
+    "created_at": "2026-11-04T00:34:41.385506+05:30"
   },
   {
-    "part_id": 122,
-    "part_code": "PART-VLV-022",
+    "part_id": "PRT-0022",
+    "part_code": "PRT-0022",
     "name": "Pilot-Operated Hydraulic Check Valve",
     "manufacturer": "Danfoss",
     "description": "Zero-leakage load holding pilot check valve for hydraulic clamp cylinders",
-    "created_at": "2026-11-02T16:45:30.246847+05:30"
+    "created_at": "2026-11-04T00:34:41.385507+05:30"
   },
   {
-    "part_id": 123,
-    "part_code": "PART-VLV-023",
+    "part_id": "PRT-0023",
+    "part_code": "PRT-0023",
     "name": "Thermostatic Oil Mixing Bypass Valve 60C",
     "manufacturer": "AMOT",
     "description": "Self-actuating thermal control valve for compressor lube oil cooling",
-    "created_at": "2026-11-02T16:45:30.246847+05:30"
+    "created_at": "2026-11-04T00:34:41.385508+05:30"
   },
   {
-    "part_id": 124,
-    "part_code": "PART-VLV-024",
+    "part_id": "PRT-0024",
+    "part_code": "PRT-0024",
     "name": "Stainless Steel Ball Valve 1-inch Class 600",
     "manufacturer": "L&T Valves",
     "description": "Three-piece full bore stainless steel isolation valve with locking lever",
-    "created_at": "2026-11-02T16:45:30.246848+05:30"
+    "created_at": "2026-11-04T00:34:41.385509+05:30"
   },
   {
-    "part_id": 125,
-    "part_code": "PART-VLV-025",
+    "part_id": "PRT-0025",
+    "part_code": "PRT-0025",
     "name": "Pressure Compensated Flow Control Valve",
     "manufacturer": "Eaton Vickers",
     "description": "Restrictor flow control valve maintaining steady cylinder feed speed",
-    "created_at": "2026-11-02T16:45:30.246849+05:30"
+    "created_at": "2026-11-04T00:34:41.385510+05:30"
   },
   {
-    "part_id": 126,
-    "part_code": "PART-VLV-026",
+    "part_id": "PRT-0026",
+    "part_code": "PRT-0026",
     "name": "Thermodynamic High-Pressure Steam Trap",
     "manufacturer": "Spirax Sarco",
     "description": "Forged steel disc steam trap with built-in strainer for heat lines",
-    "created_at": "2026-11-02T16:45:30.246850+05:30"
+    "created_at": "2026-11-04T00:34:41.385511+05:30"
   },
   {
-    "part_id": 127,
-    "part_code": "PART-DRV-027",
+    "part_id": "PRT-0027",
+    "part_code": "PRT-0027",
     "name": "Flexible Jaw Coupling Element Hytrel 100",
     "manufacturer": "Lovejoy",
     "description": "High-torque elastomeric spider insert dampening torsional shock",
-    "created_at": "2026-11-02T16:45:30.246850+05:30"
+    "created_at": "2026-11-04T00:34:41.385512+05:30"
   },
   {
-    "part_id": 128,
-    "part_code": "PART-DRV-028",
+    "part_id": "PRT-0028",
+    "part_code": "PRT-0028",
     "name": "Curved-Tooth Steel Gear Coupling Sleeve",
     "manufacturer": "KTR",
     "description": "Precision nylon/steel gear coupling accommodating axial and angular misalignment",
-    "created_at": "2026-11-02T16:45:30.246851+05:30"
+    "created_at": "2026-11-04T00:34:41.385513+05:30"
   },
   {
-    "part_id": 129,
-    "part_code": "PART-DRV-029",
+    "part_id": "PRT-0029",
+    "part_code": "PRT-0029",
     "name": "Heavy Duty V-Belt Quad-Power 4 XPA-1800",
     "manufacturer": "Gates",
     "description": "Raw-edge cogged narrow section V-belt for heavy motor drives",
-    "created_at": "2026-11-02T16:45:30.246852+05:30"
+    "created_at": "2026-11-04T00:34:41.385514+05:30"
   },
   {
-    "part_id": 130,
-    "part_code": "PART-DRV-030",
+    "part_id": "PRT-0030",
+    "part_code": "PRT-0030",
     "name": "High-Torque Timing Belt Synchroflex AT10",
     "manufacturer": "Continental",
     "description": "Steel-cord reinforced polyurethane synchronous belt for CNC feed axis",
-    "created_at": "2026-11-02T16:45:30.246853+05:30"
+    "created_at": "2026-11-04T00:34:41.385515+05:30"
   },
   {
-    "part_id": 131,
-    "part_code": "PART-DRV-031",
+    "part_id": "PRT-0031",
+    "part_code": "PRT-0031",
     "name": "Steel Roller Chain ANSI 60-1 Simplex",
     "manufacturer": "Diamond Chain",
     "description": "Shot-peened roller chain link for high-load conveyor drive assemblies",
-    "created_at": "2026-11-02T16:45:30.246853+05:30"
+    "created_at": "2026-11-04T00:34:41.385516+05:30"
   },
   {
-    "part_id": 132,
-    "part_code": "PART-DRV-032",
+    "part_id": "PRT-0032",
+    "part_code": "PRT-0032",
     "name": "Taper Lock Bushing 2517-45mm Bore",
     "manufacturer": "Fenner",
     "description": "Machined ductile iron split taper bushing for pulley and sprocket mounting",
-    "created_at": "2026-11-02T16:45:30.246854+05:30"
+    "created_at": "2026-11-04T00:34:41.385517+05:30"
   },
   {
-    "part_id": 133,
-    "part_code": "PART-DRV-033",
+    "part_id": "PRT-0033",
+    "part_code": "PRT-0033",
     "name": "Disc Pack Metal Membrane Coupling",
     "manufacturer": "Rexnord",
     "description": "Zero-backlash torsionally rigid stainless disc coupling for turbopumps",
-    "created_at": "2026-11-02T16:45:30.246855+05:30"
+    "created_at": "2026-11-04T00:34:41.385518+05:30"
   },
   {
-    "part_id": 134,
-    "part_code": "PART-DRV-034",
+    "part_id": "PRT-0034",
+    "part_code": "PRT-0034",
     "name": "Planetary Gearhead Sun Gear Pinion 5:1",
     "manufacturer": "Neugart",
     "description": "Case-hardened helical sun pinion for servo motor speed reducer",
-    "created_at": "2026-11-02T16:45:30.246856+05:30"
+    "created_at": "2026-11-04T00:34:41.385519+05:30"
   },
   {
-    "part_id": 135,
-    "part_code": "PART-CMP-035",
+    "part_id": "PRT-0035",
+    "part_code": "PRT-0035",
     "name": "Closed Impeller Cast Bronze 220mm",
     "manufacturer": "Kirloskar",
     "description": "Dynamically balanced enclosed centrifugal pump impeller for clear water",
-    "created_at": "2026-11-02T16:45:30.246856+05:30"
+    "created_at": "2026-11-04T00:34:41.385520+05:30"
   },
   {
-    "part_id": 136,
-    "part_code": "PART-CMP-036",
+    "part_id": "PRT-0036",
+    "part_code": "PRT-0036",
     "name": "Semi-Open Slurry Impeller High-Chrome",
     "manufacturer": "Weir Minerals",
     "description": "Abrasion-resistant 28% chrome iron impeller for slurry handling",
-    "created_at": "2026-11-02T16:45:30.246857+05:30"
+    "created_at": "2026-11-04T00:34:41.385521+05:30"
   },
   {
-    "part_id": 137,
-    "part_code": "PART-CMP-037",
+    "part_id": "PRT-0037",
+    "part_code": "PRT-0037",
     "name": "Heavy Duty Hydraulic Cylinder Rod 63mm",
     "manufacturer": "Wipro Hydraulics",
     "description": "Hard-chrome plated induction hardened piston rod for press clamp",
-    "created_at": "2026-11-02T16:45:30.246858+05:30"
+    "created_at": "2026-11-04T00:34:41.385522+05:30"
   },
   {
-    "part_id": 138,
-    "part_code": "PART-CMP-038",
+    "part_id": "PRT-0038",
+    "part_code": "PRT-0038",
     "name": "Rotary Screw Compressor Air-End Rotor Pair",
     "manufacturer": "Atlas Copco",
     "description": "Precision CNC machined male/female helical screw rotor set for 75kW compressor",
-    "created_at": "2026-11-02T16:45:30.246859+05:30"
+    "created_at": "2026-11-04T00:34:41.385523+05:30"
   },
   {
-    "part_id": 139,
-    "part_code": "PART-CMP-039",
+    "part_id": "PRT-0039",
+    "part_code": "PRT-0039",
     "name": "Hydraulic Vane Pump Cartridge Kit 45V",
     "manufacturer": "Eaton",
     "description": "Replaceable 12-vane cartridge kit for variable delivery hydraulic pumps",
-    "created_at": "2026-11-02T16:45:30.246860+05:30"
+    "created_at": "2026-11-04T00:34:41.385524+05:30"
   },
   {
-    "part_id": 140,
-    "part_code": "PART-CMP-040",
+    "part_id": "PRT-0040",
+    "part_code": "PRT-0040",
     "name": "Centrifugal Pump Stainless Shaft 316",
     "manufacturer": "Grundfos",
     "description": "Ground and polished centerless stainless steel shaft for inline vertical pump",
-    "created_at": "2026-11-02T16:45:30.246860+05:30"
+    "created_at": "2026-11-04T00:34:41.385525+05:30"
   },
   {
-    "part_id": 141,
-    "part_code": "PART-CMP-041",
+    "part_id": "PRT-0041",
+    "part_code": "PRT-0041",
     "name": "Pneumatic ISO Cylinder Bore 80mm Stroke 250",
     "manufacturer": "SMC",
     "description": "Double-acting magnetic piston pneumatic cylinder with adjustable cushioning",
-    "created_at": "2026-11-02T16:45:30.246861+05:30"
+    "created_at": "2026-11-04T00:34:41.385526+05:30"
   },
   {
-    "part_id": 142,
-    "part_code": "PART-CMP-042",
+    "part_id": "PRT-0042",
+    "part_code": "PRT-0042",
     "name": "Coolant Delivery Multi-Stage Impeller Stage",
     "manufacturer": "Wilo",
     "description": "Stainless steel stage chamber and diffuser for machine tool flood coolant",
-    "created_at": "2026-11-02T16:45:30.246862+05:30"
+    "created_at": "2026-11-04T00:34:41.385526+05:30"
   },
   {
-    "part_id": 143,
-    "part_code": "PART-ELE-043",
+    "part_id": "PRT-0043",
+    "part_code": "PRT-0043",
     "name": "Motor Contactor 3-Pole 40A 24VDC Sirius",
     "manufacturer": "Siemens",
     "description": "Compact IEC contactor for heavy AC-3 induction motor starting",
-    "created_at": "2026-11-02T16:45:30.246863+05:30"
+    "created_at": "2026-11-04T00:34:41.385527+05:30"
   },
   {
-    "part_id": 144,
-    "part_code": "PART-ELE-044",
+    "part_id": "PRT-0044",
+    "part_code": "PRT-0044",
     "name": "Variable Frequency Drive Control Card",
     "manufacturer": "ABB",
     "description": "Microprocessor control module for ACS880 industrial drive inverter",
-    "created_at": "2026-11-02T16:45:30.246863+05:30"
+    "created_at": "2026-11-04T00:34:41.385528+05:30"
   },
   {
-    "part_id": 145,
-    "part_code": "PART-ELE-045",
+    "part_id": "PRT-0045",
+    "part_code": "PRT-0045",
     "name": "Solid State Overload Relay 10-40A",
     "manufacturer": "Schneider Electric",
     "description": "Electronic motor protection relay with thermal memory and phase loss guard",
-    "created_at": "2026-11-02T16:45:30.246864+05:30"
+    "created_at": "2026-11-04T00:34:41.385529+05:30"
   },
   {
-    "part_id": 146,
-    "part_code": "PART-ELE-046",
+    "part_id": "PRT-0046",
+    "part_code": "PRT-0046",
     "name": "Industrial Switching Power Supply 24V 20A",
     "manufacturer": "Phoenix Contact",
     "description": "DIN rail mounted regulated SMPS power supply unit for sensor arrays",
-    "created_at": "2026-11-02T16:45:30.246865+05:30"
+    "created_at": "2026-11-04T00:34:41.385530+05:30"
   },
   {
-    "part_id": 147,
-    "part_code": "PART-ELE-047",
+    "part_id": "PRT-0047",
+    "part_code": "PRT-0047",
     "name": "Ceramic Heaters Band 220V 1500W",
     "manufacturer": "Watlow",
     "description": "High watt density mica-insulated band heater for plastic injection barrels",
-    "created_at": "2026-11-02T16:45:30.246866+05:30"
+    "created_at": "2026-11-04T00:34:41.385531+05:30"
   },
   {
-    "part_id": 148,
-    "part_code": "PART-ELE-048",
+    "part_id": "PRT-0048",
+    "part_code": "PRT-0048",
     "name": "Precision Pressure Transmitter 4-20mA",
     "manufacturer": "WIKA",
     "description": "Piezoresistive stainless pressure sensor 0-250 bar with M12 connector",
-    "created_at": "2026-11-02T16:45:30.246866+05:30"
+    "created_at": "2026-11-04T00:34:41.385532+05:30"
   },
   {
-    "part_id": 149,
-    "part_code": "PART-ELE-049",
+    "part_id": "PRT-0049",
+    "part_code": "PRT-0049",
     "name": "Thermocouple Duplex Mineral Insulated Type-K",
     "manufacturer": "Omron",
     "description": "Inconel sheathed fast-response thermal sensor probe for high temp bearing wells",
-    "created_at": "2026-11-02T16:45:30.246867+05:30"
+    "created_at": "2026-11-04T00:34:41.385533+05:30"
   },
   {
-    "part_id": 150,
-    "part_code": "PART-ELE-050",
+    "part_id": "PRT-0050",
+    "part_code": "PRT-0050",
     "name": "Optical Rotary Encoder 1024 PPR Line Driver",
     "manufacturer": "Baumer",
     "description": "Incremental industrial shaft encoder for precision servo positioning",
-    "created_at": "2026-11-02T16:45:30.246868+05:30"
+    "created_at": "2026-11-04T00:34:41.385534+05:30"
   }
 ]

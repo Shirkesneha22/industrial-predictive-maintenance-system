@@ -26,6 +26,40 @@ from backend.generators.telemetry_constants import (
     PROB_INVALID,
     PROB_SENSOR_FAULT,
 )
+try:
+    from backend.generators.master_data_constants import MACHINE_CODE_TO_NUM
+except ImportError:
+    from generators.master_data_constants import MACHINE_CODE_TO_NUM
+
+
+def get_machine_canonical(machine_id: int, machine_code: str) -> Tuple[int, str]:
+    """Resolves machine ID and code to canonical machine number (1..100) and legacy code."""
+    if machine_code in MACHINE_CODE_TO_NUM:
+        m_num = MACHINE_CODE_TO_NUM[machine_code]
+        return m_num, f"MCH-{m_num:03d}"
+    if "-" in machine_code:
+        suffix = machine_code.split("-")[-1]
+        if suffix.isdigit():
+            m_num = int(suffix)
+            return m_num, f"MCH-{m_num:03d}"
+    return machine_id, machine_code
+
+
+def get_sensor_canonical(sensor_id: int, sensor_code: str) -> Tuple[int, str]:
+    """Resolves sensor ID and code to canonical sensor number (1..500) and legacy code."""
+    if sensor_code.startswith("SNS-MCH-"):
+        parts = sensor_code.rsplit("-", 2)
+        m_code = parts[0][4:]
+        channel = parts[1]
+        m_num, _ = get_machine_canonical(0, m_code)
+        channel_map = {"VIB": 1, "TEMP": 2, "TMP": 2, "ACO": 3, "ACU": 3, "PRS": 4, "CUR": 5}
+        c_num = channel_map.get(channel, 1)
+        s_num = (m_num - 1) * 5 + c_num
+        return s_num, f"SNS-{s_num:04d}"
+    if sensor_code.startswith("SNS-") and sensor_code[4:].isdigit():
+        s_num = int(sensor_code[4:])
+        return s_num, sensor_code
+    return sensor_id, sensor_code
 
 
 def derive_sensor_seed(master_seed: int, sensor_id: int, sensor_code: str) -> int:
@@ -34,7 +68,8 @@ def derive_sensor_seed(master_seed: int, sensor_id: int, sensor_code: str) -> in
     for an individual sensor's time-series RNG using SHA-256.
     Replaces Python's randomized hash() to guarantee cross-session reproducibility.
     """
-    seed_str = f"{master_seed}:{sensor_id}:{sensor_code}"
+    s_num, s_code = get_sensor_canonical(sensor_id, sensor_code)
+    seed_str = f"{master_seed}:{s_num}:{s_code}"
     digest = hashlib.sha256(seed_str.encode("utf-8")).digest()
     return int.from_bytes(digest[:8], byteorder="big", signed=False)
 
@@ -48,14 +83,10 @@ def derive_machine_degradation_profile(
     """
     # Normalize machine sequence to canonical 200-offset to guarantee cross-database reproducibility
     # regardless of whether a clean database or pre-existing database sequence is used.
-    m_num = None
-    if "-" in machine_code:
-        suffix = machine_code.split("-")[-1]
-        if suffix.isdigit():
-            m_num = int(suffix)
-    effective_id = (200 + m_num) if m_num is not None else machine_id
+    m_num, legacy_code = get_machine_canonical(machine_id, machine_code)
+    effective_id = (200 + m_num) if isinstance(m_num, int) else machine_id
 
-    seed_str = f"{master_seed}:degradation:{effective_id}:{machine_code}"
+    seed_str = f"{master_seed}:degradation:{effective_id}:{legacy_code}"
     digest = hashlib.sha256(seed_str.encode("utf-8")).digest()
     m_seed = int.from_bytes(digest[:8], byteorder="big", signed=False)
     rng = np.random.default_rng(m_seed)

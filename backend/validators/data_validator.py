@@ -113,6 +113,12 @@ class DataValidator:
         if not edge_check["all_detected"]:
             results["overall_valid"] = False
 
+        # 10. Spec-Compliant ID Nomenclature & Join Referential Integrity
+        id_check = self.check_exported_id_nomenclature_and_joins()
+        results["checks"]["spec_compliant_id_nomenclature"] = id_check
+        if not id_check["passed"]:
+            results["overall_valid"] = False
+
         return results
 
     def check_entity_counts(self) -> Dict[str, int]:
@@ -350,6 +356,123 @@ class DataValidator:
             "total_edge_cases": len(edge_cases),
             "cases": case_results,
             "message": "All 5 mandatory edge cases verified and successfully flagged by validation guards." if all_detected else "Some edge cases were not detected",
+        }
+
+    def check_exported_id_nomenclature_and_joins(self, csv_dir: Any = None) -> Dict[str, Any]:
+        """
+        Validates every exported CSV against spec-compliant ID regexes and verifies
+        that all foreign key references resolve cleanly across files with 0 broken joins.
+        """
+        import re
+        import csv
+        from pathlib import Path
+
+        if csv_dir is None:
+            csv_dir = Path(__file__).resolve().parent.parent.parent / "data" / "exports" / "csv"
+
+        if not csv_dir.exists():
+            return {
+                "passed": False,
+                "issues": [f"Export CSV directory not found: {csv_dir}"],
+                "message": "Export CSV directory not found.",
+            }
+
+        patterns = {
+            "plants": ("plant_id", re.compile(r"^PLT-\d{3}$")),
+            "production_lines": ("line_id", re.compile(r"^LINE-PLT-\d{3}-\d{3}$")),
+            "machines": ("machine_id", re.compile(r"^MCH-LINE-PLT-\d{3}-\d{3}-\d{3}$")),
+            "sensors": ("sensor_id", re.compile(r"^SNS-MCH-LINE-PLT-\d{3}-\d{3}-\d{3}-(TEMP|VIB|ACO|PRS|CUR)-\d{2}$")),
+            "operating_shifts": ("shift_id", re.compile(r"^SHF-PLT-\d{3}-\d{2}$")),
+            "parts": ("part_id", re.compile(r"^PRT-\d{4}$")),
+            "technicians": ("technician_id", re.compile(r"^TECH-\d{4}$")),
+            "maintenance_work_orders": ("work_order_id", re.compile(r"^WO-\d{4}-\d{6}$")),
+            "failure_events": ("failure_id", re.compile(r"^FAIL-\d{4}-\d{6}$")),
+            "telemetry_sample": ("event_id", re.compile(r"^TEL-SNS-MCH-LINE-PLT-\d{3}-\d{3}-\d{3}-(TEMP|VIB|ACO|PRS|CUR)-\d{2}-\d{8}T\d{6}Z$")),
+        }
+
+        data: Dict[str, List[Dict[str, str]]] = {}
+        issues: List[str] = []
+
+        for entity in patterns.keys():
+            file_path = csv_dir / f"{entity}.csv"
+            if not file_path.exists():
+                issues.append(f"Missing exported CSV: {entity}.csv")
+                continue
+            with open(file_path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                data[entity] = list(reader)
+
+        mp_path = csv_dir / "machine_parts.csv"
+        if mp_path.exists():
+            with open(mp_path, "r", encoding="utf-8") as f:
+                data["machine_parts"] = list(csv.DictReader(f))
+
+        # 1. Regex validation for PK columns
+        for entity, (col, regex) in patterns.items():
+            if entity not in data:
+                continue
+            for idx, row in enumerate(data[entity]):
+                val = row.get(col, "")
+                if not regex.match(val):
+                    issues.append(f"{entity}.csv row {idx} {col}='{val}' failed regex {regex.pattern}")
+                    if len(issues) > 10:
+                        break
+
+        # 2. Join Key Referencing Integrity across CSVs
+        if "plants" in data and "production_lines" in data:
+            plant_ids = {r["plant_id"] for r in data["plants"]}
+            for r in data["production_lines"]:
+                if r["plant_id"] not in plant_ids:
+                    issues.append(f"production_lines.csv references unknown plant_id '{r['plant_id']}'")
+
+        if "production_lines" in data and "machines" in data:
+            line_ids = {r["line_id"] for r in data["production_lines"]}
+            for r in data["machines"]:
+                if r["line_id"] not in line_ids:
+                    issues.append(f"machines.csv references unknown line_id '{r['line_id']}'")
+
+        if "machines" in data and "sensors" in data:
+            m_ids = {r["machine_id"] for r in data["machines"]}
+            for r in data["sensors"]:
+                if r["machine_id"] not in m_ids:
+                    issues.append(f"sensors.csv references unknown machine_id '{r['machine_id']}'")
+
+        if "machines" in data and "failure_events" in data:
+            m_ids = {r["machine_id"] for r in data["machines"]}
+            for r in data["failure_events"]:
+                if r["machine_id"] not in m_ids:
+                    issues.append(f"failure_events.csv references unknown machine_id '{r['machine_id']}'")
+
+        if "machines" in data and "maintenance_work_orders" in data:
+            m_ids = {r["machine_id"] for r in data["machines"]}
+            tech_ids = {r["technician_id"] for r in data.get("technicians", [])}
+            for r in data["maintenance_work_orders"]:
+                if r["machine_id"] not in m_ids:
+                    issues.append(f"maintenance_work_orders.csv references unknown machine_id '{r['machine_id']}'")
+                if r["technician_id"] and r["technician_id"] not in tech_ids:
+                    issues.append(f"maintenance_work_orders.csv references unknown technician_id '{r['technician_id']}'")
+
+        if "sensors" in data and "telemetry_sample" in data:
+            s_ids = {r["sensor_id"] for r in data["sensors"]}
+            for r in data["telemetry_sample"]:
+                if r["sensor_id"] not in s_ids:
+                    issues.append(f"telemetry_sample.csv references unknown sensor_id '{r['sensor_id']}'")
+
+        if "machines" in data and "parts" in data and "machine_parts" in data:
+            m_ids = {r["machine_id"] for r in data["machines"]}
+            p_ids = {r["part_id"] for r in data["parts"]}
+            for r in data["machine_parts"]:
+                if r["machine_id"] not in m_ids:
+                    issues.append(f"machine_parts.csv references unknown machine_id '{r['machine_id']}'")
+                if r["part_id"] not in p_ids:
+                    issues.append(f"machine_parts.csv references unknown part_id '{r['part_id']}'")
+
+        passed = len(issues) == 0
+        return {
+            "passed": passed,
+            "issues_count": len(issues),
+            "issues": issues[:10],
+            "message": "All exported CSV entities match strict hierarchical ID nomenclature and join cleanly across all foreign keys." if passed else f"Found {len(issues)} ID nomenclature or join key violations.",
         }
 
 

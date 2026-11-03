@@ -32,6 +32,10 @@ try:
         MACHINE_TYPES_POOL,
         SENSOR_CONFIGURATIONS,
     )
+    from backend.generators.telemetry_math import (
+        get_machine_canonical,
+        get_sensor_canonical,
+    )
 except ImportError:
     from database import SessionLocal
     from models import (
@@ -143,8 +147,12 @@ class MasterDataGenerator:
         plants_map: Dict[str, Plant] = {}
         for p_data in PLANTS_DATA:
             code = p_data["plant_code"]
-            existing = session.query(Plant).filter_by(plant_code=code).first()
+            existing = session.query(Plant).filter(
+                (Plant.plant_code == code) | (Plant.name == p_data["name"])
+            ).first()
             if existing:
+                if existing.plant_code != code:
+                    existing.plant_code = code
                 plants_map[code] = existing
                 stats["plants"]["existing"] += 1
             else:
@@ -174,8 +182,14 @@ class MasterDataGenerator:
         for l_data in PRODUCTION_LINES_DATA:
             code = l_data["line_code"]
             plant = plants_map[l_data["plant_code"]]
-            existing = session.query(ProductionLine).filter_by(line_code=code).first()
+            existing = session.query(ProductionLine).filter(
+                (ProductionLine.line_code == code) | (ProductionLine.name == l_data["name"])
+            ).first()
             if existing:
+                if existing.line_code != code:
+                    existing.line_code = code
+                if existing.plant_id != plant.plant_id:
+                    existing.plant_id = plant.plant_id
                 lines_map[code] = existing
                 stats["production_lines"]["existing"] += 1
             else:
@@ -257,8 +271,12 @@ class MasterDataGenerator:
         """Generate or retrieve 20 maintenance technicians with unique codes and emails."""
         for t_data in TECHNICIANS_DATA:
             code = t_data["technician_code"]
-            existing = session.query(Technician).filter_by(technician_code=code).first()
+            existing = session.query(Technician).filter(
+                (Technician.technician_code == code) | (Technician.email == t_data["email"])
+            ).first()
             if existing:
+                if existing.technician_code != code:
+                    existing.technician_code = code
                 stats["technicians"]["existing"] += 1
             else:
                 tech = Technician(
@@ -281,8 +299,12 @@ class MasterDataGenerator:
         parts_map: Dict[str, Part] = {}
         for p_data in SPARE_PARTS_DATA:
             code = p_data["part_code"]
-            existing = session.query(Part).filter_by(part_code=code).first()
+            existing = session.query(Part).filter(
+                (Part.part_code == code) | (Part.name == p_data["name"])
+            ).first()
             if existing:
+                if existing.part_code != code:
+                    existing.part_code = code
                 parts_map[code] = existing
                 stats["parts"]["existing"] += 1
             else:
@@ -320,11 +342,24 @@ class MasterDataGenerator:
         for line_num, line in enumerate(ordered_lines):
             # 4 lines get 9 machines, 8 lines get 8 machines -> total 100
             machines_on_line = 9 if line_num < 4 else 8
+            existing_line_machines = (
+                session.query(Machine)
+                .filter_by(line_id=line.line_id)
+                .order_by(Machine.machine_id)
+                .all()
+            )
 
-            for _ in range(machines_on_line):
-                code = f"MCH-{machine_idx:03d}"
-                existing = session.query(Machine).filter_by(machine_code=code).first()
+            for m_on_line in range(1, machines_on_line + 1):
+                code = f"MCH-{line.line_code}-{m_on_line:03d}"
+                existing = None
+                if len(existing_line_machines) >= m_on_line:
+                    existing = existing_line_machines[m_on_line - 1]
+                else:
+                    existing = session.query(Machine).filter_by(machine_code=code).first()
+
                 if existing:
+                    if existing.machine_code != code:
+                        existing.machine_code = code
                     machines_map[code] = existing
                     stats["machines"]["existing"] += 1
                 else:
@@ -334,7 +369,8 @@ class MasterDataGenerator:
                     mfr_name, model_num = mfr_pair
 
                     # Deterministic staggered installation date within 3-4 years
-                    m_rng = random.Random(f"{self.seed}_machine_{code}")
+                    m_num, legacy_m_code = get_machine_canonical(machine_idx, code)
+                    m_rng = random.Random(f"{self.seed}_machine_{legacy_m_code}")
                     days_offset = m_rng.randint(0, 1200)
                     install_date = base_install_date + timedelta(days=days_offset)
 
@@ -368,20 +404,32 @@ class MasterDataGenerator:
         Generate or retrieve exactly 500 sensors (5 sensors per machine).
         Sensor types: Vibration, Temperature, Acoustic, Pressure, Current.
         """
-        ordered_machines = sorted(machines_map.values(), key=lambda m: m.machine_code)
+        ordered_machines = sorted(
+            machines_map.values(),
+            key=lambda m: (m.line_id, m.machine_code)
+        )
         sensor_idx = 1
 
         for machine in ordered_machines:
             m_install = machine.installation_date or date(2022, 1, 15)
+            existing_machine_sensors = (
+                session.query(Sensor)
+                .filter_by(machine_id=machine.machine_id)
+                .all()
+            )
+            sensor_by_type = {s.sensor_type: s for s in existing_machine_sensors}
 
             for s_cfg in SENSOR_CONFIGURATIONS:
-                code = f"SNS-{sensor_idx:04d}"
-                existing = session.query(Sensor).filter_by(sensor_code=code).first()
+                code = f"SNS-{machine.machine_code}-{s_cfg['sensor_suffix']}-01"
+                existing = sensor_by_type.get(s_cfg["sensor_type"]) or session.query(Sensor).filter_by(sensor_code=code).first()
                 if existing:
+                    if existing.sensor_code != code:
+                        existing.sensor_code = code
                     stats["sensors"]["existing"] += 1
                 else:
                     # Sensor installed concurrently or shortly after machine
-                    s_rng = random.Random(f"{self.seed}_sensor_{code}")
+                    _, legacy_s_code = get_sensor_canonical(0, code)
+                    s_rng = random.Random(f"{self.seed}_sensor_{legacy_s_code}")
                     s_offset = s_rng.randint(0, 15)
                     s_install = m_install + timedelta(days=s_offset)
 
@@ -430,7 +478,8 @@ class MasterDataGenerator:
             compat_codes = type_to_parts.get(machine.machine_type, [])
 
             # Deterministic RNG per machine ensures identical part associations regardless of execution history
-            m_part_rng = random.Random(f"{self.seed}_machine_parts_{machine.machine_code}")
+            _, legacy_m_code = get_machine_canonical(machine.machine_id, machine.machine_code)
+            m_part_rng = random.Random(f"{self.seed}_machine_parts_{legacy_m_code}")
             k = m_part_rng.randint(3, min(6, len(compat_codes)))
             selected_codes = m_part_rng.sample(compat_codes, k)
 
