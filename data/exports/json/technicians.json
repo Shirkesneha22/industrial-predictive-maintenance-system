@@ -6,7 +6,7 @@
     "specialization": "Vibration & Rotor Dynamics",
     "email": "rajesh.sharma@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302078+05:30"
+    "created_at": "2026-11-04T01:52:27.923007+05:30"
   },
   {
     "technician_id": "TECH-0002",
@@ -15,7 +15,7 @@
     "specialization": "Hydraulic & Pneumatic Systems",
     "email": "vikram.patel@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302082+05:30"
+    "created_at": "2026-11-04T01:52:27.923011+05:30"
   },
   {
     "technician_id": "TECH-0003",
@@ -24,7 +24,7 @@
     "specialization": "Robotics & Automation Control",
     "email": "priya.sundaram@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302084+05:30"
+    "created_at": "2026-11-04T01:52:27.923012+05:30"
   },
   {
     "technician_id": "TECH-0004",
@@ -33,7 +33,7 @@
     "specialization": "Electrical Drives & Switchgear",
     "email": "suresh.kumar@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302085+05:30"
+    "created_at": "2026-11-04T01:52:27.923012+05:30"
   },
   {
     "technician_id": "TECH-0005",
@@ -42,7 +42,7 @@
     "specialization": "Predictive Analytics & Condition Monitoring",
     "email": "ananya.iyer@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302085+05:30"
+    "created_at": "2026-11-04T01:52:27.923013+05:30"
   },
   {
     "technician_id": "TECH-0006",
@@ -51,7 +51,7 @@
     "specialization": "CNC Machine Tools & Spindles",
     "email": "rahul.verma@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302086+05:30"
+    "created_at": "2026-11-04T01:52:27.923014+05:30"
   },
   {
     "technician_id": "TECH-0007",
@@ -60,7 +60,7 @@
     "specialization": "Industrial Instrumentation & Calibration",
     "email": "sunita.rao@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302087+05:30"
+    "created_at": "2026-11-04T01:52:27.923014+05:30"
   },
   {
     "technician_id": "TECH-0008",
@@ -69,7 +69,7 @@
     "specialization": "Mechanical Gearboxes & Transmissions",
     "email": "amit.deshmukh@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302088+05:30"
+    "created_at": "2026-11-04T01:52:27.923015+05:30"
   },
   {
     "technician_id": "TECH-0009",
@@ -78,7 +78,7 @@
     "specialization": "Thermal Systems & Heat Exchangers",
     "email": "kavita.nair@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302088+05:30"
+    "created_at": "2026-11-04T01:52:27.923015+05:30"
   },
   {
     "technician_id": "TECH-0010",
@@ -87,7 +87,7 @@
     "specialization": "Lubrication Tribology & Oil Analysis",
     "email": "manoj.joshi@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302089+05:30"
+    "created_at": "2026-11-04T01:52:27.923016+05:30"
   },
   {
     "technician_id": "TECH-0011",
@@ -96,7 +96,7 @@
     "specialization": "Acoustic Emission Testing",
     "email": "deepa.menon@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302090+05:30"
+    "created_at": "2026-11-04T01:52:27.923016+05:30"
   },
   {
     "technician_id": "TECH-0012",
@@ -105,7 +105,7 @@
     "specialization": "High-Pressure Hydraulic Pumps",
     "email": "sanjay.kulkarni@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302090+05:30"
+    "created_at": "2026-11-04T01:52:27.923017+05:30"
   },
   {
     "technician_id": "TECH-0013",
@@ -114,7 +114,7 @@
     "specialization": "PLC & SCADA Diagnostics",
     "email": "pooja.gupta@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302091+05:30"
+    "created_at": "2026-11-04T01:52:27.923018+05:30"
   },
   {
     "technician_id": "TECH-0014",
@@ -123,7 +123,7 @@
     "specialization": "Heavy Press Structural Maintenance",
     "email": "rakesh.reddy@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302092+05:30"
+    "created_at": "2026-11-04T01:52:27.923018+05:30"
   },
   {
     "technician_id": "TECH-0015",
@@ -132,7 +132,7 @@
     "specialization": "Centrifugal Pumps & Seals",
     "email": "swati.mukherjee@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302092+05:30"
+    "created_at": "2026-11-04T01:52:27.923019+05:30"
   },
   {
     "technician_id": "TECH-0016",
@@ -141,7 +141,7 @@
     "specialization": "Turbomachinery & Balancing",
     "email": "arvind.nambiar@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302093+05:30"
+    "created_at": "2026-11-04T01:52:27.923019+05:30"
   },
   {
     "technician_id": "TECH-0017",
@@ -150,7 +150,7 @@
     "specialization": "Rotary Compressors & Chillers",
     "email": "sneha.patil@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302094+05:30"
+    "created_at": "2026-11-04T01:52:27.923020+05:30"
   },
   {
     "technician_id": "TECH-0018",
@@ -159,7 +159,7 @@
     "specialization": "Laser Alignment & Geometric Calibration",
     "email": "dinesh.mehta@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302095+05:30"
+    "created_at": "2026-11-04T01:52:27.923020+05:30"
   },
   {
     "technician_id": "TECH-0019",
@@ -168,7 +168,7 @@
     "specialization": "Motor Current Signature Analysis (MCSA)",
     "email": "meera.pillai@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302095+05:30"
+    "created_at": "2026-11-04T01:52:27.923021+05:30"
   },
   {
     "technician_id": "TECH-0020",
@@ -177,6 +177,6 @@
     "specialization": "Industrial Safety & Preventive Audits",
     "email": "alok.bhattacharya@indus-pm.com",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.302096+05:30"
+    "created_at": "2026-11-04T01:52:27.923021+05:30"
   }
 ]

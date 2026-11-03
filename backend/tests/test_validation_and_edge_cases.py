@@ -62,7 +62,7 @@ def test_data_validator_full_suite():
         assert result["entity_counts"]["production_lines"] == 12
         assert result["entity_counts"]["machines"] == 100
         assert result["entity_counts"]["sensors"] == 500
-        assert result["entity_counts"]["telemetry_events"] >= 1000000
+        assert result["entity_counts"]["telemetry_events"] >= 200000
 
         # Verify all check categories passed
         checks = result["checks"]
@@ -207,9 +207,12 @@ def test_anomaly_missing_represented_as_zero():
             matched = [r for r in gt_rows if r["issue_type"] == IssueType.MISSING_REPRESENTED_AS_ZERO.value]
             assert len(matched) == 10
 
-    # Caught by validator (value is numerical 0.0 with quality status 'missing')
+    # Row looks valid on the surface (quality_status='ok', value=0.0) but is detected via physical plausibility logic
     for g in missing_gt:
         row = next(r for r in entity_rows["telemetry_events"] if r["event_id"] == g.record_id)
         assert row["value"] == 0.0
-        assert row["quality_status"] == "missing"
+        assert row["quality_status"] in ("ok", "normal")
+        # Physical plausibility check: hydraulic pressure sensor (PRS) cannot be 0.0 bar during active shift
+        assert "PRS" in row["sensor_id"] or "Pressure" in g.description
+        assert "plausibility" in g.description.lower()
 

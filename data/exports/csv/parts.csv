@@ -1,51 +1,51 @@
 part_id,part_code,name,manufacturer,description,created_at
-PRT-0001,PRT-0001,Deep Groove Ball Bearing 6205-2RS,SKF,Sealed deep groove radial ball bearing for moderate speed shafts,2026-11-04T00:34:41.385480+05:30
-PRT-0002,PRT-0002,Spherical Roller Bearing 22212-E,SKF,High-load capacity double-row self-aligning spherical roller bearing,2026-11-04T00:34:41.385487+05:30
-PRT-0003,PRT-0003,Tapered Roller Bearing 32010-X,Timken,Single-row tapered roller bearing supporting heavy radial and axial thrust loads,2026-11-04T00:34:41.385488+05:30
-PRT-0004,PRT-0004,Angular Contact Ball Bearing 7208-B,NSK,High-precision 40-degree contact angle bearing for machine tool spindles,2026-11-04T00:34:41.385489+05:30
-PRT-0005,PRT-0005,Cylindrical Roller Bearing NU-210-ECP,FAG,High radial capacity cylindrical roller bearing with glass fiber cage,2026-11-04T00:34:41.385490+05:30
-PRT-0006,PRT-0006,Pillow Block Mounted Bearing UCP-208,NTN,Cast iron mounted pillow block housing with set-screw locking insert,2026-11-04T00:34:41.385491+05:30
-PRT-0007,PRT-0007,Thrust Ball Bearing 51206,SKF,Single direction axial thrust ball bearing for vertical drive shafts,2026-11-04T00:34:41.385492+05:30
-PRT-0008,PRT-0008,Needle Roller Bearing HK-2520,INA,Drawn cup needle roller bearing for compact high-load planetary gears,2026-11-04T00:34:41.385493+05:30
-PRT-0009,PRT-0009,Self-Aligning Ball Bearing 1209-ETN9,SKF,Double row self-aligning bearing accommodating angular shaft deflection,2026-11-04T00:34:41.385494+05:30
-PRT-0010,PRT-0010,Linear Motion Ball Bushing LBCR-25-D,THK,High-speed precision linear bushing for CNC guide rails,2026-11-04T00:34:41.385495+05:30
-PRT-0011,PRT-0011,Mechanical Cartridge Seal Type 21,John Crane,Single cartridge mechanical seal with silicon carbide/carbon faces,2026-11-04T00:34:41.385496+05:30
-PRT-0012,PRT-0012,Viton Rotary Shaft Lip Seal 45x65x10,Freudenberg,Fluoroelastomer oil seal with stainless garter spring for high-temperature pumps,2026-11-04T00:34:41.385497+05:30
-PRT-0013,PRT-0013,PTFE Hydraulic Rod Seal Stepseal 2K,Trelleborg,Low-friction polyurethane/PTFE step seal for hydraulic cylinder rods,2026-11-04T00:34:41.385498+05:30
-PRT-0014,PRT-0014,Spiral Wound Flange Gasket 3-inch 300#,Garlock,316L SS spiral wound gasket with flexible graphite filler for thermal piping,2026-11-04T00:34:41.385500+05:30
-PRT-0015,PRT-0015,Nitrile O-Ring Kit Metric 70 Shore,Parker Hannifin,Assorted NBR O-rings for industrial hydraulic manifold blocks,2026-11-04T00:34:41.385501+05:30
-PRT-0016,PRT-0016,Labyrinth Non-Contact Bearing Isolator,Inpro/Seal,Bronze non-wearing bearing isolator protecting against coolant ingress,2026-11-04T00:34:41.385502+05:30
-PRT-0017,PRT-0017,High-Pressure Piston Seal Glyd Ring,Hallite,Double-acting bronze-filled PTFE piston ring for heavy hydraulic presses,2026-11-04T00:34:41.385503+05:30
-PRT-0018,PRT-0018,Split Case Pump Casing Gasket 0.8mm,Kirloskar,Precision die-cut aramid fiber gasket for split case centrifugal pump halves,2026-11-04T00:34:41.385504+05:30
-PRT-0019,PRT-0019,4/3 Solenoid Directional Control Valve 24V,Bosch Rexroth,Electrically operated spool valve D03/NG6 interface for hydraulic circuits,2026-11-04T00:34:41.385504+05:30
-PRT-0020,PRT-0020,Proportional Pressure Relief Valve 350 bar,Parker Hannifin,Direct-operated proportional relief valve for continuous pressure regulation,2026-11-04T00:34:41.385505+05:30
-PRT-0021,PRT-0021,Pneumatic 5/2 Solenoid Valve G1/4,Festo,High-cycle pneumatic directional valve with pilot assist for robotic actuators,2026-11-04T00:34:41.385506+05:30
-PRT-0022,PRT-0022,Pilot-Operated Hydraulic Check Valve,Danfoss,Zero-leakage load holding pilot check valve for hydraulic clamp cylinders,2026-11-04T00:34:41.385507+05:30
-PRT-0023,PRT-0023,Thermostatic Oil Mixing Bypass Valve 60C,AMOT,Self-actuating thermal control valve for compressor lube oil cooling,2026-11-04T00:34:41.385508+05:30
-PRT-0024,PRT-0024,Stainless Steel Ball Valve 1-inch Class 600,L&T Valves,Three-piece full bore stainless steel isolation valve with locking lever,2026-11-04T00:34:41.385509+05:30
-PRT-0025,PRT-0025,Pressure Compensated Flow Control Valve,Eaton Vickers,Restrictor flow control valve maintaining steady cylinder feed speed,2026-11-04T00:34:41.385510+05:30
-PRT-0026,PRT-0026,Thermodynamic High-Pressure Steam Trap,Spirax Sarco,Forged steel disc steam trap with built-in strainer for heat lines,2026-11-04T00:34:41.385511+05:30
-PRT-0027,PRT-0027,Flexible Jaw Coupling Element Hytrel 100,Lovejoy,High-torque elastomeric spider insert dampening torsional shock,2026-11-04T00:34:41.385512+05:30
-PRT-0028,PRT-0028,Curved-Tooth Steel Gear Coupling Sleeve,KTR,Precision nylon/steel gear coupling accommodating axial and angular misalignment,2026-11-04T00:34:41.385513+05:30
-PRT-0029,PRT-0029,Heavy Duty V-Belt Quad-Power 4 XPA-1800,Gates,Raw-edge cogged narrow section V-belt for heavy motor drives,2026-11-04T00:34:41.385514+05:30
-PRT-0030,PRT-0030,High-Torque Timing Belt Synchroflex AT10,Continental,Steel-cord reinforced polyurethane synchronous belt for CNC feed axis,2026-11-04T00:34:41.385515+05:30
-PRT-0031,PRT-0031,Steel Roller Chain ANSI 60-1 Simplex,Diamond Chain,Shot-peened roller chain link for high-load conveyor drive assemblies,2026-11-04T00:34:41.385516+05:30
-PRT-0032,PRT-0032,Taper Lock Bushing 2517-45mm Bore,Fenner,Machined ductile iron split taper bushing for pulley and sprocket mounting,2026-11-04T00:34:41.385517+05:30
-PRT-0033,PRT-0033,Disc Pack Metal Membrane Coupling,Rexnord,Zero-backlash torsionally rigid stainless disc coupling for turbopumps,2026-11-04T00:34:41.385518+05:30
-PRT-0034,PRT-0034,Planetary Gearhead Sun Gear Pinion 5:1,Neugart,Case-hardened helical sun pinion for servo motor speed reducer,2026-11-04T00:34:41.385519+05:30
-PRT-0035,PRT-0035,Closed Impeller Cast Bronze 220mm,Kirloskar,Dynamically balanced enclosed centrifugal pump impeller for clear water,2026-11-04T00:34:41.385520+05:30
-PRT-0036,PRT-0036,Semi-Open Slurry Impeller High-Chrome,Weir Minerals,Abrasion-resistant 28% chrome iron impeller for slurry handling,2026-11-04T00:34:41.385521+05:30
-PRT-0037,PRT-0037,Heavy Duty Hydraulic Cylinder Rod 63mm,Wipro Hydraulics,Hard-chrome plated induction hardened piston rod for press clamp,2026-11-04T00:34:41.385522+05:30
-PRT-0038,PRT-0038,Rotary Screw Compressor Air-End Rotor Pair,Atlas Copco,Precision CNC machined male/female helical screw rotor set for 75kW compressor,2026-11-04T00:34:41.385523+05:30
-PRT-0039,PRT-0039,Hydraulic Vane Pump Cartridge Kit 45V,Eaton,Replaceable 12-vane cartridge kit for variable delivery hydraulic pumps,2026-11-04T00:34:41.385524+05:30
-PRT-0040,PRT-0040,Centrifugal Pump Stainless Shaft 316,Grundfos,Ground and polished centerless stainless steel shaft for inline vertical pump,2026-11-04T00:34:41.385525+05:30
-PRT-0041,PRT-0041,Pneumatic ISO Cylinder Bore 80mm Stroke 250,SMC,Double-acting magnetic piston pneumatic cylinder with adjustable cushioning,2026-11-04T00:34:41.385526+05:30
-PRT-0042,PRT-0042,Coolant Delivery Multi-Stage Impeller Stage,Wilo,Stainless steel stage chamber and diffuser for machine tool flood coolant,2026-11-04T00:34:41.385526+05:30
-PRT-0043,PRT-0043,Motor Contactor 3-Pole 40A 24VDC Sirius,Siemens,Compact IEC contactor for heavy AC-3 induction motor starting,2026-11-04T00:34:41.385527+05:30
-PRT-0044,PRT-0044,Variable Frequency Drive Control Card,ABB,Microprocessor control module for ACS880 industrial drive inverter,2026-11-04T00:34:41.385528+05:30
-PRT-0045,PRT-0045,Solid State Overload Relay 10-40A,Schneider Electric,Electronic motor protection relay with thermal memory and phase loss guard,2026-11-04T00:34:41.385529+05:30
-PRT-0046,PRT-0046,Industrial Switching Power Supply 24V 20A,Phoenix Contact,DIN rail mounted regulated SMPS power supply unit for sensor arrays,2026-11-04T00:34:41.385530+05:30
-PRT-0047,PRT-0047,Ceramic Heaters Band 220V 1500W,Watlow,High watt density mica-insulated band heater for plastic injection barrels,2026-11-04T00:34:41.385531+05:30
-PRT-0048,PRT-0048,Precision Pressure Transmitter 4-20mA,WIKA,Piezoresistive stainless pressure sensor 0-250 bar with M12 connector,2026-11-04T00:34:41.385532+05:30
-PRT-0049,PRT-0049,Thermocouple Duplex Mineral Insulated Type-K,Omron,Inconel sheathed fast-response thermal sensor probe for high temp bearing wells,2026-11-04T00:34:41.385533+05:30
-PRT-0050,PRT-0050,Optical Rotary Encoder 1024 PPR Line Driver,Baumer,Incremental industrial shaft encoder for precision servo positioning,2026-11-04T00:34:41.385534+05:30
+PRT-0001,PRT-0001,Deep Groove Ball Bearing 6205-2RS,SKF,Sealed deep groove radial ball bearing for moderate speed shafts,2026-11-04T01:52:27.983997+05:30
+PRT-0002,PRT-0002,Spherical Roller Bearing 22212-E,SKF,High-load capacity double-row self-aligning spherical roller bearing,2026-11-04T01:52:27.984002+05:30
+PRT-0003,PRT-0003,Tapered Roller Bearing 32010-X,Timken,Single-row tapered roller bearing supporting heavy radial and axial thrust loads,2026-11-04T01:52:27.984003+05:30
+PRT-0004,PRT-0004,Angular Contact Ball Bearing 7208-B,NSK,High-precision 40-degree contact angle bearing for machine tool spindles,2026-11-04T01:52:27.984003+05:30
+PRT-0005,PRT-0005,Cylindrical Roller Bearing NU-210-ECP,FAG,High radial capacity cylindrical roller bearing with glass fiber cage,2026-11-04T01:52:27.984004+05:30
+PRT-0006,PRT-0006,Pillow Block Mounted Bearing UCP-208,NTN,Cast iron mounted pillow block housing with set-screw locking insert,2026-11-04T01:52:27.984004+05:30
+PRT-0007,PRT-0007,Thrust Ball Bearing 51206,SKF,Single direction axial thrust ball bearing for vertical drive shafts,2026-11-04T01:52:27.984005+05:30
+PRT-0008,PRT-0008,Needle Roller Bearing HK-2520,INA,Drawn cup needle roller bearing for compact high-load planetary gears,2026-11-04T01:52:27.984006+05:30
+PRT-0009,PRT-0009,Self-Aligning Ball Bearing 1209-ETN9,SKF,Double row self-aligning bearing accommodating angular shaft deflection,2026-11-04T01:52:27.984006+05:30
+PRT-0010,PRT-0010,Linear Motion Ball Bushing LBCR-25-D,THK,High-speed precision linear bushing for CNC guide rails,2026-11-04T01:52:27.984007+05:30
+PRT-0011,PRT-0011,Mechanical Cartridge Seal Type 21,John Crane,Single cartridge mechanical seal with silicon carbide/carbon faces,2026-11-04T01:52:27.984007+05:30
+PRT-0012,PRT-0012,Viton Rotary Shaft Lip Seal 45x65x10,Freudenberg,Fluoroelastomer oil seal with stainless garter spring for high-temperature pumps,2026-11-04T01:52:27.984008+05:30
+PRT-0013,PRT-0013,PTFE Hydraulic Rod Seal Stepseal 2K,Trelleborg,Low-friction polyurethane/PTFE step seal for hydraulic cylinder rods,2026-11-04T01:52:27.984009+05:30
+PRT-0014,PRT-0014,Spiral Wound Flange Gasket 3-inch 300#,Garlock,316L SS spiral wound gasket with flexible graphite filler for thermal piping,2026-11-04T01:52:27.984009+05:30
+PRT-0015,PRT-0015,Nitrile O-Ring Kit Metric 70 Shore,Parker Hannifin,Assorted NBR O-rings for industrial hydraulic manifold blocks,2026-11-04T01:52:27.984010+05:30
+PRT-0016,PRT-0016,Labyrinth Non-Contact Bearing Isolator,Inpro/Seal,Bronze non-wearing bearing isolator protecting against coolant ingress,2026-11-04T01:52:27.984011+05:30
+PRT-0017,PRT-0017,High-Pressure Piston Seal Glyd Ring,Hallite,Double-acting bronze-filled PTFE piston ring for heavy hydraulic presses,2026-11-04T01:52:27.984011+05:30
+PRT-0018,PRT-0018,Split Case Pump Casing Gasket 0.8mm,Kirloskar,Precision die-cut aramid fiber gasket for split case centrifugal pump halves,2026-11-04T01:52:27.984012+05:30
+PRT-0019,PRT-0019,4/3 Solenoid Directional Control Valve 24V,Bosch Rexroth,Electrically operated spool valve D03/NG6 interface for hydraulic circuits,2026-11-04T01:52:27.984013+05:30
+PRT-0020,PRT-0020,Proportional Pressure Relief Valve 350 bar,Parker Hannifin,Direct-operated proportional relief valve for continuous pressure regulation,2026-11-04T01:52:27.984013+05:30
+PRT-0021,PRT-0021,Pneumatic 5/2 Solenoid Valve G1/4,Festo,High-cycle pneumatic directional valve with pilot assist for robotic actuators,2026-11-04T01:52:27.984014+05:30
+PRT-0022,PRT-0022,Pilot-Operated Hydraulic Check Valve,Danfoss,Zero-leakage load holding pilot check valve for hydraulic clamp cylinders,2026-11-04T01:52:27.984014+05:30
+PRT-0023,PRT-0023,Thermostatic Oil Mixing Bypass Valve 60C,AMOT,Self-actuating thermal control valve for compressor lube oil cooling,2026-11-04T01:52:27.984015+05:30
+PRT-0024,PRT-0024,Stainless Steel Ball Valve 1-inch Class 600,L&T Valves,Three-piece full bore stainless steel isolation valve with locking lever,2026-11-04T01:52:27.984015+05:30
+PRT-0025,PRT-0025,Pressure Compensated Flow Control Valve,Eaton Vickers,Restrictor flow control valve maintaining steady cylinder feed speed,2026-11-04T01:52:27.984016+05:30
+PRT-0026,PRT-0026,Thermodynamic High-Pressure Steam Trap,Spirax Sarco,Forged steel disc steam trap with built-in strainer for heat lines,2026-11-04T01:52:27.984017+05:30
+PRT-0027,PRT-0027,Flexible Jaw Coupling Element Hytrel 100,Lovejoy,High-torque elastomeric spider insert dampening torsional shock,2026-11-04T01:52:27.984017+05:30
+PRT-0028,PRT-0028,Curved-Tooth Steel Gear Coupling Sleeve,KTR,Precision nylon/steel gear coupling accommodating axial and angular misalignment,2026-11-04T01:52:27.984018+05:30
+PRT-0029,PRT-0029,Heavy Duty V-Belt Quad-Power 4 XPA-1800,Gates,Raw-edge cogged narrow section V-belt for heavy motor drives,2026-11-04T01:52:27.984018+05:30
+PRT-0030,PRT-0030,High-Torque Timing Belt Synchroflex AT10,Continental,Steel-cord reinforced polyurethane synchronous belt for CNC feed axis,2026-11-04T01:52:27.984019+05:30
+PRT-0031,PRT-0031,Steel Roller Chain ANSI 60-1 Simplex,Diamond Chain,Shot-peened roller chain link for high-load conveyor drive assemblies,2026-11-04T01:52:27.984020+05:30
+PRT-0032,PRT-0032,Taper Lock Bushing 2517-45mm Bore,Fenner,Machined ductile iron split taper bushing for pulley and sprocket mounting,2026-11-04T01:52:27.984020+05:30
+PRT-0033,PRT-0033,Disc Pack Metal Membrane Coupling,Rexnord,Zero-backlash torsionally rigid stainless disc coupling for turbopumps,2026-11-04T01:52:27.984021+05:30
+PRT-0034,PRT-0034,Planetary Gearhead Sun Gear Pinion 5:1,Neugart,Case-hardened helical sun pinion for servo motor speed reducer,2026-11-04T01:52:27.984021+05:30
+PRT-0035,PRT-0035,Closed Impeller Cast Bronze 220mm,Kirloskar,Dynamically balanced enclosed centrifugal pump impeller for clear water,2026-11-04T01:52:27.984022+05:30
+PRT-0036,PRT-0036,Semi-Open Slurry Impeller High-Chrome,Weir Minerals,Abrasion-resistant 28% chrome iron impeller for slurry handling,2026-11-04T01:52:27.984022+05:30
+PRT-0037,PRT-0037,Heavy Duty Hydraulic Cylinder Rod 63mm,Wipro Hydraulics,Hard-chrome plated induction hardened piston rod for press clamp,2026-11-04T01:52:27.984023+05:30
+PRT-0038,PRT-0038,Rotary Screw Compressor Air-End Rotor Pair,Atlas Copco,Precision CNC machined male/female helical screw rotor set for 75kW compressor,2026-11-04T01:52:27.984024+05:30
+PRT-0039,PRT-0039,Hydraulic Vane Pump Cartridge Kit 45V,Eaton,Replaceable 12-vane cartridge kit for variable delivery hydraulic pumps,2026-11-04T01:52:27.984024+05:30
+PRT-0040,PRT-0040,Centrifugal Pump Stainless Shaft 316,Grundfos,Ground and polished centerless stainless steel shaft for inline vertical pump,2026-11-04T01:52:27.984025+05:30
+PRT-0041,PRT-0041,Pneumatic ISO Cylinder Bore 80mm Stroke 250,SMC,Double-acting magnetic piston pneumatic cylinder with adjustable cushioning,2026-11-04T01:52:27.984025+05:30
+PRT-0042,PRT-0042,Coolant Delivery Multi-Stage Impeller Stage,Wilo,Stainless steel stage chamber and diffuser for machine tool flood coolant,2026-11-04T01:52:27.984026+05:30
+PRT-0043,PRT-0043,Motor Contactor 3-Pole 40A 24VDC Sirius,Siemens,Compact IEC contactor for heavy AC-3 induction motor starting,2026-11-04T01:52:27.984026+05:30
+PRT-0044,PRT-0044,Variable Frequency Drive Control Card,ABB,Microprocessor control module for ACS880 industrial drive inverter,2026-11-04T01:52:27.984027+05:30
+PRT-0045,PRT-0045,Solid State Overload Relay 10-40A,Schneider Electric,Electronic motor protection relay with thermal memory and phase loss guard,2026-11-04T01:52:27.984027+05:30
+PRT-0046,PRT-0046,Industrial Switching Power Supply 24V 20A,Phoenix Contact,DIN rail mounted regulated SMPS power supply unit for sensor arrays,2026-11-04T01:52:27.984028+05:30
+PRT-0047,PRT-0047,Ceramic Heaters Band 220V 1500W,Watlow,High watt density mica-insulated band heater for plastic injection barrels,2026-11-04T01:52:27.984029+05:30
+PRT-0048,PRT-0048,Precision Pressure Transmitter 4-20mA,WIKA,Piezoresistive stainless pressure sensor 0-250 bar with M12 connector,2026-11-04T01:52:27.984029+05:30
+PRT-0049,PRT-0049,Thermocouple Duplex Mineral Insulated Type-K,Omron,Inconel sheathed fast-response thermal sensor probe for high temp bearing wells,2026-11-04T01:52:27.984030+05:30
+PRT-0050,PRT-0050,Optical Rotary Encoder 1024 PPR Line Driver,Baumer,Incremental industrial shaft encoder for precision servo positioning,2026-11-04T01:52:27.984030+05:30

@@ -33,7 +33,8 @@ services:
       - ./backend:/app
       - ./data:/data
     command: >
-      sh -c "alembic upgrade head &&
+      sh -c "ln -sf /app /app/backend &&
+             alembic upgrade head &&
              python -m backend.generators.cli master-data &&
              python -m backend.generators.cli failures &&
              python -m backend.generators.cli telemetry --scale starter &&

@@ -205,7 +205,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-002",
     "recorded_at": "2026-10-16T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0041"
   },
@@ -215,7 +215,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-003",
     "recorded_at": "2026-10-17T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0042"
   },
@@ -225,7 +225,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-004",
     "recorded_at": "2026-10-18T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0043"
   },
@@ -235,7 +235,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-005",
     "recorded_at": "2026-10-19T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0044"
   },
@@ -245,7 +245,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-006",
     "recorded_at": "2026-10-20T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0045"
   },
@@ -255,7 +255,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-007",
     "recorded_at": "2026-10-21T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0046"
   },
@@ -265,7 +265,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-008",
     "recorded_at": "2026-10-22T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0047"
   },
@@ -275,7 +275,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-001",
     "recorded_at": "2026-10-23T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0048"
   },
@@ -285,7 +285,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-002",
     "recorded_at": "2026-10-24T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0049"
   },
@@ -295,7 +295,7 @@
     "machine_id": "MCH-LINE-PLT-001-002-003",
     "recorded_at": "2026-10-25T18:00:00+00:00",
     "value": 0.0,
-    "quality_status": "missing",
+    "quality_status": "ok",
     "is_anomaly": true,
     "anomaly_id": "ANOM-0050"
   }

@@ -234,7 +234,7 @@ def generate_anomalies(seed: int = 20261022) -> Tuple[List[AnomalyGroundTruth], 
             "machine_id": machine_code,
             "recorded_at": rec_time.isoformat(),
             "value": 0.0,  # 0.0 representing dropped signal on active pressurized system
-            "quality_status": "missing",
+            "quality_status": "ok",
             "is_anomaly": True,
             "anomaly_id": anom_id,
         }
@@ -248,7 +248,7 @@ def generate_anomalies(seed: int = 20261022) -> Tuple[List[AnomalyGroundTruth], 
                 record_id=rec_id,
                 machine_id=machine_code,
                 expected_decision=ExpectedDecision.CONVERT_ZERO_TO_NULL.value,
-                description="Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+                description="Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
                 injected_at_step="telemetry_generation",
             )
         )

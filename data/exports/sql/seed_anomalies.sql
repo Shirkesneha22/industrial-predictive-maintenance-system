@@ -42,23 +42,23 @@ INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, cre
 -- Anomaly: ANOM-0020
 INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-001-003-TEMP-01'), '2026-09-25T14:00:00+00:00', -1000.0, 'invalid', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0041
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-002-PRS-01'), '2026-10-16T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-002-PRS-01'), '2026-10-16T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0042
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-003-PRS-01'), '2026-10-17T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-003-PRS-01'), '2026-10-17T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0043
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-004-PRS-01'), '2026-10-18T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-004-PRS-01'), '2026-10-18T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0044
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-005-PRS-01'), '2026-10-19T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-005-PRS-01'), '2026-10-19T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0045
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-006-PRS-01'), '2026-10-20T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-006-PRS-01'), '2026-10-20T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0046
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-007-PRS-01'), '2026-10-21T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-007-PRS-01'), '2026-10-21T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0047
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-008-PRS-01'), '2026-10-22T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-008-PRS-01'), '2026-10-22T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0048
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-001-PRS-01'), '2026-10-23T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-001-PRS-01'), '2026-10-23T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0049
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-002-PRS-01'), '2026-10-24T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-002-PRS-01'), '2026-10-24T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 -- Anomaly: ANOM-0050
-INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-003-PRS-01'), '2026-10-25T18:00:00+00:00', 0.0, 'missing', NOW()) ON CONFLICT DO NOTHING;
+INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='SNS-MCH-LINE-PLT-001-002-003-PRS-01'), '2026-10-25T18:00:00+00:00', 0.0, 'ok', NOW()) ON CONFLICT DO NOTHING;
 

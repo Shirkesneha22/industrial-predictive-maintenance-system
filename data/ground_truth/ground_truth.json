@@ -406,7 +406,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-002-PRS-01-20261016T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-002",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -416,7 +416,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-003-PRS-01-20261017T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-003",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -426,7 +426,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-004-PRS-01-20261018T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-004",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -436,7 +436,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-005-PRS-01-20261019T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-005",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -446,7 +446,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-006-PRS-01-20261020T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-006",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -456,7 +456,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-007-PRS-01-20261021T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-007",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -466,7 +466,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-008-PRS-01-20261022T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-008",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -476,7 +476,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-001-PRS-01-20261023T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-001",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -486,7 +486,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-002-PRS-01-20261024T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-002",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   },
   {
@@ -496,7 +496,7 @@
     "record_id": "TEL-SNS-MCH-LINE-PLT-001-002-003-PRS-01-20261025T180000Z",
     "machine_id": "MCH-LINE-PLT-001-002-003",
     "expected_decision": "CONVERT_ZERO_TO_NULL",
-    "description": "Missing/disconnected telemetry reading stored as numerical 0.0 instead of SQL NULL",
+    "description": "Physical plausibility violation: active hydraulic pressure sensor recorded flat numerical 0.0 bar with quality_status='ok' during production shift",
     "injected_at_step": "telemetry_generation"
   }
 ]

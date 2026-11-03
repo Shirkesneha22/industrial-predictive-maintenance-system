@@ -1,12 +1,12 @@
 [
   {
-    "plant_id": "PLT-003",
-    "plant_code": "PLT-003",
-    "name": "Pune Heavy Machinery & Automotive Works",
-    "city": "Pune",
-    "state": "Maharashtra",
+    "plant_id": "PLT-001",
+    "plant_code": "PLT-001",
+    "name": "Ahmedabad Industrial Hydraulics & Pump Facility",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.207162+05:30"
+    "created_at": "2026-11-04T01:52:27.848384+05:30"
   },
   {
     "plant_id": "PLT-002",
@@ -15,15 +15,15 @@
     "city": "Chennai",
     "state": "Tamil Nadu",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.207169+05:30"
+    "created_at": "2026-11-04T01:52:27.848388+05:30"
   },
   {
-    "plant_id": "PLT-001",
-    "plant_code": "PLT-001",
-    "name": "Ahmedabad Industrial Hydraulics & Pump Facility",
-    "city": "Ahmedabad",
-    "state": "Gujarat",
+    "plant_id": "PLT-003",
+    "plant_code": "PLT-003",
+    "name": "Pune Heavy Machinery & Automotive Works",
+    "city": "Pune",
+    "state": "Maharashtra",
     "is_active": true,
-    "created_at": "2026-11-04T00:34:41.207171+05:30"
+    "created_at": "2026-11-04T01:52:27.848389+05:30"
   }
 ]
