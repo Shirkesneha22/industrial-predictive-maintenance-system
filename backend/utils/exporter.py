@@ -18,6 +18,8 @@ from sqlalchemy import select, text
 from sqlalchemy.orm import Session
 
 from backend.database import SessionLocal
+from dataclasses import asdict
+from backend.generators.anomaly_injector import generate_anomalies
 from backend.models import (
     Plant,
     ProductionLine,
@@ -50,8 +52,10 @@ class DataExporter:
         self.json_dir = base_dir / "data" / "exports" / "json"
         self.sql_dir = base_dir / "data" / "exports" / "sql"
         self.gt_dir = base_dir / "data" / "ground_truth"
+        self.anom_csv_dir = self.csv_dir / "anomalies"
+        self.anom_json_dir = self.json_dir / "anomalies"
 
-        for d in [self.csv_dir, self.json_dir, self.sql_dir, self.gt_dir]:
+        for d in [self.csv_dir, self.json_dir, self.sql_dir, self.gt_dir, self.anom_csv_dir, self.anom_json_dir]:
             d.mkdir(parents=True, exist_ok=True)
 
     def export_all(self) -> Dict[str, Any]:
@@ -268,6 +272,16 @@ class DataExporter:
         # 13. SQL Seed script
         self._write_sql_seed(plants_db, lines_db, machines_db, sensors_db, shifts_db, parts_db, techs_db, bridge_rows, work_orders_db, failures_db)
 
+        # 14. Deterministic Edge-Case Anomalies & Ground Truth Catalog (Phase 3)
+        gt_anomalies, anomaly_rows = generate_anomalies(seed=20261022)
+        gt_dict_list = [asdict(a) for a in gt_anomalies]
+        self._write_ground_truth("ground_truth", gt_dict_list)
+
+        for entity_name, rows in anomaly_rows.items():
+            self._write_anomaly_csv_and_json(entity_name, rows)
+
+        self._write_anomaly_sql_seed(anomaly_rows)
+
         results = {
             "plants": len(plants),
             "production_lines": len(lines),
@@ -281,9 +295,43 @@ class DataExporter:
             "failure_events": len(failures),
             "telemetry_sample_rows": len(sample_telemetry),
             "ground_truth_records": len(gt_failures),
+            "injected_anomalies": len(gt_dict_list),
         }
         print(f"[SUCCESS] Export completed: {results}")
         return results
+
+    def _write_anomaly_csv_and_json(self, name: str, data: List[Dict[str, Any]]) -> None:
+        if not data:
+            return
+
+        # CSV in anomalies/
+        csv_path = self.anom_csv_dir / f"{name}.csv"
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=list(data[0].keys()))
+            writer.writeheader()
+            for row in data:
+                formatted_row = {
+                    k: (v.isoformat() if isinstance(v, (datetime, date)) else v)
+                    for k, v in row.items()
+                }
+                writer.writerow(formatted_row)
+
+        # JSON in anomalies/
+        json_path = self.anom_json_dir / f"{name}.json"
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, default=json_serial, indent=2)
+
+    def _write_anomaly_sql_seed(self, anomaly_rows: Dict[str, List[Dict[str, Any]]]) -> None:
+        sql_path = self.sql_dir / "seed_anomalies.sql"
+        with open(sql_path, "w", encoding="utf-8") as f:
+            f.write("-- Deliberate Edge-Case Anomalies for Data Quality Validation\n\n")
+            # Telemetry
+            f.write("-- Telemetry Anomalies (30 rows)\n")
+            for t in anomaly_rows.get("telemetry_events", []):
+                val_str = "NULL" if t["value"] is None else str(t["value"])
+                f.write(f"-- Anomaly: {t.get('anomaly_id')}\n")
+                f.write(f"INSERT INTO telemetry_events (sensor_id, recorded_at, value, quality_status, created_at) VALUES ((SELECT sensor_id FROM sensors WHERE sensor_code='{t['sensor_id']}'), '{t['recorded_at']}', {val_str}, '{t['quality_status']}', NOW()) ON CONFLICT DO NOTHING;\n")
+            f.write("\n")
 
     def _write_csv_and_json(self, name: str, data: List[Dict[str, Any]]) -> None:
         if not data:

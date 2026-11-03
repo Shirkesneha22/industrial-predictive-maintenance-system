@@ -1,5 +1,5 @@
 -- Industrial Predictive Maintenance System
--- Deterministic Master Data & Event Seeds (Exported 2026-11-03T19:44:14.350925+00:00)
+-- Deterministic Master Data & Event Seeds (Exported 2026-11-03T19:56:17.088497+00:00)
 
 -- Plants (3)
 INSERT INTO plants (plant_id, plant_code, name, city, state, is_active) VALUES (1, 'PLT-003', 'Pune Heavy Machinery & Automotive Works', 'Pune', 'Maharashtra', True) ON CONFLICT (plant_code) DO NOTHING;
