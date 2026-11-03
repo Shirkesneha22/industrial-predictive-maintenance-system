@@ -173,7 +173,7 @@ class TelemetryGenerator:
                     f"Expected {TARGET_SENSOR_COUNT} sensors in database, but found {len(sensors_list)}."
                 )
 
-            # Get raw connection for high-throughput psycopg2 COPY
+            # Get raw connection for high-throughput psycopg COPY
             # In SQLAlchemy 2.0, connection.connection.dbapi_connection gives the underlying DBAPI connection
             raw_connection = session.connection().connection.dbapi_connection
             raw_cursor = raw_connection.cursor()
@@ -223,7 +223,15 @@ class TelemetryGenerator:
 
                 # Execute fast COPY for this chunk buffer
                 buffer.seek(0)
-                raw_cursor.copy_expert(copy_sql, buffer)
+                if hasattr(raw_cursor, "copy"):
+                    with raw_cursor.copy(copy_sql) as copy:
+                        while True:
+                            chunk = buffer.read(65536)
+                            if not chunk:
+                                break
+                            copy.write(chunk)
+                else:
+                    raw_cursor.copy_expert(copy_sql, buffer)
                 buffer.close()
 
                 if progress_callback:

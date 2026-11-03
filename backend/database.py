@@ -21,7 +21,7 @@ try:
     )
     SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 except Exception:
-    # Graceful fallback when database driver (e.g., psycopg2) is not yet installed in host environment
+    # Graceful fallback when database driver (e.g., psycopg) is not yet installed in host environment
     engine = None
     SessionLocal = None
 
@@ -30,7 +30,7 @@ def get_db() -> Generator[Session, None, None]:
     """Dependency for providing a database session to API route handlers."""
     if SessionLocal is None:
         raise RuntimeError(
-            "Database engine is not initialized. Please ensure database driver (e.g., psycopg2-binary) is installed."
+            "Database engine is not initialized. Please ensure database driver (e.g., psycopg[binary]) is installed."
         )
     db = SessionLocal()
     try:
