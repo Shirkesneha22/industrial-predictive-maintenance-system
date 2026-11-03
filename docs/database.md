@@ -1,13 +1,23 @@
 # Database Design
 
-## Overview
+> **See [database_schema.md](database_schema.md) for the complete entity-relationship documentation.**
 
-The system uses **PostgreSQL** to persist machine registries, sensor configurations, time-series telemetry streams, anomaly detections, and maintenance records.
+The system uses **PostgreSQL 15+** with a normalized relational schema across **10 core entities** and one many-to-many bridge table.
 
-## Core Entities
+## Summary
 
-1. **`machines`**: Industrial assets (e.g., CNC milling machines, turbines, pumps, robotic arms).
-2. **`sensors`**: Attached sensors per machine (vibration, thermal, pressure, rpm).
-3. **`telemetry_records`**: Time-stamped sensor measurements (value, unit, quality flag).
-4. **`predictions`**: Generated ML predictions (Remaining Useful Life (RUL), failure probability, health score).
-5. **`maintenance_logs`**: Log of scheduled and reactive maintenance actions taken by engineers.
+| Entity | Table | Records |
+| :--- | :--- | :--- |
+| Plant | `plants` | 3 |
+| Production Line | `production_lines` | 12 |
+| Machine | `machines` | 100 |
+| Sensor | `sensors` | 500 |
+| Telemetry Event | `telemetry_events` | 2,160,000 (full) / 240,000 (starter) |
+| Operating Shift | `operating_shifts` | 9 |
+| Failure Event | `failure_events` | 150 |
+| Maintenance Work Order | `maintenance_work_orders` | 150 |
+| Part | `parts` | 50 |
+| Technician | `technicians` | 20 |
+| Machine-Part (bridge) | `machine_parts` | 449 associations |
+
+Full schema definitions, column types, constraints, indexes, and the ER diagram are documented in [`database_schema.md`](database_schema.md).

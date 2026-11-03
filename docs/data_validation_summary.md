@@ -32,4 +32,4 @@ All 5 assignment edge-case scenarios were tested using deliberate test records w
 | **2** | Impossible Unit / Value | `value: 9999.0 °C`, `unit: UNKNOWN_UNIT_FOO` | `IMPOSSIBLE_SENSOR_VALUE_OR_UNIT` | `PHYSICAL_DOMAIN_VIOLATION` | **DETECTED & FLAGGED** |
 | **3** | Failure Precedes Symptom | `failure_time` is 10 hours earlier than symptom onset | `TEMPORAL_CAUSALITY_VIOLATION` | `FAILURE_BEFORE_SYMPTOM` | **DETECTED & FLAGGED** |
 | **4** | Maintenance End Before Start | `completed_at` is 4 hours earlier than `created_at` | `NEGATIVE_DURATION_WORK_ORDER` | `TEMPORAL_ORDERING_VIOLATION` | **DETECTED & REJECTED** |
-| **5** | Missing Represented as Zero | Numerical `0.0` with `quality_status: 'missing'` | `MISSING_DATA_REPRESENTED_AS_ZERO` | `DATA_QUALITY_ANOMALY` | **DETECTED & ISOLATED** |
+| **5** | Missing Represented as Zero | Numerical `0.0` with `quality_status: 'ok'` on active hydraulic pressure sensor during production shift | `MISSING_DATA_REPRESENTED_AS_ZERO` | `DATA_QUALITY_ANOMALY` | **DETECTED & ISOLATED** |

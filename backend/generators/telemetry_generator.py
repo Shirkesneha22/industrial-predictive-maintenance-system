@@ -256,5 +256,10 @@ class TelemetryGenerator:
             session.rollback()
             raise
         finally:
+            if 'raw_cursor' in locals() and raw_cursor is not None:
+                try:
+                    raw_cursor.close()
+                except Exception:
+                    pass
             if session_created:
                 session.close()

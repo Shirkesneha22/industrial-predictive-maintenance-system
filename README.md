@@ -66,7 +66,7 @@ industrial-predictive-maintenance/
 │   ├── routes/                         # REST API route controllers
 │   ├── schemas/                        # Pydantic request/response schemas
 │   ├── services/                       # Feature extraction & risk engine
-│   ├── tests/                          # 84-item automated test suite
+│   ├── tests/                          # 89-item automated test suite
 │   ├── utils/                          # Exporters & reproducibility checker
 │   └── validators/                     # Relational & edge-case validation
 ├── frontend/                           # React.js single-page application
