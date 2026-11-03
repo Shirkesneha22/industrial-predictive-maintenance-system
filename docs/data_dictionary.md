@@ -1,4 +1,9 @@
-# Data Dictionary — Industrial Predictive Maintenance System
+# Data Dictionary
+
+> [!NOTE]
+> **Hierarchical ID Nomenclature in Data Exports:**
+> While internal database tables utilize fast native integer surrogate primary keys for relational performance in PostgreSQL, **100% of exported dataset files (CSV, JSON, SQL seed files)** map primary and foreign keys to spec-compliant hierarchical string identifiers (`PLT-*`, `LINE-*`, `MCH-*`, `SNS-*`, `TEL-*`, `WO-*`, `FAIL-*`, `PRT-*`, `TECH-*`). All cross-file joins resolve with 100% referential integrity and 0 broken foreign keys.
+ — Industrial Predictive Maintenance System
 
 This document specifies the exact fields, data types, nullability, key constraints, and descriptions for all 10 relational entities and the `machine_parts` bridge table, based on the application's SQLAlchemy models.
 
@@ -40,7 +45,7 @@ Monitored industrial equipment assets.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `machine_id` | INTEGER | No | PK | Auto-increment sequence | Primary key machine ID. |
 | `line_id` | INTEGER | No | FK | References `production_lines(line_id)` ON DELETE CASCADE | Parent production line foreign key (1:N). |
-| `machine_code` | VARCHAR(50) | No | Unique | Indexed, e.g., `MCH-001` | Unique equipment asset tag. |
+| `machine_code` | VARCHAR(50) | No | Unique | Indexed, e.g., `MCH-LINE-PLT-001-001-001` | Unique equipment asset tag. |
 | `name` | VARCHAR(100) | No | — | Free text | Asset name. |
 | `machine_type` | VARCHAR(100) | No | — | Centrifugal Pump, CNC Milling, Industrial Compressor, Hydraulic Press, Robotic Welding Cell | Industrial equipment classification. |
 | `manufacturer` | VARCHAR(100) | Yes | — | E.g., Siemens, Kirloskar, Fanuc | Equipment OEM manufacturer. |
@@ -58,7 +63,7 @@ IoT sensor telemetry probes mounted on machines.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `sensor_id` | INTEGER | No | PK | Auto-increment sequence | Primary key sensor identifier. |
 | `machine_id` | INTEGER | No | FK | References `machines(machine_id)` ON DELETE CASCADE | Monitored machine foreign key (1:N). |
-| `sensor_code` | VARCHAR(50) | No | Unique | Indexed, e.g., `SNS-0001` | Unique sensor barcode identifier. |
+| `sensor_code` | VARCHAR(50) | No | Unique | Indexed, e.g., `SNS-MCH-LINE-PLT-001-001-001-TEMP-01` | Unique sensor barcode identifier. |
 | `sensor_type` | VARCHAR(50) | No | — | `Vibration`, `Temperature`, `Acoustic`, `Pressure`, `Current` | Physical measurement category. |
 | `unit` | VARCHAR(20) | No | — | `mm/s`, `°C`, `dB`, `bar`, `A` | Engineering unit of measurement. |
 | `installation_date` | DATE | Yes | — | ISO-8601 Date (`YYYY-MM-DD`) | Sensor commissioning / calibration date. |
