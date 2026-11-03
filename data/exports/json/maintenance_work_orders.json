@@ -1,8 +1,8 @@
 [
   {
-    "work_order_id": 4501,
-    "machine_id": 202,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000001",
+    "machine_id": "MCH-LINE-PLT-001-001-002",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -11,9 +11,9 @@
     "completed_at": "2026-10-03T18:59:00+05:30"
   },
   {
-    "work_order_id": 4502,
-    "machine_id": 214,
-    "technician_id": 41,
+    "work_order_id": "WO-2026-000002",
+    "machine_id": "MCH-LINE-PLT-001-002-005",
+    "technician_id": "TECH-0001",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -22,9 +22,9 @@
     "completed_at": "2026-10-24T06:23:00+05:30"
   },
   {
-    "work_order_id": 4503,
-    "machine_id": 218,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000003",
+    "machine_id": "MCH-LINE-PLT-001-002-009",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -33,9 +33,9 @@
     "completed_at": "2026-10-17T23:39:00+05:30"
   },
   {
-    "work_order_id": 4504,
-    "machine_id": 224,
-    "technician_id": 41,
+    "work_order_id": "WO-2026-000004",
+    "machine_id": "MCH-LINE-PLT-001-003-006",
+    "technician_id": "TECH-0001",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -44,9 +44,9 @@
     "completed_at": "2026-10-24T22:38:00+05:30"
   },
   {
-    "work_order_id": 4505,
-    "machine_id": 231,
-    "technician_id": 49,
+    "work_order_id": "WO-2026-000005",
+    "machine_id": "MCH-LINE-PLT-001-004-004",
+    "technician_id": "TECH-0009",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -55,9 +55,9 @@
     "completed_at": "2026-09-16T23:13:00+05:30"
   },
   {
-    "work_order_id": 4506,
-    "machine_id": 236,
-    "technician_id": 41,
+    "work_order_id": "WO-2026-000006",
+    "machine_id": "MCH-LINE-PLT-001-004-009",
+    "technician_id": "TECH-0001",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -66,9 +66,9 @@
     "completed_at": "2026-09-18T22:15:00+05:30"
   },
   {
-    "work_order_id": 4507,
-    "machine_id": 241,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000007",
+    "machine_id": "MCH-LINE-PLT-002-001-005",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -77,9 +77,9 @@
     "completed_at": "2026-10-20T01:20:00+05:30"
   },
   {
-    "work_order_id": 4508,
-    "machine_id": 246,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000008",
+    "machine_id": "MCH-LINE-PLT-002-002-002",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -88,9 +88,9 @@
     "completed_at": "2026-10-31T10:23:00+05:30"
   },
   {
-    "work_order_id": 4509,
-    "machine_id": 249,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000009",
+    "machine_id": "MCH-LINE-PLT-002-002-005",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -99,9 +99,9 @@
     "completed_at": "2026-09-21T02:09:00+05:30"
   },
   {
-    "work_order_id": 4510,
-    "machine_id": 250,
-    "technician_id": 41,
+    "work_order_id": "WO-2026-000010",
+    "machine_id": "MCH-LINE-PLT-002-002-006",
+    "technician_id": "TECH-0001",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -110,9 +110,9 @@
     "completed_at": "2026-09-15T23:13:00+05:30"
   },
   {
-    "work_order_id": 4511,
-    "machine_id": 257,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000011",
+    "machine_id": "MCH-LINE-PLT-002-003-005",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -121,9 +121,9 @@
     "completed_at": "2026-09-25T21:47:00+05:30"
   },
   {
-    "work_order_id": 4512,
-    "machine_id": 267,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000012",
+    "machine_id": "MCH-LINE-PLT-002-004-007",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -132,9 +132,9 @@
     "completed_at": "2026-10-01T10:53:00+05:30"
   },
   {
-    "work_order_id": 4513,
-    "machine_id": 270,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000013",
+    "machine_id": "MCH-LINE-PLT-003-001-002",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -143,9 +143,9 @@
     "completed_at": "2026-10-19T12:28:00+05:30"
   },
   {
-    "work_order_id": 4514,
-    "machine_id": 271,
-    "technician_id": 49,
+    "work_order_id": "WO-2026-000014",
+    "machine_id": "MCH-LINE-PLT-003-001-003",
+    "technician_id": "TECH-0009",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -154,9 +154,9 @@
     "completed_at": "2026-09-24T05:47:00+05:30"
   },
   {
-    "work_order_id": 4515,
-    "machine_id": 274,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000015",
+    "machine_id": "MCH-LINE-PLT-003-001-006",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -165,9 +165,9 @@
     "completed_at": "2026-09-28T18:22:00+05:30"
   },
   {
-    "work_order_id": 4516,
-    "machine_id": 275,
-    "technician_id": 41,
+    "work_order_id": "WO-2026-000016",
+    "machine_id": "MCH-LINE-PLT-003-001-007",
+    "technician_id": "TECH-0001",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -176,9 +176,9 @@
     "completed_at": "2026-09-21T16:13:00+05:30"
   },
   {
-    "work_order_id": 4517,
-    "machine_id": 278,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000017",
+    "machine_id": "MCH-LINE-PLT-003-002-002",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -187,9 +187,9 @@
     "completed_at": "2026-09-30T08:56:00+05:30"
   },
   {
-    "work_order_id": 4518,
-    "machine_id": 279,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000018",
+    "machine_id": "MCH-LINE-PLT-003-002-003",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -198,9 +198,9 @@
     "completed_at": "2026-10-13T03:16:00+05:30"
   },
   {
-    "work_order_id": 4519,
-    "machine_id": 282,
-    "technician_id": 49,
+    "work_order_id": "WO-2026-000019",
+    "machine_id": "MCH-LINE-PLT-003-002-006",
+    "technician_id": "TECH-0009",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -209,9 +209,9 @@
     "completed_at": "2026-10-18T22:34:00+05:30"
   },
   {
-    "work_order_id": 4520,
-    "machine_id": 284,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000020",
+    "machine_id": "MCH-LINE-PLT-003-002-008",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -220,9 +220,9 @@
     "completed_at": "2026-10-12T08:42:00+05:30"
   },
   {
-    "work_order_id": 4521,
-    "machine_id": 288,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000021",
+    "machine_id": "MCH-LINE-PLT-003-003-004",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -231,9 +231,9 @@
     "completed_at": "2026-10-13T05:55:00+05:30"
   },
   {
-    "work_order_id": 4522,
-    "machine_id": 289,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000022",
+    "machine_id": "MCH-LINE-PLT-003-003-005",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -242,9 +242,9 @@
     "completed_at": "2026-10-08T22:52:00+05:30"
   },
   {
-    "work_order_id": 4523,
-    "machine_id": 294,
-    "technician_id": 41,
+    "work_order_id": "WO-2026-000023",
+    "machine_id": "MCH-LINE-PLT-003-004-002",
+    "technician_id": "TECH-0001",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -253,9 +253,9 @@
     "completed_at": "2026-09-27T03:15:00+05:30"
   },
   {
-    "work_order_id": 4524,
-    "machine_id": 201,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000024",
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -264,9 +264,9 @@
     "completed_at": "2026-08-08T23:56:00+05:30"
   },
   {
-    "work_order_id": 4525,
-    "machine_id": 201,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000025",
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -275,9 +275,9 @@
     "completed_at": "2026-08-29T17:20:00+05:30"
   },
   {
-    "work_order_id": 4526,
-    "machine_id": 201,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000026",
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -286,9 +286,9 @@
     "completed_at": "2026-09-30T18:01:00+05:30"
   },
   {
-    "work_order_id": 4527,
-    "machine_id": 201,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000027",
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -297,9 +297,9 @@
     "completed_at": "2026-10-08T05:32:00+05:30"
   },
   {
-    "work_order_id": 4528,
-    "machine_id": 201,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000028",
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -308,9 +308,9 @@
     "completed_at": "2026-10-16T16:48:00+05:30"
   },
   {
-    "work_order_id": 4529,
-    "machine_id": 203,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000029",
+    "machine_id": "MCH-LINE-PLT-001-001-003",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -319,9 +319,9 @@
     "completed_at": "2026-09-18T12:53:00+05:30"
   },
   {
-    "work_order_id": 4530,
-    "machine_id": 203,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000030",
+    "machine_id": "MCH-LINE-PLT-001-001-003",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -330,9 +330,9 @@
     "completed_at": "2026-10-09T05:39:00+05:30"
   },
   {
-    "work_order_id": 4531,
-    "machine_id": 204,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000031",
+    "machine_id": "MCH-LINE-PLT-001-001-004",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -341,9 +341,9 @@
     "completed_at": "2026-09-13T08:29:00+05:30"
   },
   {
-    "work_order_id": 4532,
-    "machine_id": 205,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000032",
+    "machine_id": "MCH-LINE-PLT-001-001-005",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -352,9 +352,9 @@
     "completed_at": "2026-10-21T15:25:00+05:30"
   },
   {
-    "work_order_id": 4533,
-    "machine_id": 206,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000033",
+    "machine_id": "MCH-LINE-PLT-001-001-006",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -363,9 +363,9 @@
     "completed_at": "2026-08-06T17:28:00+05:30"
   },
   {
-    "work_order_id": 4534,
-    "machine_id": 206,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000034",
+    "machine_id": "MCH-LINE-PLT-001-001-006",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -374,9 +374,9 @@
     "completed_at": "2026-09-03T05:39:00+05:30"
   },
   {
-    "work_order_id": 4535,
-    "machine_id": 206,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000035",
+    "machine_id": "MCH-LINE-PLT-001-001-006",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -385,9 +385,9 @@
     "completed_at": "2026-10-03T01:15:00+05:30"
   },
   {
-    "work_order_id": 4536,
-    "machine_id": 207,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000036",
+    "machine_id": "MCH-LINE-PLT-001-001-007",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -396,9 +396,9 @@
     "completed_at": "2026-08-29T11:16:00+05:30"
   },
   {
-    "work_order_id": 4537,
-    "machine_id": 207,
-    "technician_id": 57,
+    "work_order_id": "WO-2026-000037",
+    "machine_id": "MCH-LINE-PLT-001-001-007",
+    "technician_id": "TECH-0017",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -407,9 +407,9 @@
     "completed_at": "2026-09-04T01:38:00+05:30"
   },
   {
-    "work_order_id": 4538,
-    "machine_id": 207,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000038",
+    "machine_id": "MCH-LINE-PLT-001-001-007",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -418,9 +418,9 @@
     "completed_at": "2026-09-22T07:33:00+05:30"
   },
   {
-    "work_order_id": 4539,
-    "machine_id": 207,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000039",
+    "machine_id": "MCH-LINE-PLT-001-001-007",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -429,9 +429,9 @@
     "completed_at": "2026-10-05T03:01:00+05:30"
   },
   {
-    "work_order_id": 4540,
-    "machine_id": 208,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000040",
+    "machine_id": "MCH-LINE-PLT-001-001-008",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -440,9 +440,9 @@
     "completed_at": "2026-08-09T17:25:00+05:30"
   },
   {
-    "work_order_id": 4541,
-    "machine_id": 208,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000041",
+    "machine_id": "MCH-LINE-PLT-001-001-008",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -451,9 +451,9 @@
     "completed_at": "2026-09-04T15:55:00+05:30"
   },
   {
-    "work_order_id": 4542,
-    "machine_id": 208,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000042",
+    "machine_id": "MCH-LINE-PLT-001-001-008",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -462,9 +462,9 @@
     "completed_at": "2026-10-06T07:09:00+05:30"
   },
   {
-    "work_order_id": 4543,
-    "machine_id": 209,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000043",
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -473,9 +473,9 @@
     "completed_at": "2026-08-16T19:04:00+05:30"
   },
   {
-    "work_order_id": 4544,
-    "machine_id": 209,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000044",
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -484,9 +484,9 @@
     "completed_at": "2026-10-27T06:23:00+05:30"
   },
   {
-    "work_order_id": 4545,
-    "machine_id": 211,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000045",
+    "machine_id": "MCH-LINE-PLT-001-002-002",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -495,9 +495,9 @@
     "completed_at": "2026-08-14T05:45:00+05:30"
   },
   {
-    "work_order_id": 4546,
-    "machine_id": 211,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000046",
+    "machine_id": "MCH-LINE-PLT-001-002-002",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -506,9 +506,9 @@
     "completed_at": "2026-09-22T17:12:00+05:30"
   },
   {
-    "work_order_id": 4547,
-    "machine_id": 211,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000047",
+    "machine_id": "MCH-LINE-PLT-001-002-002",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -517,9 +517,9 @@
     "completed_at": "2026-09-29T01:50:00+05:30"
   },
   {
-    "work_order_id": 4548,
-    "machine_id": 211,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000048",
+    "machine_id": "MCH-LINE-PLT-001-002-002",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -528,9 +528,9 @@
     "completed_at": "2026-10-10T08:40:00+05:30"
   },
   {
-    "work_order_id": 4549,
-    "machine_id": 212,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000049",
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -539,9 +539,9 @@
     "completed_at": "2026-08-08T19:55:00+05:30"
   },
   {
-    "work_order_id": 4550,
-    "machine_id": 212,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000050",
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -550,9 +550,9 @@
     "completed_at": "2026-08-29T06:21:00+05:30"
   },
   {
-    "work_order_id": 4551,
-    "machine_id": 212,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000051",
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -561,9 +561,9 @@
     "completed_at": "2026-09-03T16:21:00+05:30"
   },
   {
-    "work_order_id": 4552,
-    "machine_id": 212,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000052",
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -572,9 +572,9 @@
     "completed_at": "2026-09-28T11:07:00+05:30"
   },
   {
-    "work_order_id": 4553,
-    "machine_id": 212,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000053",
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -583,9 +583,9 @@
     "completed_at": "2026-11-02T00:08:00+05:30"
   },
   {
-    "work_order_id": 4554,
-    "machine_id": 213,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000054",
+    "machine_id": "MCH-LINE-PLT-001-002-004",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -594,9 +594,9 @@
     "completed_at": "2026-08-24T11:13:00+05:30"
   },
   {
-    "work_order_id": 4555,
-    "machine_id": 215,
-    "technician_id": 57,
+    "work_order_id": "WO-2026-000055",
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "technician_id": "TECH-0017",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -605,9 +605,9 @@
     "completed_at": "2026-08-08T11:38:00+05:30"
   },
   {
-    "work_order_id": 4556,
-    "machine_id": 215,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000056",
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -616,9 +616,9 @@
     "completed_at": "2026-08-15T00:16:00+05:30"
   },
   {
-    "work_order_id": 4557,
-    "machine_id": 215,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000057",
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -627,9 +627,9 @@
     "completed_at": "2026-08-26T08:03:00+05:30"
   },
   {
-    "work_order_id": 4558,
-    "machine_id": 215,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000058",
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -638,9 +638,9 @@
     "completed_at": "2026-09-14T13:43:00+05:30"
   },
   {
-    "work_order_id": 4559,
-    "machine_id": 215,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000059",
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -649,9 +649,9 @@
     "completed_at": "2026-10-26T21:51:00+05:30"
   },
   {
-    "work_order_id": 4560,
-    "machine_id": 217,
-    "technician_id": 57,
+    "work_order_id": "WO-2026-000060",
+    "machine_id": "MCH-LINE-PLT-001-002-008",
+    "technician_id": "TECH-0017",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -660,9 +660,9 @@
     "completed_at": "2026-11-01T19:51:00+05:30"
   },
   {
-    "work_order_id": 4561,
-    "machine_id": 219,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000061",
+    "machine_id": "MCH-LINE-PLT-001-003-001",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -671,9 +671,9 @@
     "completed_at": "2026-09-15T13:34:00+05:30"
   },
   {
-    "work_order_id": 4562,
-    "machine_id": 220,
-    "technician_id": 57,
+    "work_order_id": "WO-2026-000062",
+    "machine_id": "MCH-LINE-PLT-001-003-002",
+    "technician_id": "TECH-0017",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -682,9 +682,9 @@
     "completed_at": "2026-08-30T01:43:00+05:30"
   },
   {
-    "work_order_id": 4563,
-    "machine_id": 220,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000063",
+    "machine_id": "MCH-LINE-PLT-001-003-002",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -693,9 +693,9 @@
     "completed_at": "2026-10-15T14:23:00+05:30"
   },
   {
-    "work_order_id": 4564,
-    "machine_id": 220,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000064",
+    "machine_id": "MCH-LINE-PLT-001-003-002",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -704,9 +704,9 @@
     "completed_at": "2026-10-24T16:10:00+05:30"
   },
   {
-    "work_order_id": 4565,
-    "machine_id": 221,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000065",
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -715,9 +715,9 @@
     "completed_at": "2026-08-07T01:36:00+05:30"
   },
   {
-    "work_order_id": 4566,
-    "machine_id": 221,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000066",
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -726,9 +726,9 @@
     "completed_at": "2026-10-28T12:51:00+05:30"
   },
   {
-    "work_order_id": 4567,
-    "machine_id": 222,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000067",
+    "machine_id": "MCH-LINE-PLT-001-003-004",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -737,9 +737,9 @@
     "completed_at": "2026-10-27T21:38:00+05:30"
   },
   {
-    "work_order_id": 4568,
-    "machine_id": 223,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000068",
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -748,9 +748,9 @@
     "completed_at": "2026-08-19T04:59:00+05:30"
   },
   {
-    "work_order_id": 4569,
-    "machine_id": 223,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000069",
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -759,9 +759,9 @@
     "completed_at": "2026-08-28T18:56:00+05:30"
   },
   {
-    "work_order_id": 4570,
-    "machine_id": 223,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000070",
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -770,9 +770,9 @@
     "completed_at": "2026-09-10T01:47:00+05:30"
   },
   {
-    "work_order_id": 4571,
-    "machine_id": 223,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000071",
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -781,9 +781,9 @@
     "completed_at": "2026-10-29T03:05:00+05:30"
   },
   {
-    "work_order_id": 4572,
-    "machine_id": 225,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000072",
+    "machine_id": "MCH-LINE-PLT-001-003-007",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -792,9 +792,9 @@
     "completed_at": "2026-09-18T12:44:00+05:30"
   },
   {
-    "work_order_id": 4573,
-    "machine_id": 226,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000073",
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -803,9 +803,9 @@
     "completed_at": "2026-08-07T20:22:00+05:30"
   },
   {
-    "work_order_id": 4574,
-    "machine_id": 226,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000074",
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -814,9 +814,9 @@
     "completed_at": "2026-08-12T04:39:00+05:30"
   },
   {
-    "work_order_id": 4575,
-    "machine_id": 226,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000075",
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -825,9 +825,9 @@
     "completed_at": "2026-10-24T09:34:00+05:30"
   },
   {
-    "work_order_id": 4576,
-    "machine_id": 227,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000076",
+    "machine_id": "MCH-LINE-PLT-001-003-009",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -836,9 +836,9 @@
     "completed_at": "2026-09-06T15:26:00+05:30"
   },
   {
-    "work_order_id": 4577,
-    "machine_id": 228,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000077",
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -847,9 +847,9 @@
     "completed_at": "2026-08-15T15:08:00+05:30"
   },
   {
-    "work_order_id": 4578,
-    "machine_id": 228,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000078",
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -858,9 +858,9 @@
     "completed_at": "2026-09-05T12:03:00+05:30"
   },
   {
-    "work_order_id": 4579,
-    "machine_id": 228,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000079",
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -869,9 +869,9 @@
     "completed_at": "2026-09-24T09:17:00+05:30"
   },
   {
-    "work_order_id": 4580,
-    "machine_id": 229,
-    "technician_id": 57,
+    "work_order_id": "WO-2026-000080",
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "technician_id": "TECH-0017",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -880,9 +880,9 @@
     "completed_at": "2026-09-20T04:52:00+05:30"
   },
   {
-    "work_order_id": 4581,
-    "machine_id": 229,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000081",
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -891,9 +891,9 @@
     "completed_at": "2026-10-16T19:52:00+05:30"
   },
   {
-    "work_order_id": 4582,
-    "machine_id": 230,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000082",
+    "machine_id": "MCH-LINE-PLT-001-004-003",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -902,9 +902,9 @@
     "completed_at": "2026-08-16T16:18:00+05:30"
   },
   {
-    "work_order_id": 4583,
-    "machine_id": 230,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000083",
+    "machine_id": "MCH-LINE-PLT-001-004-003",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -913,9 +913,9 @@
     "completed_at": "2026-10-13T20:18:00+05:30"
   },
   {
-    "work_order_id": 4584,
-    "machine_id": 232,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000084",
+    "machine_id": "MCH-LINE-PLT-001-004-005",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -924,9 +924,9 @@
     "completed_at": "2026-08-17T09:48:00+05:30"
   },
   {
-    "work_order_id": 4585,
-    "machine_id": 232,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000085",
+    "machine_id": "MCH-LINE-PLT-001-004-005",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -935,9 +935,9 @@
     "completed_at": "2026-08-17T18:27:00+05:30"
   },
   {
-    "work_order_id": 4586,
-    "machine_id": 233,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000086",
+    "machine_id": "MCH-LINE-PLT-001-004-006",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -946,9 +946,9 @@
     "completed_at": "2026-09-06T16:26:00+05:30"
   },
   {
-    "work_order_id": 4587,
-    "machine_id": 234,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000087",
+    "machine_id": "MCH-LINE-PLT-001-004-007",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -957,9 +957,9 @@
     "completed_at": "2026-10-03T04:22:00+05:30"
   },
   {
-    "work_order_id": 4588,
-    "machine_id": 235,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000088",
+    "machine_id": "MCH-LINE-PLT-001-004-008",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -968,9 +968,9 @@
     "completed_at": "2026-08-26T02:58:00+05:30"
   },
   {
-    "work_order_id": 4589,
-    "machine_id": 235,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000089",
+    "machine_id": "MCH-LINE-PLT-001-004-008",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -979,9 +979,9 @@
     "completed_at": "2026-08-27T21:17:00+05:30"
   },
   {
-    "work_order_id": 4590,
-    "machine_id": 235,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000090",
+    "machine_id": "MCH-LINE-PLT-001-004-008",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -990,9 +990,9 @@
     "completed_at": "2026-09-14T09:50:00+05:30"
   },
   {
-    "work_order_id": 4591,
-    "machine_id": 235,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000091",
+    "machine_id": "MCH-LINE-PLT-001-004-008",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1001,9 +1001,9 @@
     "completed_at": "2026-10-19T08:30:00+05:30"
   },
   {
-    "work_order_id": 4592,
-    "machine_id": 237,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000092",
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1012,9 +1012,9 @@
     "completed_at": "2026-09-03T04:08:00+05:30"
   },
   {
-    "work_order_id": 4593,
-    "machine_id": 237,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000093",
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1023,9 +1023,9 @@
     "completed_at": "2026-09-16T10:32:00+05:30"
   },
   {
-    "work_order_id": 4594,
-    "machine_id": 237,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000094",
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1034,9 +1034,9 @@
     "completed_at": "2026-10-18T14:19:00+05:30"
   },
   {
-    "work_order_id": 4595,
-    "machine_id": 238,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000095",
+    "machine_id": "MCH-LINE-PLT-002-001-002",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1045,9 +1045,9 @@
     "completed_at": "2026-08-10T19:59:00+05:30"
   },
   {
-    "work_order_id": 4596,
-    "machine_id": 239,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000096",
+    "machine_id": "MCH-LINE-PLT-002-001-003",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1056,9 +1056,9 @@
     "completed_at": "2026-11-02T04:58:00+05:30"
   },
   {
-    "work_order_id": 4597,
-    "machine_id": 240,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000097",
+    "machine_id": "MCH-LINE-PLT-002-001-004",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1067,9 +1067,9 @@
     "completed_at": "2026-10-20T11:04:00+05:30"
   },
   {
-    "work_order_id": 4598,
-    "machine_id": 242,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000098",
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1078,9 +1078,9 @@
     "completed_at": "2026-08-15T11:53:00+05:30"
   },
   {
-    "work_order_id": 4599,
-    "machine_id": 242,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000099",
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1089,9 +1089,9 @@
     "completed_at": "2026-08-21T00:27:00+05:30"
   },
   {
-    "work_order_id": 4600,
-    "machine_id": 242,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000100",
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1100,9 +1100,9 @@
     "completed_at": "2026-08-30T15:05:00+05:30"
   },
   {
-    "work_order_id": 4601,
-    "machine_id": 242,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000101",
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1111,9 +1111,9 @@
     "completed_at": "2026-09-30T04:09:00+05:30"
   },
   {
-    "work_order_id": 4602,
-    "machine_id": 243,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000102",
+    "machine_id": "MCH-LINE-PLT-002-001-007",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1122,9 +1122,9 @@
     "completed_at": "2026-08-28T03:23:00+05:30"
   },
   {
-    "work_order_id": 4603,
-    "machine_id": 244,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000103",
+    "machine_id": "MCH-LINE-PLT-002-001-008",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1133,9 +1133,9 @@
     "completed_at": "2026-09-20T20:39:00+05:30"
   },
   {
-    "work_order_id": 4604,
-    "machine_id": 244,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000104",
+    "machine_id": "MCH-LINE-PLT-002-001-008",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1144,9 +1144,9 @@
     "completed_at": "2026-10-15T15:29:00+05:30"
   },
   {
-    "work_order_id": 4605,
-    "machine_id": 245,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000105",
+    "machine_id": "MCH-LINE-PLT-002-002-001",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1155,9 +1155,9 @@
     "completed_at": "2026-09-26T06:27:00+05:30"
   },
   {
-    "work_order_id": 4606,
-    "machine_id": 247,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000106",
+    "machine_id": "MCH-LINE-PLT-002-002-003",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1166,9 +1166,9 @@
     "completed_at": "2026-10-19T05:37:00+05:30"
   },
   {
-    "work_order_id": 4607,
-    "machine_id": 248,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000107",
+    "machine_id": "MCH-LINE-PLT-002-002-004",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1177,9 +1177,9 @@
     "completed_at": "2026-08-10T06:02:00+05:30"
   },
   {
-    "work_order_id": 4608,
-    "machine_id": 253,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000108",
+    "machine_id": "MCH-LINE-PLT-002-003-001",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1188,9 +1188,9 @@
     "completed_at": "2026-09-18T21:23:00+05:30"
   },
   {
-    "work_order_id": 4609,
-    "machine_id": 254,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000109",
+    "machine_id": "MCH-LINE-PLT-002-003-002",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1199,9 +1199,9 @@
     "completed_at": "2026-08-23T16:24:00+05:30"
   },
   {
-    "work_order_id": 4610,
-    "machine_id": 258,
-    "technician_id": 57,
+    "work_order_id": "WO-2026-000110",
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "technician_id": "TECH-0017",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1210,9 +1210,9 @@
     "completed_at": "2026-09-06T01:45:00+05:30"
   },
   {
-    "work_order_id": 4611,
-    "machine_id": 258,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000111",
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1221,9 +1221,9 @@
     "completed_at": "2026-09-18T03:26:00+05:30"
   },
   {
-    "work_order_id": 4612,
-    "machine_id": 258,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000112",
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1232,9 +1232,9 @@
     "completed_at": "2026-10-04T15:33:00+05:30"
   },
   {
-    "work_order_id": 4613,
-    "machine_id": 258,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000113",
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1243,9 +1243,9 @@
     "completed_at": "2026-10-13T04:22:00+05:30"
   },
   {
-    "work_order_id": 4614,
-    "machine_id": 260,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000114",
+    "machine_id": "MCH-LINE-PLT-002-003-008",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1254,9 +1254,9 @@
     "completed_at": "2026-08-06T12:39:00+05:30"
   },
   {
-    "work_order_id": 4615,
-    "machine_id": 261,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000115",
+    "machine_id": "MCH-LINE-PLT-002-004-001",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1265,9 +1265,9 @@
     "completed_at": "2026-10-07T23:56:00+05:30"
   },
   {
-    "work_order_id": 4616,
-    "machine_id": 261,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000116",
+    "machine_id": "MCH-LINE-PLT-002-004-001",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1276,9 +1276,9 @@
     "completed_at": "2026-11-01T05:00:00+05:30"
   },
   {
-    "work_order_id": 4617,
-    "machine_id": 263,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000117",
+    "machine_id": "MCH-LINE-PLT-002-004-003",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1287,9 +1287,9 @@
     "completed_at": "2026-08-31T11:59:00+05:30"
   },
   {
-    "work_order_id": 4618,
-    "machine_id": 263,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000118",
+    "machine_id": "MCH-LINE-PLT-002-004-003",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1298,9 +1298,9 @@
     "completed_at": "2026-09-10T15:26:00+05:30"
   },
   {
-    "work_order_id": 4619,
-    "machine_id": 263,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000119",
+    "machine_id": "MCH-LINE-PLT-002-004-003",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1309,9 +1309,9 @@
     "completed_at": "2026-09-25T01:00:00+05:30"
   },
   {
-    "work_order_id": 4620,
-    "machine_id": 263,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000120",
+    "machine_id": "MCH-LINE-PLT-002-004-003",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1320,9 +1320,9 @@
     "completed_at": "2026-09-30T09:40:00+05:30"
   },
   {
-    "work_order_id": 4621,
-    "machine_id": 264,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000121",
+    "machine_id": "MCH-LINE-PLT-002-004-004",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1331,9 +1331,9 @@
     "completed_at": "2026-10-22T23:22:00+05:30"
   },
   {
-    "work_order_id": 4622,
-    "machine_id": 265,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000122",
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1342,9 +1342,9 @@
     "completed_at": "2026-09-24T12:17:00+05:30"
   },
   {
-    "work_order_id": 4623,
-    "machine_id": 265,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000123",
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1353,9 +1353,9 @@
     "completed_at": "2026-10-31T17:43:00+05:30"
   },
   {
-    "work_order_id": 4624,
-    "machine_id": 266,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000124",
+    "machine_id": "MCH-LINE-PLT-002-004-006",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1364,9 +1364,9 @@
     "completed_at": "2026-08-04T13:14:00+05:30"
   },
   {
-    "work_order_id": 4625,
-    "machine_id": 268,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000125",
+    "machine_id": "MCH-LINE-PLT-002-004-008",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1375,9 +1375,9 @@
     "completed_at": "2026-08-11T14:34:00+05:30"
   },
   {
-    "work_order_id": 4626,
-    "machine_id": 269,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000126",
+    "machine_id": "MCH-LINE-PLT-003-001-001",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1386,9 +1386,9 @@
     "completed_at": "2026-08-21T07:47:00+05:30"
   },
   {
-    "work_order_id": 4627,
-    "machine_id": 269,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000127",
+    "machine_id": "MCH-LINE-PLT-003-001-001",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1397,9 +1397,9 @@
     "completed_at": "2026-10-02T00:19:00+05:30"
   },
   {
-    "work_order_id": 4628,
-    "machine_id": 269,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000128",
+    "machine_id": "MCH-LINE-PLT-003-001-001",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1408,9 +1408,9 @@
     "completed_at": "2026-10-16T20:51:00+05:30"
   },
   {
-    "work_order_id": 4629,
-    "machine_id": 272,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000129",
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1419,9 +1419,9 @@
     "completed_at": "2026-08-18T20:48:00+05:30"
   },
   {
-    "work_order_id": 4630,
-    "machine_id": 272,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000130",
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1430,9 +1430,9 @@
     "completed_at": "2026-09-10T09:34:00+05:30"
   },
   {
-    "work_order_id": 4631,
-    "machine_id": 272,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000131",
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1441,9 +1441,9 @@
     "completed_at": "2026-10-22T18:52:00+05:30"
   },
   {
-    "work_order_id": 4632,
-    "machine_id": 273,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000132",
+    "machine_id": "MCH-LINE-PLT-003-001-005",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1452,9 +1452,9 @@
     "completed_at": "2026-10-28T08:14:00+05:30"
   },
   {
-    "work_order_id": 4633,
-    "machine_id": 276,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000133",
+    "machine_id": "MCH-LINE-PLT-003-001-008",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1463,9 +1463,9 @@
     "completed_at": "2026-08-23T02:19:00+05:30"
   },
   {
-    "work_order_id": 4634,
-    "machine_id": 277,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000134",
+    "machine_id": "MCH-LINE-PLT-003-002-001",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1474,9 +1474,9 @@
     "completed_at": "2026-09-15T16:12:00+05:30"
   },
   {
-    "work_order_id": 4635,
-    "machine_id": 280,
-    "technician_id": 55,
+    "work_order_id": "WO-2026-000135",
+    "machine_id": "MCH-LINE-PLT-003-002-004",
+    "technician_id": "TECH-0015",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1485,9 +1485,9 @@
     "completed_at": "2026-08-29T18:46:00+05:30"
   },
   {
-    "work_order_id": 4636,
-    "machine_id": 281,
-    "technician_id": 54,
+    "work_order_id": "WO-2026-000136",
+    "machine_id": "MCH-LINE-PLT-003-002-005",
+    "technician_id": "TECH-0014",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1496,9 +1496,9 @@
     "completed_at": "2026-09-11T02:24:00+05:30"
   },
   {
-    "work_order_id": 4637,
-    "machine_id": 281,
-    "technician_id": 43,
+    "work_order_id": "WO-2026-000137",
+    "machine_id": "MCH-LINE-PLT-003-002-005",
+    "technician_id": "TECH-0003",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1507,9 +1507,9 @@
     "completed_at": "2026-10-04T20:49:00+05:30"
   },
   {
-    "work_order_id": 4638,
-    "machine_id": 283,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000138",
+    "machine_id": "MCH-LINE-PLT-003-002-007",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1518,9 +1518,9 @@
     "completed_at": "2026-10-03T10:54:00+05:30"
   },
   {
-    "work_order_id": 4639,
-    "machine_id": 287,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000139",
+    "machine_id": "MCH-LINE-PLT-003-003-003",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1529,9 +1529,9 @@
     "completed_at": "2026-08-13T15:39:00+05:30"
   },
   {
-    "work_order_id": 4640,
-    "machine_id": 287,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000140",
+    "machine_id": "MCH-LINE-PLT-003-003-003",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1540,9 +1540,9 @@
     "completed_at": "2026-10-07T20:49:00+05:30"
   },
   {
-    "work_order_id": 4641,
-    "machine_id": 295,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000141",
+    "machine_id": "MCH-LINE-PLT-003-004-003",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1551,9 +1551,9 @@
     "completed_at": "2026-08-24T11:16:00+05:30"
   },
   {
-    "work_order_id": 4642,
-    "machine_id": 295,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000142",
+    "machine_id": "MCH-LINE-PLT-003-004-003",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1562,9 +1562,9 @@
     "completed_at": "2026-08-28T03:49:00+05:30"
   },
   {
-    "work_order_id": 4643,
-    "machine_id": 295,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000143",
+    "machine_id": "MCH-LINE-PLT-003-004-003",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1573,9 +1573,9 @@
     "completed_at": "2026-09-02T11:50:00+05:30"
   },
   {
-    "work_order_id": 4644,
-    "machine_id": 295,
-    "technician_id": 44,
+    "work_order_id": "WO-2026-000144",
+    "machine_id": "MCH-LINE-PLT-003-004-003",
+    "technician_id": "TECH-0004",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1584,9 +1584,9 @@
     "completed_at": "2026-09-28T05:35:00+05:30"
   },
   {
-    "work_order_id": 4645,
-    "machine_id": 296,
-    "technician_id": 53,
+    "work_order_id": "WO-2026-000145",
+    "machine_id": "MCH-LINE-PLT-003-004-004",
+    "technician_id": "TECH-0013",
     "work_type": "corrective",
     "priority": "critical",
     "status": "completed",
@@ -1595,9 +1595,9 @@
     "completed_at": "2026-08-20T08:54:00+05:30"
   },
   {
-    "work_order_id": 4646,
-    "machine_id": 298,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000146",
+    "machine_id": "MCH-LINE-PLT-003-004-006",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1606,9 +1606,9 @@
     "completed_at": "2026-10-02T16:32:00+05:30"
   },
   {
-    "work_order_id": 4647,
-    "machine_id": 299,
-    "technician_id": 52,
+    "work_order_id": "WO-2026-000147",
+    "machine_id": "MCH-LINE-PLT-003-004-007",
+    "technician_id": "TECH-0012",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",
@@ -1617,9 +1617,9 @@
     "completed_at": "2026-08-19T06:49:00+05:30"
   },
   {
-    "work_order_id": 4648,
-    "machine_id": 299,
-    "technician_id": 42,
+    "work_order_id": "WO-2026-000148",
+    "machine_id": "MCH-LINE-PLT-003-004-007",
+    "technician_id": "TECH-0002",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1628,9 +1628,9 @@
     "completed_at": "2026-09-06T17:13:00+05:30"
   },
   {
-    "work_order_id": 4649,
-    "machine_id": 299,
-    "technician_id": 48,
+    "work_order_id": "WO-2026-000149",
+    "machine_id": "MCH-LINE-PLT-003-004-007",
+    "technician_id": "TECH-0008",
     "work_type": "corrective",
     "priority": "medium",
     "status": "completed",
@@ -1639,9 +1639,9 @@
     "completed_at": "2026-10-31T08:55:00+05:30"
   },
   {
-    "work_order_id": 4650,
-    "machine_id": 300,
-    "technician_id": 50,
+    "work_order_id": "WO-2026-000150",
+    "machine_id": "MCH-LINE-PLT-003-004-008",
+    "technician_id": "TECH-0010",
     "work_type": "corrective",
     "priority": "high",
     "status": "completed",

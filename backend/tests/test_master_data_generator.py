@@ -48,7 +48,7 @@ def test_target_record_counts(db_session: Session):
     assert db_session.query(Sensor).count() == 500
 
     # Operational event data status
-    assert db_session.query(TelemetryEvent).count() in (0, 2160000)
+    assert db_session.query(TelemetryEvent).count() in (0, 240000, 2160000)
     assert db_session.query(FailureEvent).count() in (0, 150)
     assert db_session.query(MaintenanceWorkOrder).count() in (0, 150)
 

@@ -1,1798 +1,1798 @@
 [
   {
-    "machine_id": 201,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 201,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 201,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 201,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 201,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 201,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-001-001",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 202,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-001-001-002",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 202,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-001-001-002",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 202,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-001-001-002",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 202,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-001-001-002",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 202,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-001-001-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 203,
-    "part_id": 107
+    "machine_id": "MCH-LINE-PLT-001-001-003",
+    "part_id": "PRT-0007"
   },
   {
-    "machine_id": 203,
-    "part_id": 111
+    "machine_id": "MCH-LINE-PLT-001-001-003",
+    "part_id": "PRT-0011"
   },
   {
-    "machine_id": 203,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-001-001-003",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 203,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-001-001-003",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 203,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-001-001-003",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 204,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-001-004",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 204,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-001-001-004",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 204,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-001-001-004",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 204,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-001-004",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 204,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-001-001-004",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 205,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-001-001-005",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 205,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-001-001-005",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 205,
-    "part_id": 128
+    "machine_id": "MCH-LINE-PLT-001-001-005",
+    "part_id": "PRT-0028"
   },
   {
-    "machine_id": 205,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-001-001-005",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 205,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-001-005",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 205,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-001-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 206,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-001-001-006",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 206,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-001-001-006",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 206,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-001-001-006",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 207,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-001-001-007",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 207,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-001-007",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 207,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-001-007",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 208,
-    "part_id": 131
+    "machine_id": "MCH-LINE-PLT-001-001-008",
+    "part_id": "PRT-0031"
   },
   {
-    "machine_id": 208,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-001-001-008",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 208,
-    "part_id": 106
+    "machine_id": "MCH-LINE-PLT-001-001-008",
+    "part_id": "PRT-0006"
   },
   {
-    "machine_id": 209,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 209,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 209,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 209,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 209,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 209,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-001-009",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 210,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-001-002-001",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 210,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-001-002-001",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 210,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-002-001",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 210,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-001-002-001",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 210,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-001-002-001",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 210,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-001-002-001",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 211,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-002-002",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 211,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-001-002-002",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 211,
-    "part_id": 118
+    "machine_id": "MCH-LINE-PLT-001-002-002",
+    "part_id": "PRT-0018"
   },
   {
-    "machine_id": 212,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 212,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 212,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 212,
-    "part_id": 123
+    "machine_id": "MCH-LINE-PLT-001-002-003",
+    "part_id": "PRT-0023"
   },
   {
-    "machine_id": 213,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-002-004",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 213,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-002-004",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 213,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-001-002-004",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 213,
-    "part_id": 128
+    "machine_id": "MCH-LINE-PLT-001-002-004",
+    "part_id": "PRT-0028"
   },
   {
-    "machine_id": 214,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-001-002-005",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 214,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-001-002-005",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 214,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-001-002-005",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 215,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 215,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 215,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 215,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 215,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-001-002-006",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 216,
-    "part_id": 132
+    "machine_id": "MCH-LINE-PLT-001-002-007",
+    "part_id": "PRT-0032"
   },
   {
-    "machine_id": 216,
-    "part_id": 131
+    "machine_id": "MCH-LINE-PLT-001-002-007",
+    "part_id": "PRT-0031"
   },
   {
-    "machine_id": 216,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-001-002-007",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 216,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-001-002-007",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 216,
-    "part_id": 106
+    "machine_id": "MCH-LINE-PLT-001-002-007",
+    "part_id": "PRT-0006"
   },
   {
-    "machine_id": 217,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-001-002-008",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 217,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-001-002-008",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 217,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-001-002-008",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 217,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-002-008",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 217,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-001-002-008",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 218,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-002-009",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 218,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-001-002-009",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 218,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-001-002-009",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 218,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-001-002-009",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 219,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-003-001",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 219,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-001-003-001",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 219,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-003-001",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 220,
-    "part_id": 123
+    "machine_id": "MCH-LINE-PLT-001-003-002",
+    "part_id": "PRT-0023"
   },
   {
-    "machine_id": 220,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-001-003-002",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 220,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-001-003-002",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 221,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 221,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 221,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 221,
-    "part_id": 128
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "part_id": "PRT-0028"
   },
   {
-    "machine_id": 221,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 221,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-001-003-003",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 222,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-001-003-004",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 222,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-001-003-004",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 222,
-    "part_id": 103
+    "machine_id": "MCH-LINE-PLT-001-003-004",
+    "part_id": "PRT-0003"
   },
   {
-    "machine_id": 223,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 223,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 223,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 223,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-003-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 224,
-    "part_id": 106
+    "machine_id": "MCH-LINE-PLT-001-003-006",
+    "part_id": "PRT-0006"
   },
   {
-    "machine_id": 224,
-    "part_id": 132
+    "machine_id": "MCH-LINE-PLT-001-003-006",
+    "part_id": "PRT-0032"
   },
   {
-    "machine_id": 224,
-    "part_id": 143
+    "machine_id": "MCH-LINE-PLT-001-003-006",
+    "part_id": "PRT-0043"
   },
   {
-    "machine_id": 224,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-001-003-006",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 224,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-001-003-006",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 224,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-001-003-006",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 225,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-003-007",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 225,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-003-007",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 225,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-001-003-007",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 226,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 226,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 226,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 226,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 226,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-001-003-008",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 227,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-003-009",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 227,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-001-003-009",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 227,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-001-003-009",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 228,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 228,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 228,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 228,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 228,
-    "part_id": 123
+    "machine_id": "MCH-LINE-PLT-001-004-001",
+    "part_id": "PRT-0023"
   },
   {
-    "machine_id": 229,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 229,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 229,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 229,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 229,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 229,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-001-004-002",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 230,
-    "part_id": 125
+    "machine_id": "MCH-LINE-PLT-001-004-003",
+    "part_id": "PRT-0025"
   },
   {
-    "machine_id": 230,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-001-004-003",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 230,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-001-004-003",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 230,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-001-004-003",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 231,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-001-004-004",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 231,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-001-004-004",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 231,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-004-004",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 231,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-001-004-004",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 231,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-001-004-004",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 231,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-001-004-004",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 232,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-001-004-005",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 232,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-001-004-005",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 232,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-001-004-005",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 233,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-001-004-006",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 233,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-004-006",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 233,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-001-004-006",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 234,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-001-004-007",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 234,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-001-004-007",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 234,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-001-004-007",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 234,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-001-004-007",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 234,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-001-004-007",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 235,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-001-004-008",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 235,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-001-004-008",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 235,
-    "part_id": 118
+    "machine_id": "MCH-LINE-PLT-001-004-008",
+    "part_id": "PRT-0018"
   },
   {
-    "machine_id": 236,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-001-004-009",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 236,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-001-004-009",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 236,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-001-004-009",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 236,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-001-004-009",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 236,
-    "part_id": 123
+    "machine_id": "MCH-LINE-PLT-001-004-009",
+    "part_id": "PRT-0023"
   },
   {
-    "machine_id": 236,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-001-004-009",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 237,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 237,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 237,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 237,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 237,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 237,
-    "part_id": 128
+    "machine_id": "MCH-LINE-PLT-002-001-001",
+    "part_id": "PRT-0028"
   },
   {
-    "machine_id": 238,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-002-001-002",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 238,
-    "part_id": 103
+    "machine_id": "MCH-LINE-PLT-002-001-002",
+    "part_id": "PRT-0003"
   },
   {
-    "machine_id": 238,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-002-001-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 238,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-002-001-002",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 239,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-002-001-003",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 239,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-002-001-003",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 239,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-002-001-003",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 239,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-002-001-003",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 240,
-    "part_id": 131
+    "machine_id": "MCH-LINE-PLT-002-001-004",
+    "part_id": "PRT-0031"
   },
   {
-    "machine_id": 240,
-    "part_id": 132
+    "machine_id": "MCH-LINE-PLT-002-001-004",
+    "part_id": "PRT-0032"
   },
   {
-    "machine_id": 240,
-    "part_id": 109
+    "machine_id": "MCH-LINE-PLT-002-001-004",
+    "part_id": "PRT-0009"
   },
   {
-    "machine_id": 240,
-    "part_id": 143
+    "machine_id": "MCH-LINE-PLT-002-001-004",
+    "part_id": "PRT-0043"
   },
   {
-    "machine_id": 240,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-002-001-004",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 240,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-002-001-004",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 241,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-002-001-005",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 241,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-002-001-005",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 241,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-002-001-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 241,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-002-001-005",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 242,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 242,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 242,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 242,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 242,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-002-001-006",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 243,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-002-001-007",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 243,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-001-007",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 243,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-002-001-007",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 243,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-001-007",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 243,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-002-001-007",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 243,
-    "part_id": 118
+    "machine_id": "MCH-LINE-PLT-002-001-007",
+    "part_id": "PRT-0018"
   },
   {
-    "machine_id": 244,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-002-001-008",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 244,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-001-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 244,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-001-008",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 244,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-002-001-008",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 245,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-002-002-001",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 245,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-002-002-001",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 245,
-    "part_id": 128
+    "machine_id": "MCH-LINE-PLT-002-002-001",
+    "part_id": "PRT-0028"
   },
   {
-    "machine_id": 245,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-002-002-001",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 245,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-002-002-001",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 246,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-002-002-002",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 246,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-002-002-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 246,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-002-002-002",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 246,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-002-002-002",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 246,
-    "part_id": 125
+    "machine_id": "MCH-LINE-PLT-002-002-002",
+    "part_id": "PRT-0025"
   },
   {
-    "machine_id": 247,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-002-003",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 247,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-002-002-003",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 247,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-002-002-003",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 247,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-002-002-003",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 247,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-002-003",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 247,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-002-002-003",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 248,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-002-002-004",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 248,
-    "part_id": 109
+    "machine_id": "MCH-LINE-PLT-002-002-004",
+    "part_id": "PRT-0009"
   },
   {
-    "machine_id": 248,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-002-002-004",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 248,
-    "part_id": 106
+    "machine_id": "MCH-LINE-PLT-002-002-004",
+    "part_id": "PRT-0006"
   },
   {
-    "machine_id": 248,
-    "part_id": 131
+    "machine_id": "MCH-LINE-PLT-002-002-004",
+    "part_id": "PRT-0031"
   },
   {
-    "machine_id": 248,
-    "part_id": 143
+    "machine_id": "MCH-LINE-PLT-002-002-004",
+    "part_id": "PRT-0043"
   },
   {
-    "machine_id": 249,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-002-002-005",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 249,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-002-005",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 249,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-002-002-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 249,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-002-005",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 250,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-002-002-006",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 250,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-002-002-006",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 250,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-002-002-006",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 250,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-002-002-006",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 250,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-002-002-006",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 250,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-002-002-006",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 251,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-002-002-007",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 251,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-002-002-007",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 251,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-002-002-007",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 252,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-002-002-008",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 252,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-002-002-008",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 252,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-002-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 253,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-003-001",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 253,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-002-003-001",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 253,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-002-003-001",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 253,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-002-003-001",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 254,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-002-003-002",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 254,
-    "part_id": 125
+    "machine_id": "MCH-LINE-PLT-002-003-002",
+    "part_id": "PRT-0025"
   },
   {
-    "machine_id": 254,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-002-003-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 254,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-002-003-002",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 255,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-002-003-003",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 255,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-002-003-003",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 255,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-002-003-003",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 255,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-003-003",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 255,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-002-003-003",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 256,
-    "part_id": 143
+    "machine_id": "MCH-LINE-PLT-002-003-004",
+    "part_id": "PRT-0043"
   },
   {
-    "machine_id": 256,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-002-003-004",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 256,
-    "part_id": 132
+    "machine_id": "MCH-LINE-PLT-002-003-004",
+    "part_id": "PRT-0032"
   },
   {
-    "machine_id": 256,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-002-003-004",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 257,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-002-003-005",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 257,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-003-005",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 257,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-003-005",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 257,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-002-003-005",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 258,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 258,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 258,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 258,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 258,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 258,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-003-006",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 259,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-002-003-007",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 259,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-003-007",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 259,
-    "part_id": 111
+    "machine_id": "MCH-LINE-PLT-002-003-007",
+    "part_id": "PRT-0011"
   },
   {
-    "machine_id": 259,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-002-003-007",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 259,
-    "part_id": 118
+    "machine_id": "MCH-LINE-PLT-002-003-007",
+    "part_id": "PRT-0018"
   },
   {
-    "machine_id": 259,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-002-003-007",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 260,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-002-003-008",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 260,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-002-003-008",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 260,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-002-003-008",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 260,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-003-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 261,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-004-001",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 261,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-002-004-001",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 261,
-    "part_id": 128
+    "machine_id": "MCH-LINE-PLT-002-004-001",
+    "part_id": "PRT-0028"
   },
   {
-    "machine_id": 261,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-002-004-001",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 261,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-002-004-001",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 262,
-    "part_id": 103
+    "machine_id": "MCH-LINE-PLT-002-004-002",
+    "part_id": "PRT-0003"
   },
   {
-    "machine_id": 262,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-002-004-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 262,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-002-004-002",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 262,
-    "part_id": 125
+    "machine_id": "MCH-LINE-PLT-002-004-002",
+    "part_id": "PRT-0025"
   },
   {
-    "machine_id": 263,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-002-004-003",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 263,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-004-003",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 263,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-002-004-003",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 264,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-002-004-004",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 264,
-    "part_id": 132
+    "machine_id": "MCH-LINE-PLT-002-004-004",
+    "part_id": "PRT-0032"
   },
   {
-    "machine_id": 264,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-002-004-004",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 264,
-    "part_id": 109
+    "machine_id": "MCH-LINE-PLT-002-004-004",
+    "part_id": "PRT-0009"
   },
   {
-    "machine_id": 265,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 265,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 265,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 265,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 265,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 265,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-002-004-005",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 266,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-004-006",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 266,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-002-004-006",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 266,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-002-004-006",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 266,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-002-004-006",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 267,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-002-004-007",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 267,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-002-004-007",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 267,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-002-004-007",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 267,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-002-004-007",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 267,
-    "part_id": 111
+    "machine_id": "MCH-LINE-PLT-002-004-007",
+    "part_id": "PRT-0011"
   },
   {
-    "machine_id": 268,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-002-004-008",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 268,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-002-004-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 268,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-002-004-008",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 268,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-002-004-008",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 269,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-003-001-001",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 269,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-003-001-001",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 269,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-003-001-001",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 270,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-003-001-002",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 270,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-003-001-002",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 270,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-003-001-002",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 270,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-003-001-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 270,
-    "part_id": 125
+    "machine_id": "MCH-LINE-PLT-003-001-002",
+    "part_id": "PRT-0025"
   },
   {
-    "machine_id": 271,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-003-001-003",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 271,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-003-001-003",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 271,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-003-001-003",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 271,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-003-001-003",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 271,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-001-003",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 271,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-001-003",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 272,
-    "part_id": 109
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "part_id": "PRT-0009"
   },
   {
-    "machine_id": 272,
-    "part_id": 106
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "part_id": "PRT-0006"
   },
   {
-    "machine_id": 272,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 272,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 272,
-    "part_id": 143
+    "machine_id": "MCH-LINE-PLT-003-001-004",
+    "part_id": "PRT-0043"
   },
   {
-    "machine_id": 273,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-001-005",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 273,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-003-001-005",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 273,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-003-001-005",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 273,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-003-001-005",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 273,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-001-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 273,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-003-001-005",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 274,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-003-001-006",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 274,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-003-001-006",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 274,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-001-006",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 274,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-003-001-006",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 275,
-    "part_id": 107
+    "machine_id": "MCH-LINE-PLT-003-001-007",
+    "part_id": "PRT-0007"
   },
   {
-    "machine_id": 275,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-001-007",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 275,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-003-001-007",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 275,
-    "part_id": 118
+    "machine_id": "MCH-LINE-PLT-003-001-007",
+    "part_id": "PRT-0018"
   },
   {
-    "machine_id": 276,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-003-001-008",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 276,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-003-001-008",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 276,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-003-001-008",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 276,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-003-001-008",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 276,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-001-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 277,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-003-002-001",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 277,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-003-002-001",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 277,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-003-002-001",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 277,
-    "part_id": 121
+    "machine_id": "MCH-LINE-PLT-003-002-001",
+    "part_id": "PRT-0021"
   },
   {
-    "machine_id": 277,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-002-001",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 278,
-    "part_id": 103
+    "machine_id": "MCH-LINE-PLT-003-002-002",
+    "part_id": "PRT-0003"
   },
   {
-    "machine_id": 278,
-    "part_id": 125
+    "machine_id": "MCH-LINE-PLT-003-002-002",
+    "part_id": "PRT-0025"
   },
   {
-    "machine_id": 278,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-003-002-002",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 278,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-003-002-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 278,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-003-002-002",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 279,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-002-003",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 279,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-002-003",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 279,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-003-002-003",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 279,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-003-002-003",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 279,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-003-002-003",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 280,
-    "part_id": 109
+    "machine_id": "MCH-LINE-PLT-003-002-004",
+    "part_id": "PRT-0009"
   },
   {
-    "machine_id": 280,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-003-002-004",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 280,
-    "part_id": 143
+    "machine_id": "MCH-LINE-PLT-003-002-004",
+    "part_id": "PRT-0043"
   },
   {
-    "machine_id": 281,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-002-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 281,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-003-002-005",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 281,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-003-002-005",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 281,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-002-005",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 282,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-003-002-006",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 282,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-003-002-006",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 282,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-003-002-006",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 283,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-003-002-007",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 283,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-002-007",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 283,
-    "part_id": 135
+    "machine_id": "MCH-LINE-PLT-003-002-007",
+    "part_id": "PRT-0035"
   },
   {
-    "machine_id": 283,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-003-002-007",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 284,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-003-002-008",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 284,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-003-002-008",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 284,
-    "part_id": 123
+    "machine_id": "MCH-LINE-PLT-003-002-008",
+    "part_id": "PRT-0023"
   },
   {
-    "machine_id": 284,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-003-002-008",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 284,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-002-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 285,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-003-003-001",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 285,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-003-003-001",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 285,
-    "part_id": 134
+    "machine_id": "MCH-LINE-PLT-003-003-001",
+    "part_id": "PRT-0034"
   },
   {
-    "machine_id": 285,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-003-003-001",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 285,
-    "part_id": 128
+    "machine_id": "MCH-LINE-PLT-003-003-001",
+    "part_id": "PRT-0028"
   },
   {
-    "machine_id": 286,
-    "part_id": 119
+    "machine_id": "MCH-LINE-PLT-003-003-002",
+    "part_id": "PRT-0019"
   },
   {
-    "machine_id": 286,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-003-003-002",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 286,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-003-003-002",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 286,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-003-003-002",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 287,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-003-003-003",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 287,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-003-003",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 287,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-003-003-003",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 287,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-003-003-003",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 287,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-003-003-003",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 288,
-    "part_id": 129
+    "machine_id": "MCH-LINE-PLT-003-003-004",
+    "part_id": "PRT-0029"
   },
   {
-    "machine_id": 288,
-    "part_id": 132
+    "machine_id": "MCH-LINE-PLT-003-003-004",
+    "part_id": "PRT-0032"
   },
   {
-    "machine_id": 288,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-003-003-004",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 288,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-003-003-004",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 289,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-003-003-005",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 289,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-003-003-005",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 289,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-003-003-005",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 289,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-003-003-005",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 290,
-    "part_id": 120
+    "machine_id": "MCH-LINE-PLT-003-003-006",
+    "part_id": "PRT-0020"
   },
   {
-    "machine_id": 290,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-003-003-006",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 290,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-003-003-006",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 290,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-003-003-006",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 291,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-003-003-007",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 291,
-    "part_id": 111
+    "machine_id": "MCH-LINE-PLT-003-003-007",
+    "part_id": "PRT-0011"
   },
   {
-    "machine_id": 291,
-    "part_id": 118
+    "machine_id": "MCH-LINE-PLT-003-003-007",
+    "part_id": "PRT-0018"
   },
   {
-    "machine_id": 291,
-    "part_id": 107
+    "machine_id": "MCH-LINE-PLT-003-003-007",
+    "part_id": "PRT-0007"
   },
   {
-    "machine_id": 291,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-003-003-007",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 291,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-003-007",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 292,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-003-003-008",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 292,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-003-003-008",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 292,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-003-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 292,
-    "part_id": 123
+    "machine_id": "MCH-LINE-PLT-003-003-008",
+    "part_id": "PRT-0023"
   },
   {
-    "machine_id": 292,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-003-008",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 292,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-003-003-008",
+    "part_id": "PRT-0048"
   },
   {
-    "machine_id": 293,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-003-004-001",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 293,
-    "part_id": 141
+    "machine_id": "MCH-LINE-PLT-003-004-001",
+    "part_id": "PRT-0041"
   },
   {
-    "machine_id": 293,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-004-001",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 293,
-    "part_id": 108
+    "machine_id": "MCH-LINE-PLT-003-004-001",
+    "part_id": "PRT-0008"
   },
   {
-    "machine_id": 294,
-    "part_id": 125
+    "machine_id": "MCH-LINE-PLT-003-004-002",
+    "part_id": "PRT-0025"
   },
   {
-    "machine_id": 294,
-    "part_id": 147
+    "machine_id": "MCH-LINE-PLT-003-004-002",
+    "part_id": "PRT-0047"
   },
   {
-    "machine_id": 294,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-003-004-002",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 294,
-    "part_id": 115
+    "machine_id": "MCH-LINE-PLT-003-004-002",
+    "part_id": "PRT-0015"
   },
   {
-    "machine_id": 295,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-004-003",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 295,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-003-004-003",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 295,
-    "part_id": 150
+    "machine_id": "MCH-LINE-PLT-003-004-003",
+    "part_id": "PRT-0050"
   },
   {
-    "machine_id": 296,
-    "part_id": 116
+    "machine_id": "MCH-LINE-PLT-003-004-004",
+    "part_id": "PRT-0016"
   },
   {
-    "machine_id": 296,
-    "part_id": 109
+    "machine_id": "MCH-LINE-PLT-003-004-004",
+    "part_id": "PRT-0009"
   },
   {
-    "machine_id": 296,
-    "part_id": 127
+    "machine_id": "MCH-LINE-PLT-003-004-004",
+    "part_id": "PRT-0027"
   },
   {
-    "machine_id": 297,
-    "part_id": 101
+    "machine_id": "MCH-LINE-PLT-003-004-005",
+    "part_id": "PRT-0001"
   },
   {
-    "machine_id": 297,
-    "part_id": 130
+    "machine_id": "MCH-LINE-PLT-003-004-005",
+    "part_id": "PRT-0030"
   },
   {
-    "machine_id": 297,
-    "part_id": 142
+    "machine_id": "MCH-LINE-PLT-003-004-005",
+    "part_id": "PRT-0042"
   },
   {
-    "machine_id": 297,
-    "part_id": 110
+    "machine_id": "MCH-LINE-PLT-003-004-005",
+    "part_id": "PRT-0010"
   },
   {
-    "machine_id": 297,
-    "part_id": 104
+    "machine_id": "MCH-LINE-PLT-003-004-005",
+    "part_id": "PRT-0004"
   },
   {
-    "machine_id": 297,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-004-005",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 298,
-    "part_id": 113
+    "machine_id": "MCH-LINE-PLT-003-004-006",
+    "part_id": "PRT-0013"
   },
   {
-    "machine_id": 298,
-    "part_id": 117
+    "machine_id": "MCH-LINE-PLT-003-004-006",
+    "part_id": "PRT-0017"
   },
   {
-    "machine_id": 298,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-004-006",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 298,
-    "part_id": 137
+    "machine_id": "MCH-LINE-PLT-003-004-006",
+    "part_id": "PRT-0037"
   },
   {
-    "machine_id": 299,
-    "part_id": 136
+    "machine_id": "MCH-LINE-PLT-003-004-007",
+    "part_id": "PRT-0036"
   },
   {
-    "machine_id": 299,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-004-007",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 299,
-    "part_id": 140
+    "machine_id": "MCH-LINE-PLT-003-004-007",
+    "part_id": "PRT-0040"
   },
   {
-    "machine_id": 300,
-    "part_id": 105
+    "machine_id": "MCH-LINE-PLT-003-004-008",
+    "part_id": "PRT-0005"
   },
   {
-    "machine_id": 300,
-    "part_id": 138
+    "machine_id": "MCH-LINE-PLT-003-004-008",
+    "part_id": "PRT-0038"
   },
   {
-    "machine_id": 300,
-    "part_id": 102
+    "machine_id": "MCH-LINE-PLT-003-004-008",
+    "part_id": "PRT-0002"
   },
   {
-    "machine_id": 300,
-    "part_id": 112
+    "machine_id": "MCH-LINE-PLT-003-004-008",
+    "part_id": "PRT-0012"
   },
   {
-    "machine_id": 300,
-    "part_id": 148
+    "machine_id": "MCH-LINE-PLT-003-004-008",
+    "part_id": "PRT-0048"
   }
 ]

@@ -1,74 +1,74 @@
 [
   {
-    "shift_id": 19,
-    "plant_id": 7,
+    "shift_id": "SHF-PLT-001-01",
+    "plant_id": "PLT-001",
     "shift_name": "Morning Shift",
     "start_time": "2026-11-02 06:00:00+05:30",
     "end_time": "2026-11-02 14:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151439+05:30"
+    "created_at": "2026-11-04T01:52:27.891321+05:30"
   },
   {
-    "shift_id": 20,
-    "plant_id": 7,
+    "shift_id": "SHF-PLT-001-02",
+    "plant_id": "PLT-001",
     "shift_name": "Afternoon Shift",
     "start_time": "2026-11-02 14:00:00+05:30",
     "end_time": "2026-11-02 22:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151443+05:30"
+    "created_at": "2026-11-04T01:52:27.891325+05:30"
   },
   {
-    "shift_id": 21,
-    "plant_id": 7,
+    "shift_id": "SHF-PLT-001-03",
+    "plant_id": "PLT-001",
     "shift_name": "Night Shift",
     "start_time": "2026-11-02 22:00:00+05:30",
     "end_time": "2026-11-03 06:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151443+05:30"
+    "created_at": "2026-11-04T01:52:27.891326+05:30"
   },
   {
-    "shift_id": 22,
-    "plant_id": 8,
+    "shift_id": "SHF-PLT-002-01",
+    "plant_id": "PLT-002",
     "shift_name": "Morning Shift",
     "start_time": "2026-11-02 06:00:00+05:30",
     "end_time": "2026-11-02 14:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151444+05:30"
+    "created_at": "2026-11-04T01:52:27.891327+05:30"
   },
   {
-    "shift_id": 23,
-    "plant_id": 8,
+    "shift_id": "SHF-PLT-002-02",
+    "plant_id": "PLT-002",
     "shift_name": "Afternoon Shift",
     "start_time": "2026-11-02 14:00:00+05:30",
     "end_time": "2026-11-02 22:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151445+05:30"
+    "created_at": "2026-11-04T01:52:27.891327+05:30"
   },
   {
-    "shift_id": 24,
-    "plant_id": 8,
+    "shift_id": "SHF-PLT-002-03",
+    "plant_id": "PLT-002",
     "shift_name": "Night Shift",
     "start_time": "2026-11-02 22:00:00+05:30",
     "end_time": "2026-11-03 06:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151445+05:30"
+    "created_at": "2026-11-04T01:52:27.891328+05:30"
   },
   {
-    "shift_id": 25,
-    "plant_id": 9,
+    "shift_id": "SHF-PLT-003-01",
+    "plant_id": "PLT-003",
     "shift_name": "Morning Shift",
     "start_time": "2026-11-02 06:00:00+05:30",
     "end_time": "2026-11-02 14:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151446+05:30"
+    "created_at": "2026-11-04T01:52:27.891328+05:30"
   },
   {
-    "shift_id": 26,
-    "plant_id": 9,
+    "shift_id": "SHF-PLT-003-02",
+    "plant_id": "PLT-003",
     "shift_name": "Afternoon Shift",
     "start_time": "2026-11-02 14:00:00+05:30",
     "end_time": "2026-11-02 22:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151447+05:30"
+    "created_at": "2026-11-04T01:52:27.891329+05:30"
   },
   {
-    "shift_id": 27,
-    "plant_id": 9,
+    "shift_id": "SHF-PLT-003-03",
+    "plant_id": "PLT-003",
     "shift_name": "Night Shift",
     "start_time": "2026-11-02 22:00:00+05:30",
     "end_time": "2026-11-03 06:00:00+05:30",
-    "created_at": "2026-11-02T16:45:30.151447+05:30"
+    "created_at": "2026-11-04T01:52:27.891329+05:30"
   }
 ]

@@ -114,8 +114,10 @@ def run_master_data(args: argparse.Namespace) -> int:
 
 def run_telemetry(args: argparse.Namespace) -> int:
     """Execute telemetry generation."""
+    scale = getattr(args, "scale", "full")
+    max_chunks = 1 if scale == "starter" else None
     print(
-        f"[INFO] Initializing Telemetry Generator with seed: {args.seed} "
+        f"[INFO] Initializing Telemetry Generator with seed: {args.seed} (scale={scale}) "
         f"(dry_run={args.dry_run}, overwrite={args.overwrite})"
     )
     session = SessionLocal()
@@ -127,11 +129,12 @@ def run_telemetry(args: argparse.Namespace) -> int:
         stats = generator.generate(
             dry_run=args.dry_run,
             overwrite=args.overwrite,
+            max_chunks=max_chunks,
             progress_callback=on_progress,
         )
 
         if args.dry_run:
-            print("[INFO] Dry-run completed successfully; 2,160,000 simulated rows rolled back.")
+            print("[INFO] Dry-run completed successfully; simulated rows rolled back.")
         else:
             print("[INFO] Telemetry successfully generated and committed to the database.")
 
@@ -145,6 +148,71 @@ def run_telemetry(args: argparse.Namespace) -> int:
         return 1
     finally:
         session.close()
+
+
+def run_export(args: argparse.Namespace) -> int:
+    """Execute database export to CSV, JSON, and SQL."""
+    from pathlib import Path
+    try:
+        from backend.utils.exporter import DataExporter
+    except ImportError:
+        from utils.exporter import DataExporter
+
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    session = SessionLocal()
+    try:
+        exporter = DataExporter(session=session, base_dir=base_dir)
+        exporter.export_all()
+        print("[SUCCESS] Export stage completed successfully.")
+        return 0
+    except Exception as exc:
+        print(f"[ERROR] Export failed: {exc}", file=sys.stderr)
+        return 1
+    finally:
+        session.close()
+
+
+def run_validate(args: argparse.Namespace) -> int:
+    """Execute database validation checks."""
+    try:
+        from backend.validators.data_validator import DataValidator
+    except ImportError:
+        from validators.data_validator import DataValidator
+
+    session = SessionLocal()
+    try:
+        validator = DataValidator(session=session)
+        report = validator.validate_all()
+        print("\n" + "=" * 65)
+        print(" Data Validation Summary")
+        print("=" * 65)
+        print(f"Overall Valid: {report.get('overall_valid')}")
+        checks = report.get("checks", {})
+        for name, res in checks.items():
+            status = "PASS" if res.get("passed", res.get("status") == "PASS") else "FAIL"
+            print(f"  - {name:<30}: {status}")
+        print("=" * 65 + "\n")
+        return 0 if report.get("overall_valid", True) else 1
+    except Exception as exc:
+        print(f"[ERROR] Validation failed: {exc}", file=sys.stderr)
+        return 1
+    finally:
+        session.close()
+
+
+def run_reproduce(args: argparse.Namespace) -> int:
+    """Execute deterministic reproducibility verification."""
+    try:
+        from backend.utils.reproducibility_checker import verify_reproducibility
+    except ImportError:
+        from utils.reproducibility_checker import verify_reproducibility
+
+    try:
+        verify_reproducibility()
+        return 0
+    except Exception as exc:
+        print(f"[ERROR] Reproducibility verification failed: {exc}", file=sys.stderr)
+        return 1
 
 
 def run_failures(args: argparse.Namespace) -> int:
@@ -207,13 +275,19 @@ def main() -> int:
 
     # telemetry subcommand
     p_telem = subparsers.add_parser(
-        "telemetry", help="Stream 90-day synthetic telemetry dataset via PostgreSQL COPY"
+        "telemetry", help="Stream synthetic telemetry dataset via PostgreSQL COPY"
     )
     p_telem.add_argument(
         "--seed",
         type=int,
         default=DEFAULT_TELEMETRY_SEED,
         help=f"Deterministic random seed (default: {DEFAULT_TELEMETRY_SEED})",
+    )
+    p_telem.add_argument(
+        "--scale",
+        choices=["starter", "full"],
+        default="full",
+        help="Dataset scale: starter (10-day sample) or full (90-day window)",
     )
     p_telem.add_argument(
         "--dry-run",
@@ -223,29 +297,39 @@ def main() -> int:
     p_telem.add_argument(
         "--overwrite",
         action="store_true",
-        help="Safely overwrite existing telemetry records strictly within the 90-day window",
+        help="Safely overwrite existing telemetry records strictly within the window",
     )
 
-    # failures subcommand
-    p_fail = subparsers.add_parser(
-        "failures", help="Generate 150 deterministic failure events and linked corrective work orders"
-    )
-    p_fail.add_argument(
-        "--seed",
-        type=int,
-        default=DEFAULT_FAILURE_SEED,
-        help=f"Deterministic random seed (default: {DEFAULT_FAILURE_SEED})",
-    )
-    p_fail.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Execute generation inside a transaction and roll back without committing",
-    )
-    p_fail.add_argument(
-        "--overwrite",
-        action="store_true",
-        help="Safely overwrite existing failure events and work orders strictly within the 90-day window",
-    )
+    # failures subcommand (and alias 'events')
+    for alias in ["failures", "events"]:
+        p_fail = subparsers.add_parser(
+            alias, help="Generate deterministic failure events and linked corrective work orders"
+        )
+        p_fail.add_argument(
+            "--seed",
+            type=int,
+            default=DEFAULT_FAILURE_SEED,
+            help=f"Deterministic random seed (default: {DEFAULT_FAILURE_SEED})",
+        )
+        p_fail.add_argument(
+            "--dry-run",
+            action="store_true",
+            help="Execute generation inside a transaction and roll back without committing",
+        )
+        p_fail.add_argument(
+            "--overwrite",
+            action="store_true",
+            help="Safely overwrite existing failure events and work orders strictly within the 90-day window",
+        )
+
+    # export subcommand
+    subparsers.add_parser("export", help="Export PostgreSQL database entities to CSV, JSON, and SQL")
+
+    # validate subcommand
+    subparsers.add_parser("validate", help="Run comprehensive relational and edge-case validation checks")
+
+    # reproduce subcommand
+    subparsers.add_parser("reproduce", help="Verify seed-based reproducibility and SHA-256 hash invariants")
 
     # Backward compatibility: top-level arguments default to master-data if no subcommand provided
     parser.add_argument(
@@ -264,8 +348,14 @@ def main() -> int:
 
     if args.subcommand == "telemetry":
         return run_telemetry(args)
-    elif args.subcommand == "failures":
+    elif args.subcommand in ("failures", "events"):
         return run_failures(args)
+    elif args.subcommand == "export":
+        return run_export(args)
+    elif args.subcommand == "validate":
+        return run_validate(args)
+    elif args.subcommand == "reproduce":
+        return run_reproduce(args)
     elif args.subcommand == "master-data" or args.subcommand is None:
         return run_master_data(args)
     else:

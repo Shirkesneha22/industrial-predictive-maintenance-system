@@ -176,12 +176,14 @@ def test_type_a_evaluation_anti_leakage_guard(db_session: Session):
     failure reading and any post-failure readings, using ONLY observations
     available strictly before the prediction timestamp.
     """
-    # Pick a known degrading machine (e.g., MCH-002, id 202)
-    m = db_session.query(Machine).filter_by(machine_code="MCH-002").first()
-    assert m is not None
-
-    prof = derive_machine_degradation_profile(DEFAULT_FAILURE_SEED, m.machine_id, m.machine_code)
-    assert prof is not None
+    # Pick a known degrading machine under the new hierarchical machine code nomenclature
+    degrading_machines = []
+    for candidate in db_session.query(Machine).all():
+        p = derive_machine_degradation_profile(DEFAULT_FAILURE_SEED, candidate.machine_id, candidate.machine_code)
+        if p is not None:
+            degrading_machines.append((candidate, p))
+    assert len(degrading_machines) > 0, "At least one machine must have a progressive degradation profile"
+    m, prof = degrading_machines[0]
 
     end_step = prof["end_step"]
     failure_time = WINDOW_START_UTC + timedelta(minutes=end_step * SAMPLING_INTERVAL_MINUTES)

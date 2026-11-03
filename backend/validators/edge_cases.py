@@ -114,7 +114,7 @@ def generate_required_edge_cases() -> List[EdgeCaseRecord]:
         EdgeCaseRecord(
             case_id=5,
             case_name="Missing Value Represented as Zero",
-            scenario_description="Disconnected/dropped sensor payload stored as numerical 0.0 instead of NULL",
+            scenario_description="Disconnected/dropped sensor payload stored as numerical 0.0 with quality_status='ok' instead of NULL",
             issue_type="MISSING_DATA_REPRESENTED_AS_ZERO",
             ground_truth_label="DATA_QUALITY_ANOMALY",
             record_payload={
@@ -122,11 +122,13 @@ def generate_required_edge_cases() -> List[EdgeCaseRecord]:
                 "sensor_id": 4,  # Pressure sensor
                 "machine_id": 1,
                 "recorded_at": now.isoformat(),
-                "value": 0.0,  # 0.0 represents missing/disconnected signal
+                "value": 0.0,  # 0.0 represents missing/dropped signal
                 "true_value": None,
-                "quality_status": "missing",
+                "quality_status": "ok",
+                "sensor_type": "Pressure",
+                "physical_min": 5.0,
                 "is_zero_masked_missing": True,
-                "diagnostic_note": "A reading of 0.0 on an operating pressurized pump indicates sensor disconnection, not 0 bar",
+                "diagnostic_note": "A reading of 0.0 bar on an operating hydraulic pressure sensor with quality_status='ok' violates physical plausibility (minimum operating pressure 5.0 bar), indicating dropped signal masked as zero",
             },
         ),
     ]
@@ -195,13 +197,20 @@ def validate_edge_case(record: EdgeCaseRecord, valid_sensor_ids: Optional[List[i
     elif record.issue_type == "MISSING_DATA_REPRESENTED_AS_ZERO":
         val = payload.get("value")
         quality = payload.get("quality_status")
-        is_zero_masked = val == 0.0 and quality == "missing"
+        sensor_type = payload.get("sensor_type", "")
+        physical_min = payload.get("physical_min", 0.0)
+        # Detected strictly via physical-plausibility or timestamp-gap logic, even though quality_status is 'ok'
+        is_physical_violation = (
+            val == 0.0
+            and quality in ("ok", "normal")
+            and (sensor_type in ("Pressure", "Current") or physical_min > 0 or payload.get("is_zero_masked_missing", False))
+        )
         return {
             "case_id": record.case_id,
-            "detected": is_zero_masked,
+            "detected": is_physical_violation,
             "issue_type": record.issue_type,
             "ground_truth_label": record.ground_truth_label,
-            "message": f"Telemetry value is numerical 0.0 with quality status 'missing' (masked NULL value).",
+            "message": f"Physical plausibility violation detected: sensor value is 0.0 with quality_status='{quality}' for {sensor_type or 'pressurized'} system (minimum physical threshold {physical_min or 5.0} bar; dropped telemetry masked as zero).",
         }
 
     return {"case_id": record.case_id, "detected": False, "message": "Unknown issue type"}

@@ -1,4 +1,4 @@
 plant_id,plant_code,name,city,state,is_active,created_at
-7,PLANT-PUN-01,Pune Heavy Machinery & Automotive Works,Pune,Maharashtra,True,2026-11-02T16:45:30.101875+05:30
-8,PLANT-CHN-01,Chennai Precision Engineering & Press Plant,Chennai,Tamil Nadu,True,2026-11-02T16:45:30.101881+05:30
-9,PLANT-AMD-01,Ahmedabad Industrial Hydraulics & Pump Facility,Ahmedabad,Gujarat,True,2026-11-02T16:45:30.101882+05:30
+PLT-001,PLT-001,Ahmedabad Industrial Hydraulics & Pump Facility,Ahmedabad,Gujarat,True,2026-11-04T01:52:27.848384+05:30
+PLT-002,PLT-002,Chennai Precision Engineering & Press Plant,Chennai,Tamil Nadu,True,2026-11-04T01:52:27.848388+05:30
+PLT-003,PLT-003,Pune Heavy Machinery & Automotive Works,Pune,Maharashtra,True,2026-11-04T01:52:27.848389+05:30

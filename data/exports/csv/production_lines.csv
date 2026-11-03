@@ -1,13 +1,13 @@
 line_id,plant_id,line_code,name,is_active,created_at
-25,7,LINE-PUN-01,Automotive Chassis Fabrication Line,True,2026-11-02T16:45:30.126872+05:30
-26,7,LINE-PUN-02,Transmission & Powertrain Machining Cell,True,2026-11-02T16:45:30.126876+05:30
-27,7,LINE-PUN-03,High-Precision CNC Milling & Turning Line,True,2026-11-02T16:45:30.126877+05:30
-28,7,LINE-PUN-04,Robotic Welding & Stamping Cell,True,2026-11-02T16:45:30.126878+05:30
-29,8,LINE-CHN-01,Heavy Hydraulic Stamping & Press Line,True,2026-11-02T16:45:30.126879+05:30
-30,8,LINE-CHN-02,Turbine Blade & Impeller Fabrication Line,True,2026-11-02T16:45:30.126880+05:30
-31,8,LINE-CHN-03,Thermal Heat Treatment & Quenching Cell,True,2026-11-02T16:45:30.126881+05:30
-32,8,LINE-CHN-04,Structural Heavy Plate Bending & Cutting Line,True,2026-11-02T16:45:30.126881+05:30
-33,9,LINE-AMD-01,Centrifugal Slurry & Water Pump Assembly Line,True,2026-11-02T16:45:30.126882+05:30
-34,9,LINE-AMD-02,Industrial Rotary Compressor & Blower Line,True,2026-11-02T16:45:30.126883+05:30
-35,9,LINE-AMD-03,High-Pressure Hydraulic Valve & Manifold Cell,True,2026-11-02T16:45:30.126884+05:30
-36,9,LINE-AMD-04,Polymer Extrusion & Injection Molding Line,True,2026-11-02T16:45:30.126885+05:30
+LINE-PLT-001-001,PLT-001,LINE-PLT-001-001,Centrifugal Slurry & Water Pump Assembly Line,True,2026-11-04T01:52:27.871160+05:30
+LINE-PLT-001-002,PLT-001,LINE-PLT-001-002,Industrial Rotary Compressor & Blower Line,True,2026-11-04T01:52:27.871164+05:30
+LINE-PLT-001-003,PLT-001,LINE-PLT-001-003,High-Pressure Hydraulic Valve & Manifold Cell,True,2026-11-04T01:52:27.871165+05:30
+LINE-PLT-001-004,PLT-001,LINE-PLT-001-004,Polymer Extrusion & Injection Molding Line,True,2026-11-04T01:52:27.871165+05:30
+LINE-PLT-002-001,PLT-002,LINE-PLT-002-001,Heavy Hydraulic Stamping & Press Line,True,2026-11-04T01:52:27.871166+05:30
+LINE-PLT-002-002,PLT-002,LINE-PLT-002-002,Turbine Blade & Impeller Fabrication Line,True,2026-11-04T01:52:27.871166+05:30
+LINE-PLT-002-003,PLT-002,LINE-PLT-002-003,Thermal Heat Treatment & Quenching Cell,True,2026-11-04T01:52:27.871167+05:30
+LINE-PLT-002-004,PLT-002,LINE-PLT-002-004,Structural Heavy Plate Bending & Cutting Line,True,2026-11-04T01:52:27.871168+05:30
+LINE-PLT-003-001,PLT-003,LINE-PLT-003-001,Automotive Chassis Fabrication Line,True,2026-11-04T01:52:27.871168+05:30
+LINE-PLT-003-002,PLT-003,LINE-PLT-003-002,Transmission & Powertrain Machining Cell,True,2026-11-04T01:52:27.871169+05:30
+LINE-PLT-003-003,PLT-003,LINE-PLT-003-003,High-Precision CNC Milling & Turning Line,True,2026-11-04T01:52:27.871169+05:30
+LINE-PLT-003-004,PLT-003,LINE-PLT-003-004,Robotic Welding & Stamping Cell,True,2026-11-04T01:52:27.871170+05:30
