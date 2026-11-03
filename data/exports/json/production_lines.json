@@ -1,0 +1,98 @@
+[
+  {
+    "line_id": 25,
+    "plant_id": 7,
+    "line_code": "LINE-PUN-01",
+    "name": "Automotive Chassis Fabrication Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126872+05:30"
+  },
+  {
+    "line_id": 26,
+    "plant_id": 7,
+    "line_code": "LINE-PUN-02",
+    "name": "Transmission & Powertrain Machining Cell",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126876+05:30"
+  },
+  {
+    "line_id": 27,
+    "plant_id": 7,
+    "line_code": "LINE-PUN-03",
+    "name": "High-Precision CNC Milling & Turning Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126877+05:30"
+  },
+  {
+    "line_id": 28,
+    "plant_id": 7,
+    "line_code": "LINE-PUN-04",
+    "name": "Robotic Welding & Stamping Cell",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126878+05:30"
+  },
+  {
+    "line_id": 29,
+    "plant_id": 8,
+    "line_code": "LINE-CHN-01",
+    "name": "Heavy Hydraulic Stamping & Press Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126879+05:30"
+  },
+  {
+    "line_id": 30,
+    "plant_id": 8,
+    "line_code": "LINE-CHN-02",
+    "name": "Turbine Blade & Impeller Fabrication Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126880+05:30"
+  },
+  {
+    "line_id": 31,
+    "plant_id": 8,
+    "line_code": "LINE-CHN-03",
+    "name": "Thermal Heat Treatment & Quenching Cell",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126881+05:30"
+  },
+  {
+    "line_id": 32,
+    "plant_id": 8,
+    "line_code": "LINE-CHN-04",
+    "name": "Structural Heavy Plate Bending & Cutting Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126881+05:30"
+  },
+  {
+    "line_id": 33,
+    "plant_id": 9,
+    "line_code": "LINE-AMD-01",
+    "name": "Centrifugal Slurry & Water Pump Assembly Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126882+05:30"
+  },
+  {
+    "line_id": 34,
+    "plant_id": 9,
+    "line_code": "LINE-AMD-02",
+    "name": "Industrial Rotary Compressor & Blower Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126883+05:30"
+  },
+  {
+    "line_id": 35,
+    "plant_id": 9,
+    "line_code": "LINE-AMD-03",
+    "name": "High-Pressure Hydraulic Valve & Manifold Cell",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126884+05:30"
+  },
+  {
+    "line_id": 36,
+    "plant_id": 9,
+    "line_code": "LINE-AMD-04",
+    "name": "Polymer Extrusion & Injection Molding Line",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.126885+05:30"
+  }
+]

@@ -1,0 +1,5002 @@
+[
+  {
+    "sensor_id": 1001,
+    "machine_id": 201,
+    "sensor_code": "SNS-0001",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-04-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072359+05:30"
+  },
+  {
+    "sensor_id": 1002,
+    "machine_id": 201,
+    "sensor_code": "SNS-0002",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-03-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072364+05:30"
+  },
+  {
+    "sensor_id": 1003,
+    "machine_id": 201,
+    "sensor_code": "SNS-0003",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-03-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072365+05:30"
+  },
+  {
+    "sensor_id": 1004,
+    "machine_id": 201,
+    "sensor_code": "SNS-0004",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-04-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072365+05:30"
+  },
+  {
+    "sensor_id": 1005,
+    "machine_id": 201,
+    "sensor_code": "SNS-0005",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-03-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072366+05:30"
+  },
+  {
+    "sensor_id": 1006,
+    "machine_id": 202,
+    "sensor_code": "SNS-0006",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-08-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072367+05:30"
+  },
+  {
+    "sensor_id": 1007,
+    "machine_id": 202,
+    "sensor_code": "SNS-0007",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-08-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072368+05:30"
+  },
+  {
+    "sensor_id": 1008,
+    "machine_id": 202,
+    "sensor_code": "SNS-0008",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-08-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072369+05:30"
+  },
+  {
+    "sensor_id": 1009,
+    "machine_id": 202,
+    "sensor_code": "SNS-0009",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-08-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072369+05:30"
+  },
+  {
+    "sensor_id": 1010,
+    "machine_id": 202,
+    "sensor_code": "SNS-0010",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-08-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072370+05:30"
+  },
+  {
+    "sensor_id": 1011,
+    "machine_id": 203,
+    "sensor_code": "SNS-0011",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-08-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072371+05:30"
+  },
+  {
+    "sensor_id": 1012,
+    "machine_id": 203,
+    "sensor_code": "SNS-0012",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-08-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072372+05:30"
+  },
+  {
+    "sensor_id": 1013,
+    "machine_id": 203,
+    "sensor_code": "SNS-0013",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-08-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072372+05:30"
+  },
+  {
+    "sensor_id": 1014,
+    "machine_id": 203,
+    "sensor_code": "SNS-0014",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-08-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072373+05:30"
+  },
+  {
+    "sensor_id": 1015,
+    "machine_id": 203,
+    "sensor_code": "SNS-0015",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-08-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072374+05:30"
+  },
+  {
+    "sensor_id": 1016,
+    "machine_id": 204,
+    "sensor_code": "SNS-0016",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-10-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072374+05:30"
+  },
+  {
+    "sensor_id": 1017,
+    "machine_id": 204,
+    "sensor_code": "SNS-0017",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-10-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072375+05:30"
+  },
+  {
+    "sensor_id": 1018,
+    "machine_id": 204,
+    "sensor_code": "SNS-0018",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-10-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072376+05:30"
+  },
+  {
+    "sensor_id": 1019,
+    "machine_id": 204,
+    "sensor_code": "SNS-0019",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-10-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072377+05:30"
+  },
+  {
+    "sensor_id": 1020,
+    "machine_id": 204,
+    "sensor_code": "SNS-0020",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-10-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072377+05:30"
+  },
+  {
+    "sensor_id": 1021,
+    "machine_id": 205,
+    "sensor_code": "SNS-0021",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-08-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072378+05:30"
+  },
+  {
+    "sensor_id": 1022,
+    "machine_id": 205,
+    "sensor_code": "SNS-0022",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-08-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072379+05:30"
+  },
+  {
+    "sensor_id": 1023,
+    "machine_id": 205,
+    "sensor_code": "SNS-0023",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-08-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072380+05:30"
+  },
+  {
+    "sensor_id": 1024,
+    "machine_id": 205,
+    "sensor_code": "SNS-0024",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-09-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072380+05:30"
+  },
+  {
+    "sensor_id": 1025,
+    "machine_id": 205,
+    "sensor_code": "SNS-0025",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-08-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072381+05:30"
+  },
+  {
+    "sensor_id": 1026,
+    "machine_id": 206,
+    "sensor_code": "SNS-0026",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-06-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072382+05:30"
+  },
+  {
+    "sensor_id": 1027,
+    "machine_id": 206,
+    "sensor_code": "SNS-0027",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-06-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072383+05:30"
+  },
+  {
+    "sensor_id": 1028,
+    "machine_id": 206,
+    "sensor_code": "SNS-0028",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-06-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072383+05:30"
+  },
+  {
+    "sensor_id": 1029,
+    "machine_id": 206,
+    "sensor_code": "SNS-0029",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-06-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072384+05:30"
+  },
+  {
+    "sensor_id": 1030,
+    "machine_id": 206,
+    "sensor_code": "SNS-0030",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-06-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072385+05:30"
+  },
+  {
+    "sensor_id": 1031,
+    "machine_id": 207,
+    "sensor_code": "SNS-0031",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-01-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072386+05:30"
+  },
+  {
+    "sensor_id": 1032,
+    "machine_id": 207,
+    "sensor_code": "SNS-0032",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-01-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072386+05:30"
+  },
+  {
+    "sensor_id": 1033,
+    "machine_id": 207,
+    "sensor_code": "SNS-0033",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-12-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072387+05:30"
+  },
+  {
+    "sensor_id": 1034,
+    "machine_id": 207,
+    "sensor_code": "SNS-0034",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-12-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072388+05:30"
+  },
+  {
+    "sensor_id": 1035,
+    "machine_id": 207,
+    "sensor_code": "SNS-0035",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-12-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072388+05:30"
+  },
+  {
+    "sensor_id": 1036,
+    "machine_id": 208,
+    "sensor_code": "SNS-0036",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-10-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072389+05:30"
+  },
+  {
+    "sensor_id": 1037,
+    "machine_id": 208,
+    "sensor_code": "SNS-0037",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-10-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072390+05:30"
+  },
+  {
+    "sensor_id": 1038,
+    "machine_id": 208,
+    "sensor_code": "SNS-0038",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-10-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072391+05:30"
+  },
+  {
+    "sensor_id": 1039,
+    "machine_id": 208,
+    "sensor_code": "SNS-0039",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-10-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072392+05:30"
+  },
+  {
+    "sensor_id": 1040,
+    "machine_id": 208,
+    "sensor_code": "SNS-0040",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-10-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072392+05:30"
+  },
+  {
+    "sensor_id": 1041,
+    "machine_id": 209,
+    "sensor_code": "SNS-0041",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-10-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072393+05:30"
+  },
+  {
+    "sensor_id": 1042,
+    "machine_id": 209,
+    "sensor_code": "SNS-0042",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-10-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072394+05:30"
+  },
+  {
+    "sensor_id": 1043,
+    "machine_id": 209,
+    "sensor_code": "SNS-0043",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-10-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072394+05:30"
+  },
+  {
+    "sensor_id": 1044,
+    "machine_id": 209,
+    "sensor_code": "SNS-0044",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-10-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072395+05:30"
+  },
+  {
+    "sensor_id": 1045,
+    "machine_id": 209,
+    "sensor_code": "SNS-0045",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-10-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072396+05:30"
+  },
+  {
+    "sensor_id": 1046,
+    "machine_id": 210,
+    "sensor_code": "SNS-0046",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-03-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072397+05:30"
+  },
+  {
+    "sensor_id": 1047,
+    "machine_id": 210,
+    "sensor_code": "SNS-0047",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2025-04-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072397+05:30"
+  },
+  {
+    "sensor_id": 1048,
+    "machine_id": 210,
+    "sensor_code": "SNS-0048",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-03-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072398+05:30"
+  },
+  {
+    "sensor_id": 1049,
+    "machine_id": 210,
+    "sensor_code": "SNS-0049",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-03-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072399+05:30"
+  },
+  {
+    "sensor_id": 1050,
+    "machine_id": 210,
+    "sensor_code": "SNS-0050",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-03-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072399+05:30"
+  },
+  {
+    "sensor_id": 1051,
+    "machine_id": 211,
+    "sensor_code": "SNS-0051",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-05-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072400+05:30"
+  },
+  {
+    "sensor_id": 1052,
+    "machine_id": 211,
+    "sensor_code": "SNS-0052",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-05-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072401+05:30"
+  },
+  {
+    "sensor_id": 1053,
+    "machine_id": 211,
+    "sensor_code": "SNS-0053",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-05-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072402+05:30"
+  },
+  {
+    "sensor_id": 1054,
+    "machine_id": 211,
+    "sensor_code": "SNS-0054",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-05-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072403+05:30"
+  },
+  {
+    "sensor_id": 1055,
+    "machine_id": 211,
+    "sensor_code": "SNS-0055",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-05-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072403+05:30"
+  },
+  {
+    "sensor_id": 1056,
+    "machine_id": 212,
+    "sensor_code": "SNS-0056",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-09-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072404+05:30"
+  },
+  {
+    "sensor_id": 1057,
+    "machine_id": 212,
+    "sensor_code": "SNS-0057",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-09-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072405+05:30"
+  },
+  {
+    "sensor_id": 1058,
+    "machine_id": 212,
+    "sensor_code": "SNS-0058",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-10-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072406+05:30"
+  },
+  {
+    "sensor_id": 1059,
+    "machine_id": 212,
+    "sensor_code": "SNS-0059",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-10-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072406+05:30"
+  },
+  {
+    "sensor_id": 1060,
+    "machine_id": 212,
+    "sensor_code": "SNS-0060",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-10-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072407+05:30"
+  },
+  {
+    "sensor_id": 1061,
+    "machine_id": 213,
+    "sensor_code": "SNS-0061",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-10-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072408+05:30"
+  },
+  {
+    "sensor_id": 1062,
+    "machine_id": 213,
+    "sensor_code": "SNS-0062",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-10-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072409+05:30"
+  },
+  {
+    "sensor_id": 1063,
+    "machine_id": 213,
+    "sensor_code": "SNS-0063",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-10-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072410+05:30"
+  },
+  {
+    "sensor_id": 1064,
+    "machine_id": 213,
+    "sensor_code": "SNS-0064",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-10-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072410+05:30"
+  },
+  {
+    "sensor_id": 1065,
+    "machine_id": 213,
+    "sensor_code": "SNS-0065",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-10-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072411+05:30"
+  },
+  {
+    "sensor_id": 1066,
+    "machine_id": 214,
+    "sensor_code": "SNS-0066",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-10-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072412+05:30"
+  },
+  {
+    "sensor_id": 1067,
+    "machine_id": 214,
+    "sensor_code": "SNS-0067",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-10-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072412+05:30"
+  },
+  {
+    "sensor_id": 1068,
+    "machine_id": 214,
+    "sensor_code": "SNS-0068",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-10-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072413+05:30"
+  },
+  {
+    "sensor_id": 1069,
+    "machine_id": 214,
+    "sensor_code": "SNS-0069",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-10-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072414+05:30"
+  },
+  {
+    "sensor_id": 1070,
+    "machine_id": 214,
+    "sensor_code": "SNS-0070",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-10-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072415+05:30"
+  },
+  {
+    "sensor_id": 1071,
+    "machine_id": 215,
+    "sensor_code": "SNS-0071",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-06-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072415+05:30"
+  },
+  {
+    "sensor_id": 1072,
+    "machine_id": 215,
+    "sensor_code": "SNS-0072",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-07-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072416+05:30"
+  },
+  {
+    "sensor_id": 1073,
+    "machine_id": 215,
+    "sensor_code": "SNS-0073",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-07-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072417+05:30"
+  },
+  {
+    "sensor_id": 1074,
+    "machine_id": 215,
+    "sensor_code": "SNS-0074",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-06-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072417+05:30"
+  },
+  {
+    "sensor_id": 1075,
+    "machine_id": 215,
+    "sensor_code": "SNS-0075",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-07-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072418+05:30"
+  },
+  {
+    "sensor_id": 1076,
+    "machine_id": 216,
+    "sensor_code": "SNS-0076",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-09-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072419+05:30"
+  },
+  {
+    "sensor_id": 1077,
+    "machine_id": 216,
+    "sensor_code": "SNS-0077",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-09-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072420+05:30"
+  },
+  {
+    "sensor_id": 1078,
+    "machine_id": 216,
+    "sensor_code": "SNS-0078",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-08-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072420+05:30"
+  },
+  {
+    "sensor_id": 1079,
+    "machine_id": 216,
+    "sensor_code": "SNS-0079",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-09-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072421+05:30"
+  },
+  {
+    "sensor_id": 1080,
+    "machine_id": 216,
+    "sensor_code": "SNS-0080",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-09-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072422+05:30"
+  },
+  {
+    "sensor_id": 1081,
+    "machine_id": 217,
+    "sensor_code": "SNS-0081",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-07-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072422+05:30"
+  },
+  {
+    "sensor_id": 1082,
+    "machine_id": 217,
+    "sensor_code": "SNS-0082",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-07-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072423+05:30"
+  },
+  {
+    "sensor_id": 1083,
+    "machine_id": 217,
+    "sensor_code": "SNS-0083",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-06-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072424+05:30"
+  },
+  {
+    "sensor_id": 1084,
+    "machine_id": 217,
+    "sensor_code": "SNS-0084",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-06-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072425+05:30"
+  },
+  {
+    "sensor_id": 1085,
+    "machine_id": 217,
+    "sensor_code": "SNS-0085",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-06-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072425+05:30"
+  },
+  {
+    "sensor_id": 1086,
+    "machine_id": 218,
+    "sensor_code": "SNS-0086",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-01-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072426+05:30"
+  },
+  {
+    "sensor_id": 1087,
+    "machine_id": 218,
+    "sensor_code": "SNS-0087",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-02-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072427+05:30"
+  },
+  {
+    "sensor_id": 1088,
+    "machine_id": 218,
+    "sensor_code": "SNS-0088",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-01-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072427+05:30"
+  },
+  {
+    "sensor_id": 1089,
+    "machine_id": 218,
+    "sensor_code": "SNS-0089",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-02-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072428+05:30"
+  },
+  {
+    "sensor_id": 1090,
+    "machine_id": 218,
+    "sensor_code": "SNS-0090",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-01-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072429+05:30"
+  },
+  {
+    "sensor_id": 1091,
+    "machine_id": 219,
+    "sensor_code": "SNS-0091",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-04-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072429+05:30"
+  },
+  {
+    "sensor_id": 1092,
+    "machine_id": 219,
+    "sensor_code": "SNS-0092",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-04-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072430+05:30"
+  },
+  {
+    "sensor_id": 1093,
+    "machine_id": 219,
+    "sensor_code": "SNS-0093",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-04-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072431+05:30"
+  },
+  {
+    "sensor_id": 1094,
+    "machine_id": 219,
+    "sensor_code": "SNS-0094",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-04-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072431+05:30"
+  },
+  {
+    "sensor_id": 1095,
+    "machine_id": 219,
+    "sensor_code": "SNS-0095",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-04-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072432+05:30"
+  },
+  {
+    "sensor_id": 1096,
+    "machine_id": 220,
+    "sensor_code": "SNS-0096",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-12-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072433+05:30"
+  },
+  {
+    "sensor_id": 1097,
+    "machine_id": 220,
+    "sensor_code": "SNS-0097",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-12-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072434+05:30"
+  },
+  {
+    "sensor_id": 1098,
+    "machine_id": 220,
+    "sensor_code": "SNS-0098",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-12-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072434+05:30"
+  },
+  {
+    "sensor_id": 1099,
+    "machine_id": 220,
+    "sensor_code": "SNS-0099",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-12-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072435+05:30"
+  },
+  {
+    "sensor_id": 1100,
+    "machine_id": 220,
+    "sensor_code": "SNS-0100",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-12-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072436+05:30"
+  },
+  {
+    "sensor_id": 1101,
+    "machine_id": 221,
+    "sensor_code": "SNS-0101",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-01-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072436+05:30"
+  },
+  {
+    "sensor_id": 1102,
+    "machine_id": 221,
+    "sensor_code": "SNS-0102",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-01-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072437+05:30"
+  },
+  {
+    "sensor_id": 1103,
+    "machine_id": 221,
+    "sensor_code": "SNS-0103",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-01-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072438+05:30"
+  },
+  {
+    "sensor_id": 1104,
+    "machine_id": 221,
+    "sensor_code": "SNS-0104",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-01-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072438+05:30"
+  },
+  {
+    "sensor_id": 1105,
+    "machine_id": 221,
+    "sensor_code": "SNS-0105",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-01-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072439+05:30"
+  },
+  {
+    "sensor_id": 1106,
+    "machine_id": 222,
+    "sensor_code": "SNS-0106",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-11-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072440+05:30"
+  },
+  {
+    "sensor_id": 1107,
+    "machine_id": 222,
+    "sensor_code": "SNS-0107",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-11-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072441+05:30"
+  },
+  {
+    "sensor_id": 1108,
+    "machine_id": 222,
+    "sensor_code": "SNS-0108",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-12-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072442+05:30"
+  },
+  {
+    "sensor_id": 1109,
+    "machine_id": 222,
+    "sensor_code": "SNS-0109",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-12-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072442+05:30"
+  },
+  {
+    "sensor_id": 1110,
+    "machine_id": 222,
+    "sensor_code": "SNS-0110",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-12-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072443+05:30"
+  },
+  {
+    "sensor_id": 1111,
+    "machine_id": 223,
+    "sensor_code": "SNS-0111",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-12-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072444+05:30"
+  },
+  {
+    "sensor_id": 1112,
+    "machine_id": 223,
+    "sensor_code": "SNS-0112",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-12-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072444+05:30"
+  },
+  {
+    "sensor_id": 1113,
+    "machine_id": 223,
+    "sensor_code": "SNS-0113",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-12-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072445+05:30"
+  },
+  {
+    "sensor_id": 1114,
+    "machine_id": 223,
+    "sensor_code": "SNS-0114",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-12-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072446+05:30"
+  },
+  {
+    "sensor_id": 1115,
+    "machine_id": 223,
+    "sensor_code": "SNS-0115",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-12-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072446+05:30"
+  },
+  {
+    "sensor_id": 1116,
+    "machine_id": 224,
+    "sensor_code": "SNS-0116",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-04-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072447+05:30"
+  },
+  {
+    "sensor_id": 1117,
+    "machine_id": 224,
+    "sensor_code": "SNS-0117",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2025-04-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072448+05:30"
+  },
+  {
+    "sensor_id": 1118,
+    "machine_id": 224,
+    "sensor_code": "SNS-0118",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-04-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072448+05:30"
+  },
+  {
+    "sensor_id": 1119,
+    "machine_id": 224,
+    "sensor_code": "SNS-0119",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-04-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072449+05:30"
+  },
+  {
+    "sensor_id": 1120,
+    "machine_id": 224,
+    "sensor_code": "SNS-0120",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-04-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072450+05:30"
+  },
+  {
+    "sensor_id": 1121,
+    "machine_id": 225,
+    "sensor_code": "SNS-0121",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-06-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072451+05:30"
+  },
+  {
+    "sensor_id": 1122,
+    "machine_id": 225,
+    "sensor_code": "SNS-0122",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-06-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072451+05:30"
+  },
+  {
+    "sensor_id": 1123,
+    "machine_id": 225,
+    "sensor_code": "SNS-0123",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-06-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072452+05:30"
+  },
+  {
+    "sensor_id": 1124,
+    "machine_id": 225,
+    "sensor_code": "SNS-0124",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-06-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072453+05:30"
+  },
+  {
+    "sensor_id": 1125,
+    "machine_id": 225,
+    "sensor_code": "SNS-0125",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-06-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072453+05:30"
+  },
+  {
+    "sensor_id": 1126,
+    "machine_id": 226,
+    "sensor_code": "SNS-0126",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-10-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072454+05:30"
+  },
+  {
+    "sensor_id": 1127,
+    "machine_id": 226,
+    "sensor_code": "SNS-0127",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-11-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072455+05:30"
+  },
+  {
+    "sensor_id": 1128,
+    "machine_id": 226,
+    "sensor_code": "SNS-0128",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-11-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072456+05:30"
+  },
+  {
+    "sensor_id": 1129,
+    "machine_id": 226,
+    "sensor_code": "SNS-0129",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-11-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072457+05:30"
+  },
+  {
+    "sensor_id": 1130,
+    "machine_id": 226,
+    "sensor_code": "SNS-0130",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-11-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072457+05:30"
+  },
+  {
+    "sensor_id": 1131,
+    "machine_id": 227,
+    "sensor_code": "SNS-0131",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-11-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072458+05:30"
+  },
+  {
+    "sensor_id": 1132,
+    "machine_id": 227,
+    "sensor_code": "SNS-0132",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-11-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072459+05:30"
+  },
+  {
+    "sensor_id": 1133,
+    "machine_id": 227,
+    "sensor_code": "SNS-0133",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-11-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072459+05:30"
+  },
+  {
+    "sensor_id": 1134,
+    "machine_id": 227,
+    "sensor_code": "SNS-0134",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-11-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072460+05:30"
+  },
+  {
+    "sensor_id": 1135,
+    "machine_id": 227,
+    "sensor_code": "SNS-0135",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-11-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072461+05:30"
+  },
+  {
+    "sensor_id": 1136,
+    "machine_id": 228,
+    "sensor_code": "SNS-0136",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-09-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072462+05:30"
+  },
+  {
+    "sensor_id": 1137,
+    "machine_id": 228,
+    "sensor_code": "SNS-0137",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-09-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072462+05:30"
+  },
+  {
+    "sensor_id": 1138,
+    "machine_id": 228,
+    "sensor_code": "SNS-0138",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-09-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072463+05:30"
+  },
+  {
+    "sensor_id": 1139,
+    "machine_id": 228,
+    "sensor_code": "SNS-0139",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-09-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072464+05:30"
+  },
+  {
+    "sensor_id": 1140,
+    "machine_id": 228,
+    "sensor_code": "SNS-0140",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-10-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072464+05:30"
+  },
+  {
+    "sensor_id": 1141,
+    "machine_id": 229,
+    "sensor_code": "SNS-0141",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-01-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072465+05:30"
+  },
+  {
+    "sensor_id": 1142,
+    "machine_id": 229,
+    "sensor_code": "SNS-0142",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-01-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072466+05:30"
+  },
+  {
+    "sensor_id": 1143,
+    "machine_id": 229,
+    "sensor_code": "SNS-0143",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-02-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072467+05:30"
+  },
+  {
+    "sensor_id": 1144,
+    "machine_id": 229,
+    "sensor_code": "SNS-0144",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-01-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072467+05:30"
+  },
+  {
+    "sensor_id": 1145,
+    "machine_id": 229,
+    "sensor_code": "SNS-0145",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-01-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072468+05:30"
+  },
+  {
+    "sensor_id": 1146,
+    "machine_id": 230,
+    "sensor_code": "SNS-0146",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-03-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072469+05:30"
+  },
+  {
+    "sensor_id": 1147,
+    "machine_id": 230,
+    "sensor_code": "SNS-0147",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2025-03-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072469+05:30"
+  },
+  {
+    "sensor_id": 1148,
+    "machine_id": 230,
+    "sensor_code": "SNS-0148",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-03-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072470+05:30"
+  },
+  {
+    "sensor_id": 1149,
+    "machine_id": 230,
+    "sensor_code": "SNS-0149",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072471+05:30"
+  },
+  {
+    "sensor_id": 1150,
+    "machine_id": 230,
+    "sensor_code": "SNS-0150",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072472+05:30"
+  },
+  {
+    "sensor_id": 1151,
+    "machine_id": 231,
+    "sensor_code": "SNS-0151",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-03-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072472+05:30"
+  },
+  {
+    "sensor_id": 1152,
+    "machine_id": 231,
+    "sensor_code": "SNS-0152",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072473+05:30"
+  },
+  {
+    "sensor_id": 1153,
+    "machine_id": 231,
+    "sensor_code": "SNS-0153",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-03-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072474+05:30"
+  },
+  {
+    "sensor_id": 1154,
+    "machine_id": 231,
+    "sensor_code": "SNS-0154",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-03-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072474+05:30"
+  },
+  {
+    "sensor_id": 1155,
+    "machine_id": 231,
+    "sensor_code": "SNS-0155",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-03-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072475+05:30"
+  },
+  {
+    "sensor_id": 1156,
+    "machine_id": 232,
+    "sensor_code": "SNS-0156",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-09-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072476+05:30"
+  },
+  {
+    "sensor_id": 1157,
+    "machine_id": 232,
+    "sensor_code": "SNS-0157",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-09-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072476+05:30"
+  },
+  {
+    "sensor_id": 1158,
+    "machine_id": 232,
+    "sensor_code": "SNS-0158",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-09-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072477+05:30"
+  },
+  {
+    "sensor_id": 1159,
+    "machine_id": 232,
+    "sensor_code": "SNS-0159",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-09-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072478+05:30"
+  },
+  {
+    "sensor_id": 1160,
+    "machine_id": 232,
+    "sensor_code": "SNS-0160",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-09-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072479+05:30"
+  },
+  {
+    "sensor_id": 1161,
+    "machine_id": 233,
+    "sensor_code": "SNS-0161",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-11-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072479+05:30"
+  },
+  {
+    "sensor_id": 1162,
+    "machine_id": 233,
+    "sensor_code": "SNS-0162",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-11-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072480+05:30"
+  },
+  {
+    "sensor_id": 1163,
+    "machine_id": 233,
+    "sensor_code": "SNS-0163",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-11-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072481+05:30"
+  },
+  {
+    "sensor_id": 1164,
+    "machine_id": 233,
+    "sensor_code": "SNS-0164",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-11-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072481+05:30"
+  },
+  {
+    "sensor_id": 1165,
+    "machine_id": 233,
+    "sensor_code": "SNS-0165",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-11-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072482+05:30"
+  },
+  {
+    "sensor_id": 1166,
+    "machine_id": 234,
+    "sensor_code": "SNS-0166",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-12-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072483+05:30"
+  },
+  {
+    "sensor_id": 1167,
+    "machine_id": 234,
+    "sensor_code": "SNS-0167",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-12-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072484+05:30"
+  },
+  {
+    "sensor_id": 1168,
+    "machine_id": 234,
+    "sensor_code": "SNS-0168",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-11-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072484+05:30"
+  },
+  {
+    "sensor_id": 1169,
+    "machine_id": 234,
+    "sensor_code": "SNS-0169",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-12-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072485+05:30"
+  },
+  {
+    "sensor_id": 1170,
+    "machine_id": 234,
+    "sensor_code": "SNS-0170",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-12-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072486+05:30"
+  },
+  {
+    "sensor_id": 1171,
+    "machine_id": 235,
+    "sensor_code": "SNS-0171",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072487+05:30"
+  },
+  {
+    "sensor_id": 1172,
+    "machine_id": 235,
+    "sensor_code": "SNS-0172",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-03-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072487+05:30"
+  },
+  {
+    "sensor_id": 1173,
+    "machine_id": 235,
+    "sensor_code": "SNS-0173",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-03-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072488+05:30"
+  },
+  {
+    "sensor_id": 1174,
+    "machine_id": 235,
+    "sensor_code": "SNS-0174",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-03-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072489+05:30"
+  },
+  {
+    "sensor_id": 1175,
+    "machine_id": 235,
+    "sensor_code": "SNS-0175",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-03-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072489+05:30"
+  },
+  {
+    "sensor_id": 1176,
+    "machine_id": 236,
+    "sensor_code": "SNS-0176",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-11-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072490+05:30"
+  },
+  {
+    "sensor_id": 1177,
+    "machine_id": 236,
+    "sensor_code": "SNS-0177",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-11-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072491+05:30"
+  },
+  {
+    "sensor_id": 1178,
+    "machine_id": 236,
+    "sensor_code": "SNS-0178",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-11-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072491+05:30"
+  },
+  {
+    "sensor_id": 1179,
+    "machine_id": 236,
+    "sensor_code": "SNS-0179",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-11-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072492+05:30"
+  },
+  {
+    "sensor_id": 1180,
+    "machine_id": 236,
+    "sensor_code": "SNS-0180",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-11-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072493+05:30"
+  },
+  {
+    "sensor_id": 1181,
+    "machine_id": 237,
+    "sensor_code": "SNS-0181",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-03-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072494+05:30"
+  },
+  {
+    "sensor_id": 1182,
+    "machine_id": 237,
+    "sensor_code": "SNS-0182",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-03-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072494+05:30"
+  },
+  {
+    "sensor_id": 1183,
+    "machine_id": 237,
+    "sensor_code": "SNS-0183",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-03-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072495+05:30"
+  },
+  {
+    "sensor_id": 1184,
+    "machine_id": 237,
+    "sensor_code": "SNS-0184",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-03-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072496+05:30"
+  },
+  {
+    "sensor_id": 1185,
+    "machine_id": 237,
+    "sensor_code": "SNS-0185",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-03-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072496+05:30"
+  },
+  {
+    "sensor_id": 1186,
+    "machine_id": 238,
+    "sensor_code": "SNS-0186",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-07-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072497+05:30"
+  },
+  {
+    "sensor_id": 1187,
+    "machine_id": 238,
+    "sensor_code": "SNS-0187",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-07-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072498+05:30"
+  },
+  {
+    "sensor_id": 1188,
+    "machine_id": 238,
+    "sensor_code": "SNS-0188",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-07-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072499+05:30"
+  },
+  {
+    "sensor_id": 1189,
+    "machine_id": 238,
+    "sensor_code": "SNS-0189",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-07-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072499+05:30"
+  },
+  {
+    "sensor_id": 1190,
+    "machine_id": 238,
+    "sensor_code": "SNS-0190",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-07-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072500+05:30"
+  },
+  {
+    "sensor_id": 1191,
+    "machine_id": 239,
+    "sensor_code": "SNS-0191",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-06-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072501+05:30"
+  },
+  {
+    "sensor_id": 1192,
+    "machine_id": 239,
+    "sensor_code": "SNS-0192",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-05-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072502+05:30"
+  },
+  {
+    "sensor_id": 1193,
+    "machine_id": 239,
+    "sensor_code": "SNS-0193",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-05-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072502+05:30"
+  },
+  {
+    "sensor_id": 1194,
+    "machine_id": 239,
+    "sensor_code": "SNS-0194",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-06-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072503+05:30"
+  },
+  {
+    "sensor_id": 1195,
+    "machine_id": 239,
+    "sensor_code": "SNS-0195",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-05-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072504+05:30"
+  },
+  {
+    "sensor_id": 1196,
+    "machine_id": 240,
+    "sensor_code": "SNS-0196",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-06-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072504+05:30"
+  },
+  {
+    "sensor_id": 1197,
+    "machine_id": 240,
+    "sensor_code": "SNS-0197",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-06-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072505+05:30"
+  },
+  {
+    "sensor_id": 1198,
+    "machine_id": 240,
+    "sensor_code": "SNS-0198",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-06-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072506+05:30"
+  },
+  {
+    "sensor_id": 1199,
+    "machine_id": 240,
+    "sensor_code": "SNS-0199",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-06-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072507+05:30"
+  },
+  {
+    "sensor_id": 1200,
+    "machine_id": 240,
+    "sensor_code": "SNS-0200",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-06-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072507+05:30"
+  },
+  {
+    "sensor_id": 1201,
+    "machine_id": 241,
+    "sensor_code": "SNS-0201",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-12-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072508+05:30"
+  },
+  {
+    "sensor_id": 1202,
+    "machine_id": 241,
+    "sensor_code": "SNS-0202",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-12-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072509+05:30"
+  },
+  {
+    "sensor_id": 1203,
+    "machine_id": 241,
+    "sensor_code": "SNS-0203",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-12-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072510+05:30"
+  },
+  {
+    "sensor_id": 1204,
+    "machine_id": 241,
+    "sensor_code": "SNS-0204",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-01-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072510+05:30"
+  },
+  {
+    "sensor_id": 1205,
+    "machine_id": 241,
+    "sensor_code": "SNS-0205",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-01-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072511+05:30"
+  },
+  {
+    "sensor_id": 1206,
+    "machine_id": 242,
+    "sensor_code": "SNS-0206",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-10-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072512+05:30"
+  },
+  {
+    "sensor_id": 1207,
+    "machine_id": 242,
+    "sensor_code": "SNS-0207",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-10-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072512+05:30"
+  },
+  {
+    "sensor_id": 1208,
+    "machine_id": 242,
+    "sensor_code": "SNS-0208",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-10-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072513+05:30"
+  },
+  {
+    "sensor_id": 1209,
+    "machine_id": 242,
+    "sensor_code": "SNS-0209",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-10-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072514+05:30"
+  },
+  {
+    "sensor_id": 1210,
+    "machine_id": 242,
+    "sensor_code": "SNS-0210",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-10-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072515+05:30"
+  },
+  {
+    "sensor_id": 1211,
+    "machine_id": 243,
+    "sensor_code": "SNS-0211",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-03-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072515+05:30"
+  },
+  {
+    "sensor_id": 1212,
+    "machine_id": 243,
+    "sensor_code": "SNS-0212",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2025-03-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072516+05:30"
+  },
+  {
+    "sensor_id": 1213,
+    "machine_id": 243,
+    "sensor_code": "SNS-0213",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072517+05:30"
+  },
+  {
+    "sensor_id": 1214,
+    "machine_id": 243,
+    "sensor_code": "SNS-0214",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072517+05:30"
+  },
+  {
+    "sensor_id": 1215,
+    "machine_id": 243,
+    "sensor_code": "SNS-0215",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072518+05:30"
+  },
+  {
+    "sensor_id": 1216,
+    "machine_id": 244,
+    "sensor_code": "SNS-0216",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-04-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072519+05:30"
+  },
+  {
+    "sensor_id": 1217,
+    "machine_id": 244,
+    "sensor_code": "SNS-0217",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-04-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072519+05:30"
+  },
+  {
+    "sensor_id": 1218,
+    "machine_id": 244,
+    "sensor_code": "SNS-0218",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-04-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072520+05:30"
+  },
+  {
+    "sensor_id": 1219,
+    "machine_id": 244,
+    "sensor_code": "SNS-0219",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-04-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072521+05:30"
+  },
+  {
+    "sensor_id": 1220,
+    "machine_id": 244,
+    "sensor_code": "SNS-0220",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-04-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072522+05:30"
+  },
+  {
+    "sensor_id": 1221,
+    "machine_id": 245,
+    "sensor_code": "SNS-0221",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-03-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072522+05:30"
+  },
+  {
+    "sensor_id": 1222,
+    "machine_id": 245,
+    "sensor_code": "SNS-0222",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-03-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072523+05:30"
+  },
+  {
+    "sensor_id": 1223,
+    "machine_id": 245,
+    "sensor_code": "SNS-0223",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-03-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072524+05:30"
+  },
+  {
+    "sensor_id": 1224,
+    "machine_id": 245,
+    "sensor_code": "SNS-0224",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-03-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072524+05:30"
+  },
+  {
+    "sensor_id": 1225,
+    "machine_id": 245,
+    "sensor_code": "SNS-0225",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-03-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072525+05:30"
+  },
+  {
+    "sensor_id": 1226,
+    "machine_id": 246,
+    "sensor_code": "SNS-0226",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-11-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072526+05:30"
+  },
+  {
+    "sensor_id": 1227,
+    "machine_id": 246,
+    "sensor_code": "SNS-0227",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-11-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072527+05:30"
+  },
+  {
+    "sensor_id": 1228,
+    "machine_id": 246,
+    "sensor_code": "SNS-0228",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-10-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072528+05:30"
+  },
+  {
+    "sensor_id": 1229,
+    "machine_id": 246,
+    "sensor_code": "SNS-0229",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-10-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072528+05:30"
+  },
+  {
+    "sensor_id": 1230,
+    "machine_id": 246,
+    "sensor_code": "SNS-0230",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-11-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072529+05:30"
+  },
+  {
+    "sensor_id": 1231,
+    "machine_id": 247,
+    "sensor_code": "SNS-0231",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-09-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072530+05:30"
+  },
+  {
+    "sensor_id": 1232,
+    "machine_id": 247,
+    "sensor_code": "SNS-0232",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-09-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072530+05:30"
+  },
+  {
+    "sensor_id": 1233,
+    "machine_id": 247,
+    "sensor_code": "SNS-0233",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-09-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072531+05:30"
+  },
+  {
+    "sensor_id": 1234,
+    "machine_id": 247,
+    "sensor_code": "SNS-0234",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-09-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072532+05:30"
+  },
+  {
+    "sensor_id": 1235,
+    "machine_id": 247,
+    "sensor_code": "SNS-0235",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-09-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072532+05:30"
+  },
+  {
+    "sensor_id": 1236,
+    "machine_id": 248,
+    "sensor_code": "SNS-0236",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-06-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072533+05:30"
+  },
+  {
+    "sensor_id": 1237,
+    "machine_id": 248,
+    "sensor_code": "SNS-0237",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-06-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072534+05:30"
+  },
+  {
+    "sensor_id": 1238,
+    "machine_id": 248,
+    "sensor_code": "SNS-0238",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-06-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072534+05:30"
+  },
+  {
+    "sensor_id": 1239,
+    "machine_id": 248,
+    "sensor_code": "SNS-0239",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-06-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072535+05:30"
+  },
+  {
+    "sensor_id": 1240,
+    "machine_id": 248,
+    "sensor_code": "SNS-0240",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-06-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072536+05:30"
+  },
+  {
+    "sensor_id": 1241,
+    "machine_id": 249,
+    "sensor_code": "SNS-0241",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-05-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072536+05:30"
+  },
+  {
+    "sensor_id": 1242,
+    "machine_id": 249,
+    "sensor_code": "SNS-0242",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-05-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072537+05:30"
+  },
+  {
+    "sensor_id": 1243,
+    "machine_id": 249,
+    "sensor_code": "SNS-0243",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-05-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072538+05:30"
+  },
+  {
+    "sensor_id": 1244,
+    "machine_id": 249,
+    "sensor_code": "SNS-0244",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-05-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072538+05:30"
+  },
+  {
+    "sensor_id": 1245,
+    "machine_id": 249,
+    "sensor_code": "SNS-0245",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-05-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072539+05:30"
+  },
+  {
+    "sensor_id": 1246,
+    "machine_id": 250,
+    "sensor_code": "SNS-0246",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-07-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072540+05:30"
+  },
+  {
+    "sensor_id": 1247,
+    "machine_id": 250,
+    "sensor_code": "SNS-0247",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-07-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072541+05:30"
+  },
+  {
+    "sensor_id": 1248,
+    "machine_id": 250,
+    "sensor_code": "SNS-0248",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-07-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072541+05:30"
+  },
+  {
+    "sensor_id": 1249,
+    "machine_id": 250,
+    "sensor_code": "SNS-0249",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-07-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072542+05:30"
+  },
+  {
+    "sensor_id": 1250,
+    "machine_id": 250,
+    "sensor_code": "SNS-0250",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-07-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072543+05:30"
+  },
+  {
+    "sensor_id": 1251,
+    "machine_id": 251,
+    "sensor_code": "SNS-0251",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-05-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072543+05:30"
+  },
+  {
+    "sensor_id": 1252,
+    "machine_id": 251,
+    "sensor_code": "SNS-0252",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-05-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072544+05:30"
+  },
+  {
+    "sensor_id": 1253,
+    "machine_id": 251,
+    "sensor_code": "SNS-0253",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-05-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072545+05:30"
+  },
+  {
+    "sensor_id": 1254,
+    "machine_id": 251,
+    "sensor_code": "SNS-0254",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-04-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072545+05:30"
+  },
+  {
+    "sensor_id": 1255,
+    "machine_id": 251,
+    "sensor_code": "SNS-0255",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-04-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072546+05:30"
+  },
+  {
+    "sensor_id": 1256,
+    "machine_id": 252,
+    "sensor_code": "SNS-0256",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-08-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072547+05:30"
+  },
+  {
+    "sensor_id": 1257,
+    "machine_id": 252,
+    "sensor_code": "SNS-0257",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-08-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072547+05:30"
+  },
+  {
+    "sensor_id": 1258,
+    "machine_id": 252,
+    "sensor_code": "SNS-0258",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-08-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072548+05:30"
+  },
+  {
+    "sensor_id": 1259,
+    "machine_id": 252,
+    "sensor_code": "SNS-0259",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-08-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072549+05:30"
+  },
+  {
+    "sensor_id": 1260,
+    "machine_id": 252,
+    "sensor_code": "SNS-0260",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-08-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072550+05:30"
+  },
+  {
+    "sensor_id": 1261,
+    "machine_id": 253,
+    "sensor_code": "SNS-0261",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-07-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072550+05:30"
+  },
+  {
+    "sensor_id": 1262,
+    "machine_id": 253,
+    "sensor_code": "SNS-0262",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-07-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072551+05:30"
+  },
+  {
+    "sensor_id": 1263,
+    "machine_id": 253,
+    "sensor_code": "SNS-0263",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-07-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072552+05:30"
+  },
+  {
+    "sensor_id": 1264,
+    "machine_id": 253,
+    "sensor_code": "SNS-0264",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-07-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072552+05:30"
+  },
+  {
+    "sensor_id": 1265,
+    "machine_id": 253,
+    "sensor_code": "SNS-0265",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-07-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072553+05:30"
+  },
+  {
+    "sensor_id": 1266,
+    "machine_id": 254,
+    "sensor_code": "SNS-0266",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-10-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072554+05:30"
+  },
+  {
+    "sensor_id": 1267,
+    "machine_id": 254,
+    "sensor_code": "SNS-0267",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-10-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072554+05:30"
+  },
+  {
+    "sensor_id": 1268,
+    "machine_id": 254,
+    "sensor_code": "SNS-0268",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-10-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072555+05:30"
+  },
+  {
+    "sensor_id": 1269,
+    "machine_id": 254,
+    "sensor_code": "SNS-0269",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-10-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072556+05:30"
+  },
+  {
+    "sensor_id": 1270,
+    "machine_id": 254,
+    "sensor_code": "SNS-0270",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-10-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072556+05:30"
+  },
+  {
+    "sensor_id": 1271,
+    "machine_id": 255,
+    "sensor_code": "SNS-0271",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-01-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072557+05:30"
+  },
+  {
+    "sensor_id": 1272,
+    "machine_id": 255,
+    "sensor_code": "SNS-0272",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-01-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072558+05:30"
+  },
+  {
+    "sensor_id": 1273,
+    "machine_id": 255,
+    "sensor_code": "SNS-0273",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-12-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072559+05:30"
+  },
+  {
+    "sensor_id": 1274,
+    "machine_id": 255,
+    "sensor_code": "SNS-0274",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-01-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072559+05:30"
+  },
+  {
+    "sensor_id": 1275,
+    "machine_id": 255,
+    "sensor_code": "SNS-0275",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-01-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072560+05:30"
+  },
+  {
+    "sensor_id": 1276,
+    "machine_id": 256,
+    "sensor_code": "SNS-0276",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-05-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072561+05:30"
+  },
+  {
+    "sensor_id": 1277,
+    "machine_id": 256,
+    "sensor_code": "SNS-0277",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-06-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072561+05:30"
+  },
+  {
+    "sensor_id": 1278,
+    "machine_id": 256,
+    "sensor_code": "SNS-0278",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-06-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072562+05:30"
+  },
+  {
+    "sensor_id": 1279,
+    "machine_id": 256,
+    "sensor_code": "SNS-0279",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-06-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072563+05:30"
+  },
+  {
+    "sensor_id": 1280,
+    "machine_id": 256,
+    "sensor_code": "SNS-0280",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-06-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072563+05:30"
+  },
+  {
+    "sensor_id": 1281,
+    "machine_id": 257,
+    "sensor_code": "SNS-0281",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-02-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072564+05:30"
+  },
+  {
+    "sensor_id": 1282,
+    "machine_id": 257,
+    "sensor_code": "SNS-0282",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-02-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072565+05:30"
+  },
+  {
+    "sensor_id": 1283,
+    "machine_id": 257,
+    "sensor_code": "SNS-0283",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-02-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072565+05:30"
+  },
+  {
+    "sensor_id": 1284,
+    "machine_id": 257,
+    "sensor_code": "SNS-0284",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-02-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072566+05:30"
+  },
+  {
+    "sensor_id": 1285,
+    "machine_id": 257,
+    "sensor_code": "SNS-0285",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-02-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072567+05:30"
+  },
+  {
+    "sensor_id": 1286,
+    "machine_id": 258,
+    "sensor_code": "SNS-0286",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-04-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072567+05:30"
+  },
+  {
+    "sensor_id": 1287,
+    "machine_id": 258,
+    "sensor_code": "SNS-0287",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-04-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072568+05:30"
+  },
+  {
+    "sensor_id": 1288,
+    "machine_id": 258,
+    "sensor_code": "SNS-0288",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-04-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072569+05:30"
+  },
+  {
+    "sensor_id": 1289,
+    "machine_id": 258,
+    "sensor_code": "SNS-0289",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-04-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072570+05:30"
+  },
+  {
+    "sensor_id": 1290,
+    "machine_id": 258,
+    "sensor_code": "SNS-0290",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-04-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072570+05:30"
+  },
+  {
+    "sensor_id": 1291,
+    "machine_id": 259,
+    "sensor_code": "SNS-0291",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-02-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072571+05:30"
+  },
+  {
+    "sensor_id": 1292,
+    "machine_id": 259,
+    "sensor_code": "SNS-0292",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-02-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072572+05:30"
+  },
+  {
+    "sensor_id": 1293,
+    "machine_id": 259,
+    "sensor_code": "SNS-0293",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-02-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072572+05:30"
+  },
+  {
+    "sensor_id": 1294,
+    "machine_id": 259,
+    "sensor_code": "SNS-0294",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-02-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072573+05:30"
+  },
+  {
+    "sensor_id": 1295,
+    "machine_id": 259,
+    "sensor_code": "SNS-0295",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-02-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072574+05:30"
+  },
+  {
+    "sensor_id": 1296,
+    "machine_id": 260,
+    "sensor_code": "SNS-0296",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-02-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072574+05:30"
+  },
+  {
+    "sensor_id": 1297,
+    "machine_id": 260,
+    "sensor_code": "SNS-0297",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-02-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072575+05:30"
+  },
+  {
+    "sensor_id": 1298,
+    "machine_id": 260,
+    "sensor_code": "SNS-0298",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-02-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072576+05:30"
+  },
+  {
+    "sensor_id": 1299,
+    "machine_id": 260,
+    "sensor_code": "SNS-0299",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-02-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072576+05:30"
+  },
+  {
+    "sensor_id": 1300,
+    "machine_id": 260,
+    "sensor_code": "SNS-0300",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-02-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072577+05:30"
+  },
+  {
+    "sensor_id": 1301,
+    "machine_id": 261,
+    "sensor_code": "SNS-0301",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-06-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072578+05:30"
+  },
+  {
+    "sensor_id": 1302,
+    "machine_id": 261,
+    "sensor_code": "SNS-0302",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-06-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072578+05:30"
+  },
+  {
+    "sensor_id": 1303,
+    "machine_id": 261,
+    "sensor_code": "SNS-0303",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-06-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072579+05:30"
+  },
+  {
+    "sensor_id": 1304,
+    "machine_id": 261,
+    "sensor_code": "SNS-0304",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-06-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072580+05:30"
+  },
+  {
+    "sensor_id": 1305,
+    "machine_id": 261,
+    "sensor_code": "SNS-0305",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-06-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072580+05:30"
+  },
+  {
+    "sensor_id": 1306,
+    "machine_id": 262,
+    "sensor_code": "SNS-0306",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-10-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072581+05:30"
+  },
+  {
+    "sensor_id": 1307,
+    "machine_id": 262,
+    "sensor_code": "SNS-0307",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-10-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072582+05:30"
+  },
+  {
+    "sensor_id": 1308,
+    "machine_id": 262,
+    "sensor_code": "SNS-0308",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-10-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072582+05:30"
+  },
+  {
+    "sensor_id": 1309,
+    "machine_id": 262,
+    "sensor_code": "SNS-0309",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-10-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072583+05:30"
+  },
+  {
+    "sensor_id": 1310,
+    "machine_id": 262,
+    "sensor_code": "SNS-0310",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-10-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072584+05:30"
+  },
+  {
+    "sensor_id": 1311,
+    "machine_id": 263,
+    "sensor_code": "SNS-0311",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-12-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072585+05:30"
+  },
+  {
+    "sensor_id": 1312,
+    "machine_id": 263,
+    "sensor_code": "SNS-0312",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-12-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072585+05:30"
+  },
+  {
+    "sensor_id": 1313,
+    "machine_id": 263,
+    "sensor_code": "SNS-0313",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-12-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072586+05:30"
+  },
+  {
+    "sensor_id": 1314,
+    "machine_id": 263,
+    "sensor_code": "SNS-0314",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-12-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072587+05:30"
+  },
+  {
+    "sensor_id": 1315,
+    "machine_id": 263,
+    "sensor_code": "SNS-0315",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-12-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072587+05:30"
+  },
+  {
+    "sensor_id": 1316,
+    "machine_id": 264,
+    "sensor_code": "SNS-0316",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-03-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072588+05:30"
+  },
+  {
+    "sensor_id": 1317,
+    "machine_id": 264,
+    "sensor_code": "SNS-0317",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-03-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072589+05:30"
+  },
+  {
+    "sensor_id": 1318,
+    "machine_id": 264,
+    "sensor_code": "SNS-0318",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-04-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072589+05:30"
+  },
+  {
+    "sensor_id": 1319,
+    "machine_id": 264,
+    "sensor_code": "SNS-0319",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-04-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072590+05:30"
+  },
+  {
+    "sensor_id": 1320,
+    "machine_id": 264,
+    "sensor_code": "SNS-0320",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-04-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072591+05:30"
+  },
+  {
+    "sensor_id": 1321,
+    "machine_id": 265,
+    "sensor_code": "SNS-0321",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-07-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072591+05:30"
+  },
+  {
+    "sensor_id": 1322,
+    "machine_id": 265,
+    "sensor_code": "SNS-0322",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-07-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072592+05:30"
+  },
+  {
+    "sensor_id": 1323,
+    "machine_id": 265,
+    "sensor_code": "SNS-0323",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-07-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072593+05:30"
+  },
+  {
+    "sensor_id": 1324,
+    "machine_id": 265,
+    "sensor_code": "SNS-0324",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-07-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072593+05:30"
+  },
+  {
+    "sensor_id": 1325,
+    "machine_id": 265,
+    "sensor_code": "SNS-0325",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-07-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072594+05:30"
+  },
+  {
+    "sensor_id": 1326,
+    "machine_id": 266,
+    "sensor_code": "SNS-0326",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-02-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072595+05:30"
+  },
+  {
+    "sensor_id": 1327,
+    "machine_id": 266,
+    "sensor_code": "SNS-0327",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-02-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072595+05:30"
+  },
+  {
+    "sensor_id": 1328,
+    "machine_id": 266,
+    "sensor_code": "SNS-0328",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-02-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072596+05:30"
+  },
+  {
+    "sensor_id": 1329,
+    "machine_id": 266,
+    "sensor_code": "SNS-0329",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-02-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072597+05:30"
+  },
+  {
+    "sensor_id": 1330,
+    "machine_id": 266,
+    "sensor_code": "SNS-0330",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-02-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072598+05:30"
+  },
+  {
+    "sensor_id": 1331,
+    "machine_id": 267,
+    "sensor_code": "SNS-0331",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-06-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072598+05:30"
+  },
+  {
+    "sensor_id": 1332,
+    "machine_id": 267,
+    "sensor_code": "SNS-0332",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-06-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072599+05:30"
+  },
+  {
+    "sensor_id": 1333,
+    "machine_id": 267,
+    "sensor_code": "SNS-0333",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-06-14",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072600+05:30"
+  },
+  {
+    "sensor_id": 1334,
+    "machine_id": 267,
+    "sensor_code": "SNS-0334",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-06-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072600+05:30"
+  },
+  {
+    "sensor_id": 1335,
+    "machine_id": 267,
+    "sensor_code": "SNS-0335",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-06-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072601+05:30"
+  },
+  {
+    "sensor_id": 1336,
+    "machine_id": 268,
+    "sensor_code": "SNS-0336",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-01-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072602+05:30"
+  },
+  {
+    "sensor_id": 1337,
+    "machine_id": 268,
+    "sensor_code": "SNS-0337",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-01-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072602+05:30"
+  },
+  {
+    "sensor_id": 1338,
+    "machine_id": 268,
+    "sensor_code": "SNS-0338",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-01-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072603+05:30"
+  },
+  {
+    "sensor_id": 1339,
+    "machine_id": 268,
+    "sensor_code": "SNS-0339",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-01-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072604+05:30"
+  },
+  {
+    "sensor_id": 1340,
+    "machine_id": 268,
+    "sensor_code": "SNS-0340",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-01-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072604+05:30"
+  },
+  {
+    "sensor_id": 1341,
+    "machine_id": 269,
+    "sensor_code": "SNS-0341",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-04-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072605+05:30"
+  },
+  {
+    "sensor_id": 1342,
+    "machine_id": 269,
+    "sensor_code": "SNS-0342",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2025-04-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072606+05:30"
+  },
+  {
+    "sensor_id": 1343,
+    "machine_id": 269,
+    "sensor_code": "SNS-0343",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-04-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072606+05:30"
+  },
+  {
+    "sensor_id": 1344,
+    "machine_id": 269,
+    "sensor_code": "SNS-0344",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-03-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072607+05:30"
+  },
+  {
+    "sensor_id": 1345,
+    "machine_id": 269,
+    "sensor_code": "SNS-0345",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-04-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072608+05:30"
+  },
+  {
+    "sensor_id": 1346,
+    "machine_id": 270,
+    "sensor_code": "SNS-0346",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-08-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072608+05:30"
+  },
+  {
+    "sensor_id": 1347,
+    "machine_id": 270,
+    "sensor_code": "SNS-0347",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-08-05",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072609+05:30"
+  },
+  {
+    "sensor_id": 1348,
+    "machine_id": 270,
+    "sensor_code": "SNS-0348",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-08-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072610+05:30"
+  },
+  {
+    "sensor_id": 1349,
+    "machine_id": 270,
+    "sensor_code": "SNS-0349",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-08-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072610+05:30"
+  },
+  {
+    "sensor_id": 1350,
+    "machine_id": 270,
+    "sensor_code": "SNS-0350",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-08-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072611+05:30"
+  },
+  {
+    "sensor_id": 1351,
+    "machine_id": 271,
+    "sensor_code": "SNS-0351",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-01-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072612+05:30"
+  },
+  {
+    "sensor_id": 1352,
+    "machine_id": 271,
+    "sensor_code": "SNS-0352",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-01-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072612+05:30"
+  },
+  {
+    "sensor_id": 1353,
+    "machine_id": 271,
+    "sensor_code": "SNS-0353",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-01-22",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072613+05:30"
+  },
+  {
+    "sensor_id": 1354,
+    "machine_id": 271,
+    "sensor_code": "SNS-0354",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-01-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072614+05:30"
+  },
+  {
+    "sensor_id": 1355,
+    "machine_id": 271,
+    "sensor_code": "SNS-0355",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-01-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072614+05:30"
+  },
+  {
+    "sensor_id": 1356,
+    "machine_id": 272,
+    "sensor_code": "SNS-0356",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-02-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072615+05:30"
+  },
+  {
+    "sensor_id": 1357,
+    "machine_id": 272,
+    "sensor_code": "SNS-0357",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-02-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072616+05:30"
+  },
+  {
+    "sensor_id": 1358,
+    "machine_id": 272,
+    "sensor_code": "SNS-0358",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-02-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072616+05:30"
+  },
+  {
+    "sensor_id": 1359,
+    "machine_id": 272,
+    "sensor_code": "SNS-0359",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-02-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072617+05:30"
+  },
+  {
+    "sensor_id": 1360,
+    "machine_id": 272,
+    "sensor_code": "SNS-0360",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-02-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072618+05:30"
+  },
+  {
+    "sensor_id": 1361,
+    "machine_id": 273,
+    "sensor_code": "SNS-0361",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-08-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072619+05:30"
+  },
+  {
+    "sensor_id": 1362,
+    "machine_id": 273,
+    "sensor_code": "SNS-0362",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-08-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072619+05:30"
+  },
+  {
+    "sensor_id": 1363,
+    "machine_id": 273,
+    "sensor_code": "SNS-0363",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-09-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072620+05:30"
+  },
+  {
+    "sensor_id": 1364,
+    "machine_id": 273,
+    "sensor_code": "SNS-0364",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-08-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072621+05:30"
+  },
+  {
+    "sensor_id": 1365,
+    "machine_id": 273,
+    "sensor_code": "SNS-0365",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-08-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072621+05:30"
+  },
+  {
+    "sensor_id": 1366,
+    "machine_id": 274,
+    "sensor_code": "SNS-0366",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-09-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072622+05:30"
+  },
+  {
+    "sensor_id": 1367,
+    "machine_id": 274,
+    "sensor_code": "SNS-0367",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-09-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072623+05:30"
+  },
+  {
+    "sensor_id": 1368,
+    "machine_id": 274,
+    "sensor_code": "SNS-0368",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-09-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072623+05:30"
+  },
+  {
+    "sensor_id": 1369,
+    "machine_id": 274,
+    "sensor_code": "SNS-0369",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-09-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072624+05:30"
+  },
+  {
+    "sensor_id": 1370,
+    "machine_id": 274,
+    "sensor_code": "SNS-0370",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-09-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072625+05:30"
+  },
+  {
+    "sensor_id": 1371,
+    "machine_id": 275,
+    "sensor_code": "SNS-0371",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-09-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072625+05:30"
+  },
+  {
+    "sensor_id": 1372,
+    "machine_id": 275,
+    "sensor_code": "SNS-0372",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-09-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072626+05:30"
+  },
+  {
+    "sensor_id": 1373,
+    "machine_id": 275,
+    "sensor_code": "SNS-0373",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-09-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072627+05:30"
+  },
+  {
+    "sensor_id": 1374,
+    "machine_id": 275,
+    "sensor_code": "SNS-0374",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-09-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072628+05:30"
+  },
+  {
+    "sensor_id": 1375,
+    "machine_id": 275,
+    "sensor_code": "SNS-0375",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-09-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072628+05:30"
+  },
+  {
+    "sensor_id": 1376,
+    "machine_id": 276,
+    "sensor_code": "SNS-0376",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-09-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072629+05:30"
+  },
+  {
+    "sensor_id": 1377,
+    "machine_id": 276,
+    "sensor_code": "SNS-0377",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-09-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072630+05:30"
+  },
+  {
+    "sensor_id": 1378,
+    "machine_id": 276,
+    "sensor_code": "SNS-0378",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-09-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072630+05:30"
+  },
+  {
+    "sensor_id": 1379,
+    "machine_id": 276,
+    "sensor_code": "SNS-0379",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-09-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072631+05:30"
+  },
+  {
+    "sensor_id": 1380,
+    "machine_id": 276,
+    "sensor_code": "SNS-0380",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-09-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072632+05:30"
+  },
+  {
+    "sensor_id": 1381,
+    "machine_id": 277,
+    "sensor_code": "SNS-0381",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-03-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072632+05:30"
+  },
+  {
+    "sensor_id": 1382,
+    "machine_id": 277,
+    "sensor_code": "SNS-0382",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-03-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072633+05:30"
+  },
+  {
+    "sensor_id": 1383,
+    "machine_id": 277,
+    "sensor_code": "SNS-0383",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-03-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072634+05:30"
+  },
+  {
+    "sensor_id": 1384,
+    "machine_id": 277,
+    "sensor_code": "SNS-0384",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-03-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072634+05:30"
+  },
+  {
+    "sensor_id": 1385,
+    "machine_id": 277,
+    "sensor_code": "SNS-0385",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-03-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072635+05:30"
+  },
+  {
+    "sensor_id": 1386,
+    "machine_id": 278,
+    "sensor_code": "SNS-0386",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-12-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072636+05:30"
+  },
+  {
+    "sensor_id": 1387,
+    "machine_id": 278,
+    "sensor_code": "SNS-0387",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-12-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072636+05:30"
+  },
+  {
+    "sensor_id": 1388,
+    "machine_id": 278,
+    "sensor_code": "SNS-0388",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-12-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072637+05:30"
+  },
+  {
+    "sensor_id": 1389,
+    "machine_id": 278,
+    "sensor_code": "SNS-0389",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-12-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072638+05:30"
+  },
+  {
+    "sensor_id": 1390,
+    "machine_id": 278,
+    "sensor_code": "SNS-0390",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-12-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072638+05:30"
+  },
+  {
+    "sensor_id": 1391,
+    "machine_id": 279,
+    "sensor_code": "SNS-0391",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-11-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072639+05:30"
+  },
+  {
+    "sensor_id": 1392,
+    "machine_id": 279,
+    "sensor_code": "SNS-0392",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-11-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072640+05:30"
+  },
+  {
+    "sensor_id": 1393,
+    "machine_id": 279,
+    "sensor_code": "SNS-0393",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-11-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072641+05:30"
+  },
+  {
+    "sensor_id": 1394,
+    "machine_id": 279,
+    "sensor_code": "SNS-0394",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-11-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072641+05:30"
+  },
+  {
+    "sensor_id": 1395,
+    "machine_id": 279,
+    "sensor_code": "SNS-0395",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-11-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072642+05:30"
+  },
+  {
+    "sensor_id": 1396,
+    "machine_id": 280,
+    "sensor_code": "SNS-0396",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-01-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072643+05:30"
+  },
+  {
+    "sensor_id": 1397,
+    "machine_id": 280,
+    "sensor_code": "SNS-0397",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-12-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072643+05:30"
+  },
+  {
+    "sensor_id": 1398,
+    "machine_id": 280,
+    "sensor_code": "SNS-0398",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-01-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072644+05:30"
+  },
+  {
+    "sensor_id": 1399,
+    "machine_id": 280,
+    "sensor_code": "SNS-0399",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-01-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072645+05:30"
+  },
+  {
+    "sensor_id": 1400,
+    "machine_id": 280,
+    "sensor_code": "SNS-0400",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-01-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072645+05:30"
+  },
+  {
+    "sensor_id": 1401,
+    "machine_id": 281,
+    "sensor_code": "SNS-0401",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-11-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072646+05:30"
+  },
+  {
+    "sensor_id": 1402,
+    "machine_id": 281,
+    "sensor_code": "SNS-0402",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-11-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072647+05:30"
+  },
+  {
+    "sensor_id": 1403,
+    "machine_id": 281,
+    "sensor_code": "SNS-0403",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-11-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072647+05:30"
+  },
+  {
+    "sensor_id": 1404,
+    "machine_id": 281,
+    "sensor_code": "SNS-0404",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-11-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072648+05:30"
+  },
+  {
+    "sensor_id": 1405,
+    "machine_id": 281,
+    "sensor_code": "SNS-0405",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-10-29",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072649+05:30"
+  },
+  {
+    "sensor_id": 1406,
+    "machine_id": 282,
+    "sensor_code": "SNS-0406",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-04-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072649+05:30"
+  },
+  {
+    "sensor_id": 1407,
+    "machine_id": 282,
+    "sensor_code": "SNS-0407",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-04-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072650+05:30"
+  },
+  {
+    "sensor_id": 1408,
+    "machine_id": 282,
+    "sensor_code": "SNS-0408",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-04-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072651+05:30"
+  },
+  {
+    "sensor_id": 1409,
+    "machine_id": 282,
+    "sensor_code": "SNS-0409",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-04-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072651+05:30"
+  },
+  {
+    "sensor_id": 1410,
+    "machine_id": 282,
+    "sensor_code": "SNS-0410",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-04-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072652+05:30"
+  },
+  {
+    "sensor_id": 1411,
+    "machine_id": 283,
+    "sensor_code": "SNS-0411",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-12-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072653+05:30"
+  },
+  {
+    "sensor_id": 1412,
+    "machine_id": 283,
+    "sensor_code": "SNS-0412",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-12-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072653+05:30"
+  },
+  {
+    "sensor_id": 1413,
+    "machine_id": 283,
+    "sensor_code": "SNS-0413",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-12-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072654+05:30"
+  },
+  {
+    "sensor_id": 1414,
+    "machine_id": 283,
+    "sensor_code": "SNS-0414",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-12-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072655+05:30"
+  },
+  {
+    "sensor_id": 1415,
+    "machine_id": 283,
+    "sensor_code": "SNS-0415",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-12-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072655+05:30"
+  },
+  {
+    "sensor_id": 1416,
+    "machine_id": 284,
+    "sensor_code": "SNS-0416",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-04-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072656+05:30"
+  },
+  {
+    "sensor_id": 1417,
+    "machine_id": 284,
+    "sensor_code": "SNS-0417",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-04-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072657+05:30"
+  },
+  {
+    "sensor_id": 1418,
+    "machine_id": 284,
+    "sensor_code": "SNS-0418",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-04-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072658+05:30"
+  },
+  {
+    "sensor_id": 1419,
+    "machine_id": 284,
+    "sensor_code": "SNS-0419",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-04-17",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072658+05:30"
+  },
+  {
+    "sensor_id": 1420,
+    "machine_id": 284,
+    "sensor_code": "SNS-0420",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-04-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072659+05:30"
+  },
+  {
+    "sensor_id": 1421,
+    "machine_id": 285,
+    "sensor_code": "SNS-0421",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-02-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072660+05:30"
+  },
+  {
+    "sensor_id": 1422,
+    "machine_id": 285,
+    "sensor_code": "SNS-0422",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2025-02-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072660+05:30"
+  },
+  {
+    "sensor_id": 1423,
+    "machine_id": 285,
+    "sensor_code": "SNS-0423",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-02-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072661+05:30"
+  },
+  {
+    "sensor_id": 1424,
+    "machine_id": 285,
+    "sensor_code": "SNS-0424",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-02-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072662+05:30"
+  },
+  {
+    "sensor_id": 1425,
+    "machine_id": 285,
+    "sensor_code": "SNS-0425",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-01-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072662+05:30"
+  },
+  {
+    "sensor_id": 1426,
+    "machine_id": 286,
+    "sensor_code": "SNS-0426",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-10-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072663+05:30"
+  },
+  {
+    "sensor_id": 1427,
+    "machine_id": 286,
+    "sensor_code": "SNS-0427",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-10-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072664+05:30"
+  },
+  {
+    "sensor_id": 1428,
+    "machine_id": 286,
+    "sensor_code": "SNS-0428",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-11-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072664+05:30"
+  },
+  {
+    "sensor_id": 1429,
+    "machine_id": 286,
+    "sensor_code": "SNS-0429",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-11-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072665+05:30"
+  },
+  {
+    "sensor_id": 1430,
+    "machine_id": 286,
+    "sensor_code": "SNS-0430",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-11-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072666+05:30"
+  },
+  {
+    "sensor_id": 1431,
+    "machine_id": 287,
+    "sensor_code": "SNS-0431",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-03-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072666+05:30"
+  },
+  {
+    "sensor_id": 1432,
+    "machine_id": 287,
+    "sensor_code": "SNS-0432",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-03-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072667+05:30"
+  },
+  {
+    "sensor_id": 1433,
+    "machine_id": 287,
+    "sensor_code": "SNS-0433",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-03-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072668+05:30"
+  },
+  {
+    "sensor_id": 1434,
+    "machine_id": 287,
+    "sensor_code": "SNS-0434",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-03-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072668+05:30"
+  },
+  {
+    "sensor_id": 1435,
+    "machine_id": 287,
+    "sensor_code": "SNS-0435",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-03-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072669+05:30"
+  },
+  {
+    "sensor_id": 1436,
+    "machine_id": 288,
+    "sensor_code": "SNS-0436",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-06-01",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072670+05:30"
+  },
+  {
+    "sensor_id": 1437,
+    "machine_id": 288,
+    "sensor_code": "SNS-0437",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-05-24",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072670+05:30"
+  },
+  {
+    "sensor_id": 1438,
+    "machine_id": 288,
+    "sensor_code": "SNS-0438",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-05-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072671+05:30"
+  },
+  {
+    "sensor_id": 1439,
+    "machine_id": 288,
+    "sensor_code": "SNS-0439",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-05-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072672+05:30"
+  },
+  {
+    "sensor_id": 1440,
+    "machine_id": 288,
+    "sensor_code": "SNS-0440",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-05-26",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072672+05:30"
+  },
+  {
+    "sensor_id": 1441,
+    "machine_id": 289,
+    "sensor_code": "SNS-0441",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-04-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072673+05:30"
+  },
+  {
+    "sensor_id": 1442,
+    "machine_id": 289,
+    "sensor_code": "SNS-0442",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-04-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072674+05:30"
+  },
+  {
+    "sensor_id": 1443,
+    "machine_id": 289,
+    "sensor_code": "SNS-0443",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-04-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072675+05:30"
+  },
+  {
+    "sensor_id": 1444,
+    "machine_id": 289,
+    "sensor_code": "SNS-0444",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-04-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072675+05:30"
+  },
+  {
+    "sensor_id": 1445,
+    "machine_id": 289,
+    "sensor_code": "SNS-0445",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-04-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072676+05:30"
+  },
+  {
+    "sensor_id": 1446,
+    "machine_id": 290,
+    "sensor_code": "SNS-0446",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-08-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072677+05:30"
+  },
+  {
+    "sensor_id": 1447,
+    "machine_id": 290,
+    "sensor_code": "SNS-0447",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-07-27",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072677+05:30"
+  },
+  {
+    "sensor_id": 1448,
+    "machine_id": 290,
+    "sensor_code": "SNS-0448",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-07-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072678+05:30"
+  },
+  {
+    "sensor_id": 1449,
+    "machine_id": 290,
+    "sensor_code": "SNS-0449",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-08-03",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072679+05:30"
+  },
+  {
+    "sensor_id": 1450,
+    "machine_id": 290,
+    "sensor_code": "SNS-0450",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-08-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072679+05:30"
+  },
+  {
+    "sensor_id": 1451,
+    "machine_id": 291,
+    "sensor_code": "SNS-0451",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-06-02",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072680+05:30"
+  },
+  {
+    "sensor_id": 1452,
+    "machine_id": 291,
+    "sensor_code": "SNS-0452",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-05-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072681+05:30"
+  },
+  {
+    "sensor_id": 1453,
+    "machine_id": 291,
+    "sensor_code": "SNS-0453",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-05-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072681+05:30"
+  },
+  {
+    "sensor_id": 1454,
+    "machine_id": 291,
+    "sensor_code": "SNS-0454",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-05-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072682+05:30"
+  },
+  {
+    "sensor_id": 1455,
+    "machine_id": 291,
+    "sensor_code": "SNS-0455",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-05-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072683+05:30"
+  },
+  {
+    "sensor_id": 1456,
+    "machine_id": 292,
+    "sensor_code": "SNS-0456",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-03-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072683+05:30"
+  },
+  {
+    "sensor_id": 1457,
+    "machine_id": 292,
+    "sensor_code": "SNS-0457",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-03-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072684+05:30"
+  },
+  {
+    "sensor_id": 1458,
+    "machine_id": 292,
+    "sensor_code": "SNS-0458",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-03-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072685+05:30"
+  },
+  {
+    "sensor_id": 1459,
+    "machine_id": 292,
+    "sensor_code": "SNS-0459",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-03-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072685+05:30"
+  },
+  {
+    "sensor_id": 1460,
+    "machine_id": 292,
+    "sensor_code": "SNS-0460",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-03-16",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072686+05:30"
+  },
+  {
+    "sensor_id": 1461,
+    "machine_id": 293,
+    "sensor_code": "SNS-0461",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-09-23",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072687+05:30"
+  },
+  {
+    "sensor_id": 1462,
+    "machine_id": 293,
+    "sensor_code": "SNS-0462",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-09-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072687+05:30"
+  },
+  {
+    "sensor_id": 1463,
+    "machine_id": 293,
+    "sensor_code": "SNS-0463",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-09-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072688+05:30"
+  },
+  {
+    "sensor_id": 1464,
+    "machine_id": 293,
+    "sensor_code": "SNS-0464",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-09-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072689+05:30"
+  },
+  {
+    "sensor_id": 1465,
+    "machine_id": 293,
+    "sensor_code": "SNS-0465",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-09-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072689+05:30"
+  },
+  {
+    "sensor_id": 1466,
+    "machine_id": 294,
+    "sensor_code": "SNS-0466",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-05-18",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072690+05:30"
+  },
+  {
+    "sensor_id": 1467,
+    "machine_id": 294,
+    "sensor_code": "SNS-0467",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-05-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072691+05:30"
+  },
+  {
+    "sensor_id": 1468,
+    "machine_id": 294,
+    "sensor_code": "SNS-0468",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-05-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072691+05:30"
+  },
+  {
+    "sensor_id": 1469,
+    "machine_id": 294,
+    "sensor_code": "SNS-0469",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-05-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072692+05:30"
+  },
+  {
+    "sensor_id": 1470,
+    "machine_id": 294,
+    "sensor_code": "SNS-0470",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-05-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072693+05:30"
+  },
+  {
+    "sensor_id": 1471,
+    "machine_id": 295,
+    "sensor_code": "SNS-0471",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2025-02-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072694+05:30"
+  },
+  {
+    "sensor_id": 1472,
+    "machine_id": 295,
+    "sensor_code": "SNS-0472",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2025-02-25",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072694+05:30"
+  },
+  {
+    "sensor_id": 1473,
+    "machine_id": 295,
+    "sensor_code": "SNS-0473",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2025-03-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072697+05:30"
+  },
+  {
+    "sensor_id": 1474,
+    "machine_id": 295,
+    "sensor_code": "SNS-0474",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2025-03-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072698+05:30"
+  },
+  {
+    "sensor_id": 1475,
+    "machine_id": 295,
+    "sensor_code": "SNS-0475",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2025-02-28",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072699+05:30"
+  },
+  {
+    "sensor_id": 1476,
+    "machine_id": 296,
+    "sensor_code": "SNS-0476",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2023-06-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072699+05:30"
+  },
+  {
+    "sensor_id": 1477,
+    "machine_id": 296,
+    "sensor_code": "SNS-0477",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2023-06-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072700+05:30"
+  },
+  {
+    "sensor_id": 1478,
+    "machine_id": 296,
+    "sensor_code": "SNS-0478",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2023-06-11",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072701+05:30"
+  },
+  {
+    "sensor_id": 1479,
+    "machine_id": 296,
+    "sensor_code": "SNS-0479",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2023-06-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072701+05:30"
+  },
+  {
+    "sensor_id": 1480,
+    "machine_id": 296,
+    "sensor_code": "SNS-0480",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2023-06-08",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072702+05:30"
+  },
+  {
+    "sensor_id": 1481,
+    "machine_id": 297,
+    "sensor_code": "SNS-0481",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2024-04-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072703+05:30"
+  },
+  {
+    "sensor_id": 1482,
+    "machine_id": 297,
+    "sensor_code": "SNS-0482",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2024-04-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072704+05:30"
+  },
+  {
+    "sensor_id": 1483,
+    "machine_id": 297,
+    "sensor_code": "SNS-0483",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2024-04-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072704+05:30"
+  },
+  {
+    "sensor_id": 1484,
+    "machine_id": 297,
+    "sensor_code": "SNS-0484",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2024-04-19",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072705+05:30"
+  },
+  {
+    "sensor_id": 1485,
+    "machine_id": 297,
+    "sensor_code": "SNS-0485",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2024-04-04",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072706+05:30"
+  },
+  {
+    "sensor_id": 1486,
+    "machine_id": 298,
+    "sensor_code": "SNS-0486",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-12-21",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072706+05:30"
+  },
+  {
+    "sensor_id": 1487,
+    "machine_id": 298,
+    "sensor_code": "SNS-0487",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-12-07",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072707+05:30"
+  },
+  {
+    "sensor_id": 1488,
+    "machine_id": 298,
+    "sensor_code": "SNS-0488",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-12-13",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072708+05:30"
+  },
+  {
+    "sensor_id": 1489,
+    "machine_id": 298,
+    "sensor_code": "SNS-0489",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-12-12",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072708+05:30"
+  },
+  {
+    "sensor_id": 1490,
+    "machine_id": 298,
+    "sensor_code": "SNS-0490",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-12-20",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072709+05:30"
+  },
+  {
+    "sensor_id": 1491,
+    "machine_id": 299,
+    "sensor_code": "SNS-0491",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-08-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072710+05:30"
+  },
+  {
+    "sensor_id": 1492,
+    "machine_id": 299,
+    "sensor_code": "SNS-0492",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-08-30",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072711+05:30"
+  },
+  {
+    "sensor_id": 1493,
+    "machine_id": 299,
+    "sensor_code": "SNS-0493",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-08-31",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072711+05:30"
+  },
+  {
+    "sensor_id": 1494,
+    "machine_id": 299,
+    "sensor_code": "SNS-0494",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-09-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072712+05:30"
+  },
+  {
+    "sensor_id": 1495,
+    "machine_id": 299,
+    "sensor_code": "SNS-0495",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-09-06",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072713+05:30"
+  },
+  {
+    "sensor_id": 1496,
+    "machine_id": 300,
+    "sensor_code": "SNS-0496",
+    "sensor_type": "Vibration",
+    "unit": "mm/s",
+    "installation_date": "2022-09-09",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072713+05:30"
+  },
+  {
+    "sensor_id": 1497,
+    "machine_id": 300,
+    "sensor_code": "SNS-0497",
+    "sensor_type": "Temperature",
+    "unit": "\u00b0C",
+    "installation_date": "2022-09-15",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072714+05:30"
+  },
+  {
+    "sensor_id": 1498,
+    "machine_id": 300,
+    "sensor_code": "SNS-0498",
+    "sensor_type": "Acoustic",
+    "unit": "dB",
+    "installation_date": "2022-09-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072715+05:30"
+  },
+  {
+    "sensor_id": 1499,
+    "machine_id": 300,
+    "sensor_code": "SNS-0499",
+    "sensor_type": "Pressure",
+    "unit": "bar",
+    "installation_date": "2022-09-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072715+05:30"
+  },
+  {
+    "sensor_id": 1500,
+    "machine_id": 300,
+    "sensor_code": "SNS-0500",
+    "sensor_type": "Current",
+    "unit": "A",
+    "installation_date": "2022-09-10",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:31.072716+05:30"
+  }
+]

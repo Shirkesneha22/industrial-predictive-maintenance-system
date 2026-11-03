@@ -1,0 +1,101 @@
+machine_id,line_id,machine_code,name,machine_type,manufacturer,model_number,installation_date,is_active,created_at
+201,33,MCH-001,CNC 5-Axis Vertical Machining Center #001,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2022-03-19,True,2026-11-02T16:45:30.389450+05:30
+202,33,MCH-002,Heavy Hydraulic Stamping Press #002,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2023-08-18,True,2026-11-02T16:45:30.389454+05:30
+203,33,MCH-003,Industrial Centrifugal Slurry Pump #003,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2022-08-10,True,2026-11-02T16:45:30.389455+05:30
+204,33,MCH-004,Rotary Screw Industrial Air Compressor #004,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2024-10-09,True,2026-11-02T16:45:30.389456+05:30
+205,33,MCH-005,6-Axis Heavy Payload Articulated Robot #005,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2024-08-22,True,2026-11-02T16:45:30.389457+05:30
+206,33,MCH-006,High-Speed Plastic Injection Molding Machine #006,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2023-06-13,True,2026-11-02T16:45:30.389457+05:30
+207,33,MCH-007,Heavy Duty Industrial Lathe & Turning Center #007,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2022-12-22,True,2026-11-02T16:45:30.389458+05:30
+208,33,MCH-008,Heavy Duty Industrial Conveyor Drive Station #008,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2024-10-17,True,2026-11-02T16:45:30.389458+05:30
+209,33,MCH-009,CNC 5-Axis Vertical Machining Center #009,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2023-10-08,True,2026-11-02T16:45:30.389459+05:30
+210,34,MCH-010,Heavy Hydraulic Stamping Press #010,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2025-03-20,True,2026-11-02T16:45:30.389460+05:30
+211,34,MCH-011,Industrial Centrifugal Slurry Pump #011,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2022-05-13,True,2026-11-02T16:45:30.389460+05:30
+212,34,MCH-012,Rotary Screw Industrial Air Compressor #012,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2024-09-26,True,2026-11-02T16:45:30.389461+05:30
+213,34,MCH-013,6-Axis Heavy Payload Articulated Robot #013,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2023-10-19,True,2026-11-02T16:45:30.389462+05:30
+214,34,MCH-014,High-Speed Plastic Injection Molding Machine #014,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2024-09-29,True,2026-11-02T16:45:30.389462+05:30
+215,34,MCH-015,Heavy Duty Industrial Lathe & Turning Center #015,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2024-06-21,True,2026-11-02T16:45:30.389463+05:30
+216,34,MCH-016,Heavy Duty Industrial Conveyor Drive Station #016,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2022-08-25,True,2026-11-02T16:45:30.389464+05:30
+217,34,MCH-017,CNC 5-Axis Vertical Machining Center #017,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2024-06-20,True,2026-11-02T16:45:30.389464+05:30
+218,34,MCH-018,Heavy Hydraulic Stamping Press #018,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2024-01-23,True,2026-11-02T16:45:30.389465+05:30
+219,35,MCH-019,Industrial Centrifugal Slurry Pump #019,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2024-04-10,True,2026-11-02T16:45:30.389465+05:30
+220,35,MCH-020,Rotary Screw Industrial Air Compressor #020,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2024-12-04,True,2026-11-02T16:45:30.389466+05:30
+221,35,MCH-021,6-Axis Heavy Payload Articulated Robot #021,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2024-01-21,True,2026-11-02T16:45:30.389467+05:30
+222,35,MCH-022,High-Speed Plastic Injection Molding Machine #022,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2023-11-26,True,2026-11-02T16:45:30.389467+05:30
+223,35,MCH-023,Heavy Duty Industrial Lathe & Turning Center #023,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2024-12-04,True,2026-11-02T16:45:30.389468+05:30
+224,35,MCH-024,Heavy Duty Industrial Conveyor Drive Station #024,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2025-04-21,True,2026-11-02T16:45:30.389469+05:30
+225,35,MCH-025,CNC 5-Axis Vertical Machining Center #025,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2023-06-03,True,2026-11-02T16:45:30.389469+05:30
+226,35,MCH-026,Heavy Hydraulic Stamping Press #026,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2022-10-29,True,2026-11-02T16:45:30.389470+05:30
+227,35,MCH-027,Industrial Centrifugal Slurry Pump #027,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2023-11-03,True,2026-11-02T16:45:30.389471+05:30
+228,36,MCH-028,Rotary Screw Industrial Air Compressor #028,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2023-09-20,True,2026-11-02T16:45:30.389471+05:30
+229,36,MCH-029,6-Axis Heavy Payload Articulated Robot #029,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2022-01-21,True,2026-11-02T16:45:30.389472+05:30
+230,36,MCH-030,High-Speed Plastic Injection Molding Machine #030,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2025-03-16,True,2026-11-02T16:45:30.389473+05:30
+231,36,MCH-031,Heavy Duty Industrial Lathe & Turning Center #031,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2022-03-07,True,2026-11-02T16:45:30.389473+05:30
+232,36,MCH-032,Heavy Duty Industrial Conveyor Drive Station #032,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2024-09-07,True,2026-11-02T16:45:30.389474+05:30
+233,36,MCH-033,CNC 5-Axis Vertical Machining Center #033,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2024-11-14,True,2026-11-02T16:45:30.389475+05:30
+234,36,MCH-034,Heavy Hydraulic Stamping Press #034,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2024-11-26,True,2026-11-02T16:45:30.389475+05:30
+235,36,MCH-035,Industrial Centrifugal Slurry Pump #035,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2024-03-04,True,2026-11-02T16:45:30.389476+05:30
+236,36,MCH-036,Rotary Screw Industrial Air Compressor #036,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2023-11-17,True,2026-11-02T16:45:30.389476+05:30
+237,29,MCH-037,6-Axis Heavy Payload Articulated Robot #037,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2024-03-09,True,2026-11-02T16:45:30.389477+05:30
+238,29,MCH-038,High-Speed Plastic Injection Molding Machine #038,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2022-07-05,True,2026-11-02T16:45:30.389478+05:30
+239,29,MCH-039,Heavy Duty Industrial Lathe & Turning Center #039,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2022-05-24,True,2026-11-02T16:45:30.389478+05:30
+240,29,MCH-040,Heavy Duty Industrial Conveyor Drive Station #040,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2022-06-03,True,2026-11-02T16:45:30.389479+05:30
+241,29,MCH-041,CNC 5-Axis Vertical Machining Center #041,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2022-12-29,True,2026-11-02T16:45:30.389480+05:30
+242,29,MCH-042,Heavy Hydraulic Stamping Press #042,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2022-10-04,True,2026-11-02T16:45:30.389480+05:30
+243,29,MCH-043,Industrial Centrifugal Slurry Pump #043,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2025-03-16,True,2026-11-02T16:45:30.389481+05:30
+244,29,MCH-044,Rotary Screw Industrial Air Compressor #044,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2024-04-06,True,2026-11-02T16:45:30.389481+05:30
+245,30,MCH-045,6-Axis Heavy Payload Articulated Robot #045,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2023-03-13,True,2026-11-02T16:45:30.389482+05:30
+246,30,MCH-046,High-Speed Plastic Injection Molding Machine #046,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2024-10-25,True,2026-11-02T16:45:30.389483+05:30
+247,30,MCH-047,Heavy Duty Industrial Lathe & Turning Center #047,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2024-08-30,True,2026-11-02T16:45:30.389483+05:30
+248,30,MCH-048,Heavy Duty Industrial Conveyor Drive Station #048,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2022-06-04,True,2026-11-02T16:45:30.389484+05:30
+249,30,MCH-049,CNC 5-Axis Vertical Machining Center #049,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2024-05-07,True,2026-11-02T16:45:30.389485+05:30
+250,30,MCH-050,Heavy Hydraulic Stamping Press #050,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2022-07-10,True,2026-11-02T16:45:30.389485+05:30
+251,30,MCH-051,Industrial Centrifugal Slurry Pump #051,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2022-04-23,True,2026-11-02T16:45:30.389486+05:30
+252,30,MCH-052,Rotary Screw Industrial Air Compressor #052,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2024-07-29,True,2026-11-02T16:45:30.389486+05:30
+253,31,MCH-053,6-Axis Heavy Payload Articulated Robot #053,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2022-07-08,True,2026-11-02T16:45:30.389487+05:30
+254,31,MCH-054,High-Speed Plastic Injection Molding Machine #054,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2024-10-06,True,2026-11-02T16:45:30.389488+05:30
+255,31,MCH-055,Heavy Duty Industrial Lathe & Turning Center #055,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2023-12-27,True,2026-11-02T16:45:30.389489+05:30
+256,31,MCH-056,Heavy Duty Industrial Conveyor Drive Station #056,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2023-05-24,True,2026-11-02T16:45:30.389489+05:30
+257,31,MCH-057,CNC 5-Axis Vertical Machining Center #057,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2023-02-13,True,2026-11-02T16:45:30.389490+05:30
+258,31,MCH-058,Heavy Hydraulic Stamping Press #058,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2022-04-08,True,2026-11-02T16:45:30.389490+05:30
+259,31,MCH-059,Industrial Centrifugal Slurry Pump #059,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2022-02-02,True,2026-11-02T16:45:30.389491+05:30
+260,31,MCH-060,Rotary Screw Industrial Air Compressor #060,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2023-02-05,True,2026-11-02T16:45:30.389492+05:30
+261,32,MCH-061,6-Axis Heavy Payload Articulated Robot #061,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2024-05-30,True,2026-11-02T16:45:30.389492+05:30
+262,32,MCH-062,High-Speed Plastic Injection Molding Machine #062,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2024-10-03,True,2026-11-02T16:45:30.389493+05:30
+263,32,MCH-063,Heavy Duty Industrial Lathe & Turning Center #063,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2023-12-01,True,2026-11-02T16:45:30.389494+05:30
+264,32,MCH-064,Heavy Duty Industrial Conveyor Drive Station #064,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2023-03-28,True,2026-11-02T16:45:30.389494+05:30
+265,32,MCH-065,CNC 5-Axis Vertical Machining Center #065,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2023-07-19,True,2026-11-02T16:45:30.389495+05:30
+266,32,MCH-066,Heavy Hydraulic Stamping Press #066,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2023-02-05,True,2026-11-02T16:45:30.389495+05:30
+267,32,MCH-067,Industrial Centrifugal Slurry Pump #067,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2024-06-09,True,2026-11-02T16:45:30.389496+05:30
+268,32,MCH-068,Rotary Screw Industrial Air Compressor #068,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2022-01-17,True,2026-11-02T16:45:30.389497+05:30
+269,25,MCH-069,6-Axis Heavy Payload Articulated Robot #069,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2025-03-25,True,2026-11-02T16:45:30.389497+05:30
+270,25,MCH-070,High-Speed Plastic Injection Molding Machine #070,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2022-07-31,True,2026-11-02T16:45:30.389498+05:30
+271,25,MCH-071,Heavy Duty Industrial Lathe & Turning Center #071,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2022-01-19,True,2026-11-02T16:45:30.389499+05:30
+272,25,MCH-072,Heavy Duty Industrial Conveyor Drive Station #072,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2022-02-04,True,2026-11-02T16:45:30.389499+05:30
+273,25,MCH-073,CNC 5-Axis Vertical Machining Center #073,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2022-08-20,True,2026-11-02T16:45:30.389500+05:30
+274,25,MCH-074,Heavy Hydraulic Stamping Press #074,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2024-09-10,True,2026-11-02T16:45:30.389500+05:30
+275,25,MCH-075,Industrial Centrifugal Slurry Pump #075,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2022-09-19,True,2026-11-02T16:45:30.389501+05:30
+276,25,MCH-076,Rotary Screw Industrial Air Compressor #076,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2023-09-01,True,2026-11-02T16:45:30.389502+05:30
+277,26,MCH-077,6-Axis Heavy Payload Articulated Robot #077,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2024-03-04,True,2026-11-02T16:45:30.389502+05:30
+278,26,MCH-078,High-Speed Plastic Injection Molding Machine #078,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2023-12-16,True,2026-11-02T16:45:30.389503+05:30
+279,26,MCH-079,Heavy Duty Industrial Lathe & Turning Center #079,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2023-11-16,True,2026-11-02T16:45:30.389503+05:30
+280,26,MCH-080,Heavy Duty Industrial Conveyor Drive Station #080,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2024-12-29,True,2026-11-02T16:45:30.389504+05:30
+281,26,MCH-081,CNC 5-Axis Vertical Machining Center #081,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2022-10-24,True,2026-11-02T16:45:30.389505+05:30
+282,26,MCH-082,Heavy Hydraulic Stamping Press #082,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2022-04-10,True,2026-11-02T16:45:30.389505+05:30
+283,26,MCH-083,Industrial Centrifugal Slurry Pump #083,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2024-11-30,True,2026-11-02T16:45:30.389506+05:30
+284,26,MCH-084,Rotary Screw Industrial Air Compressor #084,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2022-04-06,True,2026-11-02T16:45:30.389507+05:30
+285,27,MCH-085,6-Axis Heavy Payload Articulated Robot #085,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2025-01-28,True,2026-11-02T16:45:30.389507+05:30
+286,27,MCH-086,High-Speed Plastic Injection Molding Machine #086,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2023-10-30,True,2026-11-02T16:45:30.389508+05:30
+287,27,MCH-087,Heavy Duty Industrial Lathe & Turning Center #087,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2023-03-07,True,2026-11-02T16:45:30.389508+05:30
+288,27,MCH-088,Heavy Duty Industrial Conveyor Drive Station #088,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2022-05-17,True,2026-11-02T16:45:30.389509+05:30
+289,27,MCH-089,CNC 5-Axis Vertical Machining Center #089,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2023-04-03,True,2026-11-02T16:45:30.389510+05:30
+290,27,MCH-090,Heavy Hydraulic Stamping Press #090,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2022-07-25,True,2026-11-02T16:45:30.389510+05:30
+291,27,MCH-091,Industrial Centrifugal Slurry Pump #091,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2023-05-21,True,2026-11-02T16:45:30.389511+05:30
+292,27,MCH-092,Rotary Screw Industrial Air Compressor #092,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2024-03-08,True,2026-11-02T16:45:30.389511+05:30
+293,28,MCH-093,6-Axis Heavy Payload Articulated Robot #093,6-Axis Heavy Payload Articulated Robot,FANUC,M-710iC/50,2023-09-16,True,2026-11-02T16:45:30.389512+05:30
+294,28,MCH-094,High-Speed Plastic Injection Molding Machine #094,High-Speed Plastic Injection Molding Machine,Milacron,Magna-Toggle-300,2022-05-04,True,2026-11-02T16:45:30.389513+05:30
+295,28,MCH-095,Heavy Duty Industrial Lathe & Turning Center #095,Heavy Duty Industrial Lathe & Turning Center,Doosan Machine Tools,Puma GT2600,2025-02-24,True,2026-11-02T16:45:30.389513+05:30
+296,28,MCH-096,Heavy Duty Industrial Conveyor Drive Station #096,Heavy Duty Industrial Conveyor Drive Station,Siemens,Flender FZG-200,2023-05-31,True,2026-11-02T16:45:30.389514+05:30
+297,28,MCH-097,CNC 5-Axis Vertical Machining Center #097,CNC 5-Axis Vertical Machining Center,DMG MORI,DMU 50 Gen3,2024-04-04,True,2026-11-02T16:45:30.389515+05:30
+298,28,MCH-098,Heavy Hydraulic Stamping Press #098,Heavy Hydraulic Stamping Press,Godrej & Boyce,GHP-500-T,2022-12-07,True,2026-11-02T16:45:30.389515+05:30
+299,28,MCH-099,Industrial Centrifugal Slurry Pump #099,Industrial Centrifugal Slurry Pump,KSB Pumps,MegaCPK 050,2022-08-29,True,2026-11-02T16:45:30.389516+05:30
+300,28,MCH-100,Rotary Screw Industrial Air Compressor #100,Rotary Screw Industrial Air Compressor,Kaeser,CSD-105,2022-09-07,True,2026-11-02T16:45:30.389516+05:30

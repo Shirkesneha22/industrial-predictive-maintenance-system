@@ -1,0 +1,29 @@
+[
+  {
+    "plant_id": 7,
+    "plant_code": "PLANT-PUN-01",
+    "name": "Pune Heavy Machinery & Automotive Works",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.101875+05:30"
+  },
+  {
+    "plant_id": 8,
+    "plant_code": "PLANT-CHN-01",
+    "name": "Chennai Precision Engineering & Press Plant",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.101881+05:30"
+  },
+  {
+    "plant_id": 9,
+    "plant_code": "PLANT-AMD-01",
+    "name": "Ahmedabad Industrial Hydraulics & Pump Facility",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "is_active": true,
+    "created_at": "2026-11-02T16:45:30.101882+05:30"
+  }
+]

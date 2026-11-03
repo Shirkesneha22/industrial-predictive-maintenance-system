@@ -1,0 +1,21 @@
+technician_id,technician_code,name,specialization,email,is_active,created_at
+41,TECH-001,Rajesh Sharma,Vibration & Rotor Dynamics,rajesh.sharma@indus-pm.com,True,2026-11-02T16:45:30.186474+05:30
+42,TECH-002,Vikram Patel,Hydraulic & Pneumatic Systems,vikram.patel@indus-pm.com,True,2026-11-02T16:45:30.186479+05:30
+43,TECH-003,Priya Sundaram,Robotics & Automation Control,priya.sundaram@indus-pm.com,True,2026-11-02T16:45:30.186481+05:30
+44,TECH-004,Suresh Kumar,Electrical Drives & Switchgear,suresh.kumar@indus-pm.com,True,2026-11-02T16:45:30.186482+05:30
+45,TECH-005,Ananya Iyer,Predictive Analytics & Condition Monitoring,ananya.iyer@indus-pm.com,True,2026-11-02T16:45:30.186483+05:30
+46,TECH-006,Rahul Verma,CNC Machine Tools & Spindles,rahul.verma@indus-pm.com,True,2026-11-02T16:45:30.186484+05:30
+47,TECH-007,Sunita Rao,Industrial Instrumentation & Calibration,sunita.rao@indus-pm.com,True,2026-11-02T16:45:30.186485+05:30
+48,TECH-008,Amit Deshmukh,Mechanical Gearboxes & Transmissions,amit.deshmukh@indus-pm.com,True,2026-11-02T16:45:30.186486+05:30
+49,TECH-009,Kavita Nair,Thermal Systems & Heat Exchangers,kavita.nair@indus-pm.com,True,2026-11-02T16:45:30.186487+05:30
+50,TECH-010,Manoj Joshi,Lubrication Tribology & Oil Analysis,manoj.joshi@indus-pm.com,True,2026-11-02T16:45:30.186488+05:30
+51,TECH-011,Deepa Menon,Acoustic Emission Testing,deepa.menon@indus-pm.com,True,2026-11-02T16:45:30.186489+05:30
+52,TECH-012,Sanjay Kulkarni,High-Pressure Hydraulic Pumps,sanjay.kulkarni@indus-pm.com,True,2026-11-02T16:45:30.186490+05:30
+53,TECH-013,Pooja Gupta,PLC & SCADA Diagnostics,pooja.gupta@indus-pm.com,True,2026-11-02T16:45:30.186491+05:30
+54,TECH-014,Rakesh Reddy,Heavy Press Structural Maintenance,rakesh.reddy@indus-pm.com,True,2026-11-02T16:45:30.186491+05:30
+55,TECH-015,Swati Mukherjee,Centrifugal Pumps & Seals,swati.mukherjee@indus-pm.com,True,2026-11-02T16:45:30.186492+05:30
+56,TECH-016,Arvind Nambiar,Turbomachinery & Balancing,arvind.nambiar@indus-pm.com,True,2026-11-02T16:45:30.186493+05:30
+57,TECH-017,Sneha Patil,Rotary Compressors & Chillers,sneha.patil@indus-pm.com,True,2026-11-02T16:45:30.186494+05:30
+58,TECH-018,Dinesh Mehta,Laser Alignment & Geometric Calibration,dinesh.mehta@indus-pm.com,True,2026-11-02T16:45:30.186495+05:30
+59,TECH-019,Meera Pillai,Motor Current Signature Analysis (MCSA),meera.pillai@indus-pm.com,True,2026-11-02T16:45:30.186495+05:30
+60,TECH-020,Alok Bhattacharya,Industrial Safety & Preventive Audits,alok.bhattacharya@indus-pm.com,True,2026-11-02T16:45:30.186496+05:30

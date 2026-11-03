@@ -1,0 +1,13 @@
+line_id,plant_id,line_code,name,is_active,created_at
+25,7,LINE-PUN-01,Automotive Chassis Fabrication Line,True,2026-11-02T16:45:30.126872+05:30
+26,7,LINE-PUN-02,Transmission & Powertrain Machining Cell,True,2026-11-02T16:45:30.126876+05:30
+27,7,LINE-PUN-03,High-Precision CNC Milling & Turning Line,True,2026-11-02T16:45:30.126877+05:30
+28,7,LINE-PUN-04,Robotic Welding & Stamping Cell,True,2026-11-02T16:45:30.126878+05:30
+29,8,LINE-CHN-01,Heavy Hydraulic Stamping & Press Line,True,2026-11-02T16:45:30.126879+05:30
+30,8,LINE-CHN-02,Turbine Blade & Impeller Fabrication Line,True,2026-11-02T16:45:30.126880+05:30
+31,8,LINE-CHN-03,Thermal Heat Treatment & Quenching Cell,True,2026-11-02T16:45:30.126881+05:30
+32,8,LINE-CHN-04,Structural Heavy Plate Bending & Cutting Line,True,2026-11-02T16:45:30.126881+05:30
+33,9,LINE-AMD-01,Centrifugal Slurry & Water Pump Assembly Line,True,2026-11-02T16:45:30.126882+05:30
+34,9,LINE-AMD-02,Industrial Rotary Compressor & Blower Line,True,2026-11-02T16:45:30.126883+05:30
+35,9,LINE-AMD-03,High-Pressure Hydraulic Valve & Manifold Cell,True,2026-11-02T16:45:30.126884+05:30
+36,9,LINE-AMD-04,Polymer Extrusion & Injection Molding Line,True,2026-11-02T16:45:30.126885+05:30
