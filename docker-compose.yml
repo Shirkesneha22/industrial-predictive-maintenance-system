@@ -17,6 +17,29 @@ services:
       timeout: 5s
       retries: 5
 
+  setup:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ipm-setup
+    restart: "no"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-industrial_maintenance}
+      ENVIRONMENT: development
+    volumes:
+      - ./backend:/app
+      - ./data:/data
+    command: >
+      sh -c "alembic upgrade head &&
+             python -m backend.generators.cli master-data &&
+             python -m backend.generators.cli failures &&
+             python -m backend.generators.cli telemetry --scale starter &&
+             python -m backend.generators.cli export &&
+             python -m backend.generators.cli validate"
+
   backend:
     build:
       context: ./backend

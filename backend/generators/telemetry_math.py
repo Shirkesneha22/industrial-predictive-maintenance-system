@@ -46,7 +46,16 @@ def derive_machine_degradation_profile(
     Deterministically determines if a machine experiences a progressive mechanical
     degradation episode during the 90-day window (~15% of machines degrade).
     """
-    seed_str = f"{master_seed}:degradation:{machine_id}:{machine_code}"
+    # Normalize machine sequence to canonical 200-offset to guarantee cross-database reproducibility
+    # regardless of whether a clean database or pre-existing database sequence is used.
+    m_num = None
+    if "-" in machine_code:
+        suffix = machine_code.split("-")[-1]
+        if suffix.isdigit():
+            m_num = int(suffix)
+    effective_id = (200 + m_num) if m_num is not None else machine_id
+
+    seed_str = f"{master_seed}:degradation:{effective_id}:{machine_code}"
     digest = hashlib.sha256(seed_str.encode("utf-8")).digest()
     m_seed = int.from_bytes(digest[:8], byteorder="big", signed=False)
     rng = np.random.default_rng(m_seed)

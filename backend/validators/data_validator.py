@@ -351,3 +351,26 @@ class DataValidator:
             "cases": case_results,
             "message": "All 5 mandatory edge cases verified and successfully flagged by validation guards." if all_detected else "Some edge cases were not detected",
         }
+
+
+if __name__ == "__main__":
+    import sys
+    try:
+        from backend.database import SessionLocal
+    except ImportError:
+        from database import SessionLocal
+
+    db = SessionLocal()
+    validator = DataValidator(session=db)
+    report = validator.validate_all()
+    db.close()
+
+    print("\n" + "=" * 65)
+    print(" Data Validation Summary")
+    print("=" * 65)
+    print(f"Overall Valid: {report.get('overall_valid')}")
+    for name, res in report.get("checks", {}).items():
+        status = "PASS" if res.get("passed", res.get("status") == "PASS") else "FAIL"
+        print(f"  - {name:<30}: {status}")
+    print("=" * 65 + "\n")
+    sys.exit(0 if report.get("overall_valid", True) else 1)

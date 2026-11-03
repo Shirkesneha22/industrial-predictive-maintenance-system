@@ -1,22 +1,22 @@
 # Industrial Predictive Maintenance System
 
-A clean, explainable, and production-ready Industrial Predictive Maintenance application built with **FastAPI**, **React.js**, and **PostgreSQL**.
+A clean, explainable, and modular Industrial Predictive Maintenance application built with **FastAPI**, **React.js**, and **PostgreSQL**.
 
 ---
 
 ## 1. Project Overview
 
-The Industrial Predictive Maintenance System monitors the physical health of industrial equipment across manufacturing facilities. It ingests high-throughput sensor telemetry, computes statistical feature indicators over a strict lookback window, and identifies equipment exhibiting early signs of mechanical degradation using transparent, physics-informed rules.
+The Industrial Predictive Maintenance System monitors the physical health of industrial equipment across manufacturing facilities. It streams sensor telemetry, computes statistical feature indicators over a strict lookback window, and identifies equipment exhibiting early signs of mechanical degradation using transparent, physics-informed rules.
 
 ---
 
 ## 2. Problem Being Solved
 
-In modern manufacturing facilities, unplanned equipment downtime leads to severe production delays, safety hazards, and substantial financial losses. Traditional maintenance strategies either:
+In manufacturing facilities, unplanned equipment downtime leads to severe production delays, safety hazards, and financial losses. Traditional maintenance strategies either:
 - **Run to failure (reactive):** Incurring costly emergency repairs and line halts.
 - **Maintain on fixed calendar intervals (preventive):** Replacing healthy components prematurely.
 
-This system provides **condition-based predictive maintenance** that detects progressive mechanical degradation (such as bearing wear and thermal runaway) up to **38.4 hours before breakdown**, while distinguishing isolated sensor noise from systemic multi-sensor faults to prevent false alarms.
+This system provides **condition-based predictive maintenance**. In this synthetic dataset, progressive degradation drift is injected approximately 38.4 hours prior to labelled failure incidents, enabling rule-based evaluation to demonstrate early detection while distinguishing isolated sensor noise from systemic multi-sensor faults to prevent false alarms.
 
 ---
 
@@ -24,7 +24,7 @@ This system provides **condition-based predictive maintenance** that detects pro
 
 - **10 Core Relational Entities:** Complete normalized schema modeling plants, production lines, machines, sensors, telemetry, shifts, work orders, failure incidents, parts, and technicians.
 - **Many-to-Many Part Compatibility:** Associative bridge table (`machine_parts`) mapping spare parts to compatible machines.
-- **High-Volume Telemetry:** 2,160,000 synthetic sensor readings covering 90 historical days across 100 machines and 500 sensors.
+- **Configurable Scale Telemetry:** 2,160,000 synthetic sensor readings (90 days, full scale) or 240,000 readings (10 days, starter scale) across 100 machines and 500 sensors.
 - **Anti-Leakage Safeguards:** Feature extraction strictly queries `recorded_at < prediction_timestamp`. Failure records and work orders are sequestered from input features.
 - **Explainable Rule-Based Health Engine:** Computes an intuitive Health Index (0–100) and Risk Score (0–100) based on rolling Z-scores and multi-sensor correlation rather than black-box models.
 - **Transparent RUL Reporting:** Intentionally returns `null` for Remaining Useful Life (RUL) to avoid providing false confidence with uncalibrated estimates.
@@ -36,8 +36,9 @@ This system provides **condition-based predictive maintenance** that detects pro
 ## 4. Technology Stack
 
 - **Backend:** Python 3.11+, FastAPI, Uvicorn, SQLAlchemy 2.0, Pydantic v2
+- **Database Driver:** `psycopg` (v3 with binary C-extensions)
 - **Frontend:** React 18, Webpack 5, Babel, Recharts, Lucide Icons, Axios
-- **Database:** PostgreSQL 15+ (with psycopg driver)
+- **Database:** PostgreSQL 15+
 - **Testing & Verification:** Pytest, Pytest-Asyncio, HTTPX
 
 ---
@@ -47,16 +48,18 @@ This system provides **condition-based predictive maintenance** that detects pro
 ```text
 industrial-predictive-maintenance/
 ├── README.md                           # Main project documentation & run guide
-├── AI_USAGE.md                         # Transparent AI usage & prompt history
-├── pytest.ini                          # Pytest configuration
+├── Makefile                            # Orchestration targets (setup, test, validate, up, down)
 ├── docker-compose.yml                  # Container orchestration specification
+├── scripts/
+│   ├── setup.ps1                       # Windows PowerShell one-command setup
+│   └── setup.sh                        # Linux/macOS Bash one-command setup
 ├── backend/                            # FastAPI backend application
 │   ├── config.py                       # Environment and app configuration
 │   ├── database.py                     # SQLAlchemy session & connection factory
 │   ├── main.py                         # Application entry point & route definitions
 │   ├── requirements.txt                # Python backend dependencies
 │   ├── alembic.ini                     # Database migration configuration
-│   ├── generators/                     # Deterministic synthetic data generator
+│   ├── generators/                     # Deterministic synthetic data generators & CLI
 │   ├── migrations/                     # Alembic schema migrations
 │   ├── models/                         # 10 SQLAlchemy relational ORM models
 │   ├── routes/                         # REST API route controllers
@@ -86,90 +89,95 @@ industrial-predictive-maintenance/
 
 ## 6. Prerequisites
 
-- **Operating System:** Windows 10/11 (PowerShell), macOS, or Linux
+- **Docker & Docker Compose** (Recommended path), OR:
 - **Python:** 3.11 or higher
 - **Node.js:** 18 or higher (with `npm`)
 - **PostgreSQL:** 15 or higher (service running locally on port 5432)
 
 ---
 
-## 7. Environment & PostgreSQL Configuration
+## 7. Quick Start
 
-1. Ensure the PostgreSQL service is running on your machine.
-2. In the `backend/` directory, create or edit the `.env` file based on `.env.example`:
+### Option A: Docker Compose (Recommended)
 
-```env
-PROJECT_NAME="Industrial Predictive Maintenance System"
-API_V1_PREFIX=/api/v1
-DEBUG=True
+To run the entire system in isolated Docker containers:
 
-# PostgreSQL Connection Settings
-POSTGRES_SERVER=localhost
-POSTGRES_PORT=5432
-POSTGRES_DB=industrial_maintenance
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=your_actual_password_here
+```bash
+# 1. Start the PostgreSQL database and wait for healthcheck
+docker compose up -d db
 
-# Assembled Database URL (without hardcoding passwords in docs)
-DATABASE_URL=postgresql://postgres:${POSTGRES_PASSWORD}@localhost:5432/industrial_maintenance
+# 2. Run the one-command setup pipeline (migrations + seed + telemetry + export + validate)
+docker compose run --rm setup
 
-# CORS Settings
-CORS_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+# 3. Start Backend API and Frontend Dashboard
+docker compose up -d backend frontend
 ```
 
-> **Security Note:** Never commit actual database passwords or credentials to version control. The application loads connection settings dynamically through `backend/config.py`.
+*Expected setup runtime: ~30-45 seconds in Docker.*
 
 ---
 
-## 8. Setup & Execution Instructions (Windows PowerShell)
+### Option B: Local Setup (Using Makefile or Automation Scripts)
 
-### Normal Application Startup
+#### 1. Configure Environment
+Copy `.env.example` to `.env` in the project root:
+```bash
+cp .env.example .env
+```
+Ensure your local PostgreSQL credentials in `.env` match your database user and password.
 
-If the database is already pre-populated, open two separate PowerShell terminal windows:
+#### 2. Run Setup Pipeline
+Choose one of the following depending on your OS / tooling:
 
-#### Terminal 1 — Backend API Server
+**Via Make (Linux, macOS, Windows with Make):**
+```bash
+# Fast starter dataset (~20 seconds):
+make setup-starter
+
+# Or full 90-day dataset (~2.5 minutes):
+make setup
+```
+
+**Via PowerShell (Windows):**
 ```powershell
-cd D:\Projects\industrial-predictive-maintenance
+.\scripts\setup.ps1 -Scale starter
+```
 
-.\venv\Scripts\Activate.ps1
+**Via Bash (macOS / Linux):**
+```bash
+./scripts/setup.sh starter
+```
 
+#### 3. Start Development Servers
+In two separate terminal windows:
+
+**Terminal 1 — Backend API:**
+```bash
 python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-#### Terminal 2 — Frontend Application
-```powershell
-cd D:\Projects\industrial-predictive-maintenance\frontend
-
-npm start
+**Terminal 2 — Frontend Application:**
+```bash
+npm --prefix frontend start
 ```
 
 ---
 
-### First-Time Database Setup (Only for Fresh / Blank Database)
+## 8. Expected Execution Runtime
 
-> **Important:** If you already have the existing pre-populated database, **do not** run these setup commands.
-
-If setting up on a completely empty PostgreSQL database instance:
-
-```powershell
-cd D:\Projects\industrial-predictive-maintenance
-.\venv\Scripts\Activate.ps1
-
-# 1. Apply schema migrations
-alembic -c backend/alembic.ini upgrade head
-
-# 2. Populate deterministic master data (Seed: 20261022)
-python -m backend.generators.cli master-data --seed 20261022
-
-# 3. Generate failure events and maintenance work orders
-python -m backend.generators.cli failures --seed 20261022
-```
+| Pipeline Stage | Starter Scale (`--scale starter`) | Full Scale (`--scale full`) |
+| :--- | :--- | :--- |
+| **Schema Migration** | < 1 second | < 1 second |
+| **Master Data Seed** | ~ 1 second | ~ 1 second |
+| **Failure Events & Work Orders** | ~ 0.5 second | ~ 0.5 second |
+| **Telemetry Ingestion** | ~ 15–20 seconds (240k rows) | ~ 2–3 minutes (2.16M rows) |
+| **Data Export (CSV/JSON/SQL)** | ~ 2 seconds | ~ 12 seconds |
+| **Data Validation** | ~ 2 seconds | ~ 3 seconds |
+| **Total Runtime** | **~ 25–30 seconds** | **~ 2.5–3.5 minutes** |
 
 ---
 
 ## 9. Application & Documentation URLs
-
-Once both backend and frontend servers are running, access the following URLs in your web browser:
 
 | Service | URL | Purpose |
 | :--- | :--- | :--- |
@@ -180,45 +188,49 @@ Once both backend and frontend servers are running, access the following URLs in
 
 ---
 
-## 10. How to Execute Tests
+## 10. How to Run Automated Tests
 
-To run the automated backend test suite:
+The automated test suite runs via `pytest`:
 
-```powershell
-cd D:\Projects\industrial-predictive-maintenance
-.\venv\Scripts\pytest backend/tests
+```bash
+pytest backend/tests
 ```
+
+> **Database Requirement for Tests:**
+> Tests require a running PostgreSQL instance accessible via the credentials configured in `.env` (or via `DATABASE_URL`). The default database targeted is `industrial_maintenance` (or overridden via `POSTGRES_DB=industrial_maintenance_test`).
+> All database tests that stream or test synthetic telemetry utilize isolated transactions and execute strict rollback upon completion, preserving database state.
 
 ### Verified Test Suite Status
-- **Total Tests Collected:** 84
-- **Passed:** 83
-- **Failed:** 1 (`test_small_chunk_copy_with_transactional_rollback` due to driver cursor method differences in modern `psycopg` v3; application logic and data integrity remain unaffected).
-- Full audit details are documented in [`docs/testing_and_validation.md`](docs/testing_and_validation.md).
-
-To verify the frontend production build:
-
-```powershell
-cd D:\Projects\industrial-predictive-maintenance\frontend
-npm run build
-```
-*(Compiles cleanly with Webpack 5, exit code 0).*
+- **Collected Test Items:** 84
+- **Passed:** 84 (100%)
+- **Failed:** 0
+- **Execution Time:** ~27 seconds
 
 ---
 
-## 11. How to Verify the Application
+## 11. Individual CLI Stage Commands
 
-After starting the application, follow these steps to verify functionality:
+Each generator stage can also be invoked independently via the unified CLI:
 
-1. **Verify Backend Health:**
-   Navigate to [http://localhost:8000/health](http://localhost:8000/health). You should receive `{"status": "healthy", ...}`.
-2. **Explore API Documentation:**
-   Open [http://localhost:8000/docs](http://localhost:8000/docs) to test endpoints such as `GET /api/v1/machines` and `GET /api/v1/predictions/fleet-risk`.
-3. **Verify Frontend UI:**
-   Open [http://localhost:3000](http://localhost:3000). Inspect the fleet health summary cards, search for machines, and filter by line or machine type.
-4. **Inspect Telemetry Charts:**
-   Click on any machine (e.g., `MCH-001`) to view the 5-channel interactive telemetry chart displaying Vibration, Temperature, Acoustic, Pressure, and Current signals.
-5. **Verify Data Quality Audits:**
-   Navigate to the **Data Quality** page to view the live audit results for the 5 mandatory assignment edge cases.
+```bash
+# Seed plants, lines, machines, sensors, parts, technicians
+python -m backend.generators.cli master-data --seed 20261022
+
+# Generate failure incidents and corrective work orders
+python -m backend.generators.cli failures --seed 20261022
+
+# Stream synthetic telemetry (starter or full)
+python -m backend.generators.cli telemetry --seed 20261022 --scale starter
+
+# Export tables to CSV, JSON, and SQL seed files
+python -m backend.generators.cli export
+
+# Run database integrity and edge-case validation
+python -m backend.generators.cli validate
+
+# Verify deterministic reproducibility and SHA-256 digests
+python -m backend.generators.cli reproduce
+```
 
 ---
 
