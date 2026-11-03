@@ -313,20 +313,65 @@ class DataValidator:
         }
 
     def check_maintenance_failure_reconciliation(self) -> Dict[str, Any]:
-        """Verify that failure events map to corresponding corrective work orders."""
+        """
+        Verify Step 8 maintenance and failure outcome reconciliation:
+        - 1-to-1 failure to corrective work order mapping
+        - Arithmetic downtime reconciliation (work order duration == failure downtime)
+        - Associative spare parts compatibility linkage across all maintained equipment
+        """
         s = self.session
         fail_count = s.query(FailureEvent).count()
         wo_count = s.query(MaintenanceWorkOrder).filter(MaintenanceWorkOrder.work_type == "corrective").count()
 
+        # Arithmetic downtime reconciliation for completed work orders
+        failures = s.query(FailureEvent).all()
+        downtime_matches = 0
+        total_completed_checked = 0
+
+        for f in failures:
+            matching_wo = (
+                s.query(MaintenanceWorkOrder)
+                .filter(
+                    MaintenanceWorkOrder.machine_id == f.machine_id,
+                    MaintenanceWorkOrder.created_at == f.failure_time,
+                )
+                .first()
+            )
+            if matching_wo and matching_wo.completed_at and f.downtime_minutes:
+                total_completed_checked += 1
+                dur_mins = (matching_wo.completed_at - matching_wo.created_at).total_seconds() / 60.0
+                if abs(dur_mins - f.downtime_minutes) <= 1.0:
+                    downtime_matches += 1
+
+        # Spare parts linkage verification across active machines
+        machines_count = s.query(Machine.machine_id).count()
+        machines_with_parts = s.query(machine_parts.c.machine_id).distinct().count()
+        bridge_count = s.query(machine_parts).count()
+
         ratio = wo_count / (fail_count or 1)
-        passed = 0.8 <= ratio <= 1.2
+        downtime_reconciled = (total_completed_checked > 0) and (downtime_matches == total_completed_checked)
+        parts_linked = (machines_with_parts == machines_count) and (bridge_count > 0)
+        passed = (0.8 <= ratio <= 1.2) and downtime_reconciled and parts_linked
 
         return {
             "passed": passed,
             "total_failures": fail_count,
             "corrective_work_orders": wo_count,
             "ratio": round(ratio, 2),
-            "message": f"Failure and maintenance reconciliation verified: {fail_count} failures mapped to {wo_count} corrective work orders.",
+            "downtime_arithmetic_matches": downtime_matches,
+            "downtime_arithmetic_total": total_completed_checked,
+            "downtime_reconciled": downtime_reconciled,
+            "machines_with_parts_mapped": machines_with_parts,
+            "total_machines": machines_count,
+            "total_parts_associations": bridge_count,
+            "parts_linkage_verified": parts_linked,
+            "message": (
+                f"Maintenance outcomes fully reconciled: {fail_count} failures mapped to {wo_count} work orders, "
+                f"100% ({downtime_matches}/{total_completed_checked}) arithmetic downtime alignment, "
+                f"and {bridge_count} spare parts mapped across all {machines_count} machines."
+            )
+            if passed
+            else "Maintenance outcome reconciliation discrepancy detected.",
         }
 
     def check_edge_cases(self) -> Dict[str, Any]:

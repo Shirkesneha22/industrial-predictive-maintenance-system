@@ -40,13 +40,13 @@ def generate_required_edge_cases() -> List[EdgeCaseRecord]:
         EdgeCaseRecord(
             case_id=1,
             case_name="Unknown Sensor Reference",
-            scenario_description="Telemetry event recorded with non-existent sensor_id 999999",
+            scenario_description="Telemetry event recorded with non-existent sensor identifier SNS-UNKNOWN-9001",
             issue_type="UNKNOWN_SENSOR_REFERENCE",
             ground_truth_label="FOREIGN_KEY_VIOLATION",
             record_payload={
-                "event_id": 990001,
-                "sensor_id": 999999,  # Non-existent sensor
-                "machine_id": 1,
+                "event_id": "TEL-SNS-UNKNOWN-9001-20260915T120000Z",
+                "sensor_id": "SNS-UNKNOWN-9001",  # Non-existent sensor
+                "machine_id": "MCH-LINE-PLT-001-001-001",
                 "recorded_at": (now - timedelta(hours=2)).isoformat(),
                 "value": 4.52,
                 "unit": "mm/s",
@@ -62,9 +62,9 @@ def generate_required_edge_cases() -> List[EdgeCaseRecord]:
             issue_type="IMPOSSIBLE_SENSOR_VALUE_OR_UNIT",
             ground_truth_label="PHYSICAL_DOMAIN_VIOLATION",
             record_payload={
-                "event_id": 990002,
-                "sensor_id": 2,  # Temperature sensor
-                "machine_id": 1,
+                "event_id": "TEL-SNS-MCH-LINE-PLT-001-001-001-TEMP-01-20260915T130000Z",
+                "sensor_id": "SNS-MCH-LINE-PLT-001-001-001-TEMP-01",
+                "machine_id": "MCH-LINE-PLT-001-001-001",
                 "recorded_at": (now - timedelta(hours=1)).isoformat(),
                 "value": 9999.0,  # Impossible temperature for industrial machine
                 "unit": "UNKNOWN_UNIT_FOO",  # Invalid unit
@@ -81,8 +81,8 @@ def generate_required_edge_cases() -> List[EdgeCaseRecord]:
             issue_type="TEMPORAL_CAUSALITY_VIOLATION",
             ground_truth_label="FAILURE_BEFORE_SYMPTOM",
             record_payload={
-                "failure_id": 990003,
-                "machine_id": 5,
+                "failure_id": "FAIL-2026-000099",
+                "machine_id": "MCH-LINE-PLT-001-001-005",
                 "failure_time": (now - timedelta(hours=12)).isoformat(),  # 12 hours ago
                 "symptom_onset_time": (now - timedelta(hours=2)).isoformat(),  # 2 hours ago (impossible causality)
                 "failure_type": "bearing_failure",
@@ -95,13 +95,13 @@ def generate_required_edge_cases() -> List[EdgeCaseRecord]:
         EdgeCaseRecord(
             case_id=4,
             case_name="Maintenance Time Reversal",
-            scenario_description="Work order completed_at is earlier than created_at",
+            scenario_description="Work order completed_at is earlier than created_at (negative duration)",
             issue_type="NEGATIVE_DURATION_WORK_ORDER",
             ground_truth_label="TEMPORAL_ORDERING_VIOLATION",
             record_payload={
-                "work_order_id": 990004,
-                "machine_id": 3,
-                "technician_id": 1,
+                "work_order_id": "WO-2026-000099",
+                "machine_id": "MCH-LINE-PLT-001-001-003",
+                "technician_id": "TECH-0001",
                 "work_type": "corrective",
                 "created_at": (now - timedelta(hours=4)).isoformat(),  # 14:00
                 "completed_at": (now - timedelta(hours=8)).isoformat(),  # 10:00 (4 hours before creation!)
@@ -114,21 +114,21 @@ def generate_required_edge_cases() -> List[EdgeCaseRecord]:
         EdgeCaseRecord(
             case_id=5,
             case_name="Missing Value Represented as Zero",
-            scenario_description="Disconnected/dropped sensor payload stored as numerical 0.0 with quality_status='ok' instead of NULL",
+            scenario_description="Transmission gap in continuous time series filled with numerical 0.0 with quality_status='ok' instead of NULL/NaN on active hydraulic circuit",
             issue_type="MISSING_DATA_REPRESENTED_AS_ZERO",
             ground_truth_label="DATA_QUALITY_ANOMALY",
             record_payload={
-                "event_id": 990005,
-                "sensor_id": 4,  # Pressure sensor
-                "machine_id": 1,
+                "event_id": "TEL-SNS-MCH-LINE-PLT-001-001-002-PRS-01-20260915T150000Z",
+                "sensor_id": "SNS-MCH-LINE-PLT-001-001-002-PRS-01",
+                "machine_id": "MCH-LINE-PLT-001-001-002",
                 "recorded_at": now.isoformat(),
-                "value": 0.0,  # 0.0 represents missing/dropped signal
+                "value": 0.0,  # 0.0 represents transmission drop / missing telemetry
                 "true_value": None,
                 "quality_status": "ok",
                 "sensor_type": "Pressure",
                 "physical_min": 5.0,
                 "is_zero_masked_missing": True,
-                "diagnostic_note": "A reading of 0.0 bar on an operating hydraulic pressure sensor with quality_status='ok' violates physical plausibility (minimum operating pressure 5.0 bar), indicating dropped signal masked as zero",
+                "diagnostic_note": "A reading of 0.0 bar on an operating hydraulic pressure sensor with quality_status='ok' violates physical plausibility (minimum operating pressure 5.0 bar), indicating dropped signal during transmission gap masked as zero",
             },
         ),
     ]
