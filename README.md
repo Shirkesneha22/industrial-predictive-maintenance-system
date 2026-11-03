@@ -16,7 +16,7 @@ In manufacturing facilities, unplanned equipment downtime leads to severe produc
 - **Run to failure (reactive):** Incurring costly emergency repairs and line halts.
 - **Maintain on fixed calendar intervals (preventive):** Replacing healthy components prematurely.
 
-This system provides **condition-based predictive maintenance**. In this synthetic dataset, progressive degradation drift is injected approximately 38.4 hours prior to labelled failure incidents, enabling rule-based evaluation to demonstrate early detection while distinguishing isolated sensor noise from systemic multi-sensor faults to prevent false alarms.
+This system provides **condition-based predictive maintenance**. In this synthetic dataset, progressive degradation drift is injected with an **average lead time of 38.4 hours** prior to labelled failure incidents, enabling rule-based evaluation to demonstrate early detection while distinguishing isolated sensor noise from systemic multi-sensor faults to prevent false alarms.
 
 ---
 

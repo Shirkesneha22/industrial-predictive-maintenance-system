@@ -276,7 +276,7 @@ export function EvaluationPage() {
                   <strong className="text-xs text-slate-800">Engineering Insight on Cohort Difference:</strong>
                 </div>
                 <p className="text-xs text-secondary mb-0">
-                  Type A failures exhibit progressive physical symptoms across vibration, acoustic, and thermal channels, allowing early detection ~38.4 hours in advance.
+                  Type A failures exhibit progressive physical symptoms across vibration, acoustic, and thermal channels, allowing early detection with an average lead time of 38.4 hours in advance.
                   Type B failures represent sudden stochastic breakdowns (e.g., sudden fatigue snapping, coil short) which produce zero pre-failure sensor anomalies, making them undetectable by time-series degradation models.
                 </p>
               </div>
